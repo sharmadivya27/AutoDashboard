@@ -1612,19 +1612,19 @@ I want to run the daily regressions at least twice a day</localizedNarrative>
                   <step>Given the user is on the dashboard page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given the user is on the dashboard page</parametrisedStep>
-                  <durationInMillis>6997</durationInMillis>
+                  <durationInMillis>7159</durationInMillis>
                 </successful>
                 <successful>
                   <step>When the user logs into the dashboard</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When the user logs into the dashboard</parametrisedStep>
-                  <durationInMillis>13851</durationInMillis>
+                  <durationInMillis>13830</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then they should see the the summary page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then they should see the the summary page</parametrisedStep>
-                  <durationInMillis>4042</durationInMillis>
+                  <durationInMillis>4037</durationInMillis>
                 </successful>
               </results>
             </steps>
@@ -1812,19 +1812,19 @@ I want to run the daily regressions at least twice a day</localizedNarrative>
                   <step>Given the user is on the dashboard homepage</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given the user is on the dashboard homepage</parametrisedStep>
-                  <durationInMillis>1498</durationInMillis>
+                  <durationInMillis>1585</durationInMillis>
                 </successful>
                 <successful>
                   <step>When the user reviews the application</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When the user reviews the application</parametrisedStep>
-                  <durationInMillis>21439</durationInMillis>
+                  <durationInMillis>21306</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then the user should update insurance information</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then the user should update insurance information</parametrisedStep>
-                  <durationInMillis>4940</durationInMillis>
+                  <durationInMillis>5071</durationInMillis>
                 </successful>
               </results>
             </steps>
@@ -1921,7 +1921,7 @@ I want to run the daily regressions at least twice a day</localizedNarrative>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>54880</durationInMillis>
+        <durationInMillis>55106</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -2022,19 +2022,19 @@ I want to run the daily regressions at least twice a day</localizedNarrative>
               <step>Given the user is on the dashboard page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given the user is on the dashboard page</parametrisedStep>
-              <durationInMillis>6997</durationInMillis>
+              <durationInMillis>7159</durationInMillis>
             </successful>
             <successful>
               <step>When the user logs into the dashboard</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When the user logs into the dashboard</parametrisedStep>
-              <durationInMillis>13851</durationInMillis>
+              <durationInMillis>13830</durationInMillis>
             </successful>
             <successful>
               <step>Then they should see the the summary page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then they should see the the summary page</parametrisedStep>
-              <durationInMillis>4042</durationInMillis>
+              <durationInMillis>4037</durationInMillis>
             </successful>
           </results>
         </steps>
@@ -2222,19 +2222,19 @@ I want to run the daily regressions at least twice a day</localizedNarrative>
               <step>Given the user is on the dashboard homepage</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given the user is on the dashboard homepage</parametrisedStep>
-              <durationInMillis>1498</durationInMillis>
+              <durationInMillis>1585</durationInMillis>
             </successful>
             <successful>
               <step>When the user reviews the application</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When the user reviews the application</parametrisedStep>
-              <durationInMillis>21439</durationInMillis>
+              <durationInMillis>21306</durationInMillis>
             </successful>
             <successful>
               <step>Then the user should update insurance information</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then the user should update insurance information</parametrisedStep>
-              <durationInMillis>4940</durationInMillis>
+              <durationInMillis>5071</durationInMillis>
             </successful>
           </results>
         </steps>

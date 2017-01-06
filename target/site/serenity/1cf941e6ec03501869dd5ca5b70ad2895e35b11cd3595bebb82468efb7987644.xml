@@ -1,26 +1,26 @@
-<acceptance-test-run title="Update insurance application information" name="Update insurance application information" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="28786" timestamp="2017-01-06T11:07:44.741-05:00" session-id="8c5e4e2c88ba34b40edbee7609353dff">
+<acceptance-test-run title="Update insurance application information" name="Update insurance application information" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="28913" timestamp="2017-01-06T11:21:38.465-05:00" session-id="1b15f8c86f6eb902d93f505b73588df3">
   <user-story id="fullRegression" name="Full regression" path="stories/fullRegression/fullRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
     <tag name="Full regression/Full regression" type="story"/>
   </tags>
-  <test-step result="SUCCESS" duration="1745">
+  <test-step result="SUCCESS" duration="1830">
     <screenshots>
-      <screenshot image="9d14df6b34e78e2766d38fbe53334bd6.png"/>
-      <screenshot image="4723aebdbe76a9c824f4ef7acb3c6aec.png"/>
+      <screenshot image="e3ec523cfb05c1ec297220ca8597fda7.png"/>
+      <screenshot image="63053b2e89e5fdf9891b459aec15b145.png"/>
     </screenshots>
     <description>Given the user is on the dashboard homepage</description>
   </test-step>
-  <test-step result="SUCCESS" duration="21694">
+  <test-step result="SUCCESS" duration="21588">
     <screenshots>
-      <screenshot image="bab3790950375aef0619a4335af0ab99.png"/>
-      <screenshot image="4c8460ac014329e03c8b35e375dae75d.png"/>
+      <screenshot image="3dfab84df24721ae83d1af5c7906f44b.png"/>
+      <screenshot image="3901c847512de5a22a7b877fa364cd03.png"/>
     </screenshots>
     <description>When the user reviews the application</description>
   </test-step>
-  <test-step result="SUCCESS" duration="5219">
+  <test-step result="SUCCESS" duration="5358">
     <screenshots>
-      <screenshot image="a4c45dc52c40c35bb76fadbd6bb4f4b8.png"/>
+      <screenshot image="ac861f6df43769eeb8f972164249eac2.png"/>
     </screenshots>
     <description>Then the user should update insurance information</description>
   </test-step>

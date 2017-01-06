@@ -1,4 +1,4 @@
-<acceptance-test-run title="Logging into the dashboard" name="Logging into the dashboard" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="26085" timestamp="2017-01-06T11:07:18.648-05:00" session-id="8c5e4e2c88ba34b40edbee7609353dff">
+<acceptance-test-run title="Logging into the dashboard" name="Logging into the dashboard" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="26185" timestamp="2017-01-06T11:21:12.273-05:00" session-id="1b15f8c86f6eb902d93f505b73588df3">
   <user-story id="fullRegression" name="Full regression" path="stories/fullRegression/fullRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -6,26 +6,26 @@
   </tags>
   <test-group name="Given the user is on the dashboard page" result="SUCCESS">
     <screenshots>
-      <screenshot image="5950150ea9e5e6c41e25843ff0a8d621.png"/>
+      <screenshot image="f1be73ba603870920daa5fe0792d67ef.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="6917">
+    <test-step result="SUCCESS" duration="7074">
       <screenshots>
-        <screenshot image="6addcb0e76dd8613dc9f75fbf6445509.png"/>
+        <screenshot image="c3cc1bc91206f66085873dbb43493f22.png"/>
       </screenshots>
       <description>On dashboard login page</description>
     </test-step>
   </test-group>
-  <test-step result="SUCCESS" duration="14145">
+  <test-step result="SUCCESS" duration="14125">
     <screenshots>
-      <screenshot image="715eb508c94c75cecbcdfae86ce68898.png"/>
-      <screenshot image="f8f6780cff838be9e58686fdfea3210d.png"/>
+      <screenshot image="4cdb8188cded76bfa8a279f768666705.png"/>
+      <screenshot image="d891fb45bebbe8afe77d93db3b5b4ca6.png"/>
     </screenshots>
     <description>When the user logs into the dashboard</description>
   </test-step>
-  <test-step result="SUCCESS" duration="4329">
+  <test-step result="SUCCESS" duration="4304">
     <screenshots>
-      <screenshot image="0bf5d0aebb30bd61bfbf3b26f93a548b.png"/>
-      <screenshot image="9d14df6b34e78e2766d38fbe53334bd6.png"/>
+      <screenshot image="499d5645577a182cf63316db5a6cbaf4.png"/>
+      <screenshot image="e3ec523cfb05c1ec297220ca8597fda7.png"/>
     </screenshots>
     <description>Then they should see the the summary page</description>
   </test-step>

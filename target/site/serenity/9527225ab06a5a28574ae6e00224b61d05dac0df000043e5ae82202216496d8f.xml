@@ -1,4 +1,4 @@
-<acceptance-test-run title="Insurance application information is saved" name="Insurance application information is saved" steps="3" successful="0" failures="0" skipped="3" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="1" timestamp="2017-01-06T11:07:17.151-05:00">
+<acceptance-test-run title="Insurance application information is saved" name="Insurance application information is saved" steps="3" successful="0" failures="0" skipped="3" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="1" timestamp="2017-01-06T11:21:10.805-05:00">
   <user-story id="fullRegression" name="Full regression" path="stories/fullRegression/fullRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
