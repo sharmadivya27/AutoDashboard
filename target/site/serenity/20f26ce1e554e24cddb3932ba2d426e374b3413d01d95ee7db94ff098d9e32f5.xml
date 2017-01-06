@@ -1,4 +1,4 @@
-<acceptance-test-run title="View notifications on homepage" name="View notifications on homepage" steps="30" successful="30" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="5" timestamp="2017-01-06T11:21:10.759-05:00">
+<acceptance-test-run title="View notifications on homepage" name="View notifications on homepage" steps="30" successful="30" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="3" timestamp="2017-01-06T11:51:45.007-05:00">
   <user-story id="fullRegression" name="Full regression" path="stories/fullRegression/fullRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -62,7 +62,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1">
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user is on the summary page with &lt;username&gt;</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
@@ -99,7 +99,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1">
+    <test-step result="SUCCESS" duration="0">
       <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">

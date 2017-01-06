@@ -1,4 +1,4 @@
-<acceptance-test-run title="View personalized list of FOAs from the additional resources" name="View personalized list of FOAs from the additional resources" steps="30" successful="30" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="4" timestamp="2017-01-06T11:21:10.766-05:00">
+<acceptance-test-run title="View personalized list of FOAs from the additional resources" name="View personalized list of FOAs from the additional resources" steps="30" successful="30" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="5" timestamp="2017-01-06T11:51:45.013-05:00">
   <user-story id="fullRegression" name="Full regression" path="stories/fullRegression/fullRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -68,7 +68,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>Then the user should view the list of FOAs with &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1">
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
@@ -76,7 +76,7 @@
     </test-step>
   </test-group>
   <test-group name="[3] {username=049828525, password=1971-11-11}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="1">
       <description>Given the user is on the dashboard page</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
@@ -105,7 +105,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>Then the user views additional resources with the &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="1">
       <description>Then the user should view the list of FOAs with &lt;username&gt;</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">

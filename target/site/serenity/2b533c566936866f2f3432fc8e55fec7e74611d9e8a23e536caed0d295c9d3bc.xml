@@ -1,4 +1,4 @@
-<acceptance-test-run title="Logging into Disaster Assistance dashboard" name="Logging into Disaster Assistance dashboard" steps="80" successful="80" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="10" timestamp="2017-01-06T11:21:10.697-05:00">
+<acceptance-test-run title="Logging into Disaster Assistance dashboard" name="Logging into Disaster Assistance dashboard" steps="80" successful="80" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="13" timestamp="2017-01-06T11:51:44.942-05:00">
   <user-story id="fullRegression" name="Full regression" path="stories/fullRegression/fullRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -97,7 +97,7 @@
     </test-step>
   </test-group>
   <test-group name="[2] {username=786787687, password=1984-1-1}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="1">
+    <test-step result="SUCCESS" duration="0">
       <description>Given the user is on the dashboard page</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
@@ -117,7 +117,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="1">
       <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
@@ -222,7 +222,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1">
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the summary page with &lt;username&gt;</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
@@ -273,7 +273,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1">
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the summary page with &lt;username&gt;</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
@@ -301,7 +301,7 @@
     </test-step>
   </test-group>
   <test-group name="[14] {username=001010001, password=1919-12-12}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="1">
       <description>Given the user is on the dashboard page</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
@@ -321,7 +321,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="1">
       <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
@@ -341,7 +341,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="1">
       <description>Then they should see the summary page with &lt;username&gt;</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">

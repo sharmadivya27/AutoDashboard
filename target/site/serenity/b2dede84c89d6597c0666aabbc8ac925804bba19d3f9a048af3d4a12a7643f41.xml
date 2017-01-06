@@ -1,4 +1,4 @@
-<acceptance-test-run title="Mailing address information is saved" name="Mailing address information is saved" steps="36" successful="36" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="12" timestamp="2017-01-06T11:21:10.772-05:00">
+<acceptance-test-run title="Mailing address information is saved" name="Mailing address information is saved" steps="36" successful="36" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="2" timestamp="2017-01-06T11:51:45.020-05:00">
   <user-story id="fullRegression" name="Full regression" path="stories/fullRegression/fullRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -32,7 +32,7 @@
     </rows>
   </examples>
   <test-group name="[1] {username=430990610, password=1960-9-15}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="1">
       <description>Given the user is on the dashboard page</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
@@ -70,7 +70,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>Then the user reviews the application with &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1">
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user should update mailing address information</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
@@ -93,7 +93,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1">
+    <test-step result="SUCCESS" duration="0">
       <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
@@ -143,7 +143,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1">
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="gov.DA.dashboard.test.DAREAcceptanceTestSuite" time="17.677" tests="11" errors="0" skipped="0" failures="0">
+<testsuite name="gov.DA.dashboard.test.DAREAcceptanceTestSuite" time="17.614" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib"/>
@@ -61,15 +61,15 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="BeforeStories" classname="java.lang.Object" time="0.003"/>
-  <testcase name="fullRegression.story" classname="fullRegression.story" time="7.621"/>
-  <testcase name="fullRegression.story" classname="fullRegression.story" time="13.959"/>
-  <testcase name="fullRegression.story" classname="fullRegression.story" time="4.161"/>
-  <testcase name="fullRegression.story" classname="fullRegression.story" time="1.702"/>
-  <testcase name="fullRegression.story" classname="fullRegression.story" time="21.438"/>
-  <testcase name="fullRegression.story" classname="fullRegression.story" time="5.195"/>
-  <testcase name="fullRegression.story" classname="fullRegression.story" time="5.435"/>
-  <testcase name="Scenario: Logging into Disaster Assistance dashboard" classname="Scenario: Logging into Disaster Assistance dashboard" time="4.294"/>
-  <testcase name="Scenario: View all application information" classname="Scenario: View all application information" time="5.331"/>
-  <testcase name="AfterStories" classname="java.lang.Object" time="0.428"/>
+  <testcase name="BeforeStories" classname="java.lang.Object" time="0.002"/>
+  <testcase name="fullRegression.story" classname="fullRegression.story" time="7.733"/>
+  <testcase name="fullRegression.story" classname="fullRegression.story" time="13.956"/>
+  <testcase name="fullRegression.story" classname="fullRegression.story" time="4.165"/>
+  <testcase name="fullRegression.story" classname="fullRegression.story" time="1.612"/>
+  <testcase name="fullRegression.story" classname="fullRegression.story" time="21.507"/>
+  <testcase name="fullRegression.story" classname="fullRegression.story" time="5.147"/>
+  <testcase name="fullRegression.story" classname="fullRegression.story" time="5.267"/>
+  <testcase name="Scenario: Logging into Disaster Assistance dashboard" classname="Scenario: Logging into Disaster Assistance dashboard" time="4.298"/>
+  <testcase name="Scenario: View all application information" classname="Scenario: View all application information" time="5.147"/>
+  <testcase name="AfterStories" classname="java.lang.Object" time="0.434"/>
 </testsuite>

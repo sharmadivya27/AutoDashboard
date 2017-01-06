@@ -1844,19 +1844,19 @@
                   "step": "Given the user is on the dashboard page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given the user is on the dashboard page",
-                  "durationInMillis": 7159
+                  "durationInMillis": 7276
                 },
                 {
                   "step": "When the user logs into the dashboard",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When the user logs into the dashboard",
-                  "durationInMillis": 13830
+                  "durationInMillis": 13826
                 },
                 {
                   "step": "Then they should see the the summary page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then they should see the the summary page",
-                  "durationInMillis": 4037
+                  "durationInMillis": 4041
                 }
               ]
             },
@@ -2080,19 +2080,19 @@
                   "step": "Given the user is on the dashboard homepage",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given the user is on the dashboard homepage",
-                  "durationInMillis": 1585
+                  "durationInMillis": 1488
                 },
                 {
                   "step": "When the user reviews the application",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When the user reviews the application",
-                  "durationInMillis": 21306
+                  "durationInMillis": 21355
                 },
                 {
                   "step": "Then the user should update insurance information",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then the user should update insurance information",
-                  "durationInMillis": 5071
+                  "durationInMillis": 5025
                 }
               ]
             },
@@ -2207,7 +2207,7 @@
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 55106
+        "durationInMillis": 54262
       },
       "givenStory": false
     }
@@ -2326,19 +2326,19 @@
               "step": "Given the user is on the dashboard page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given the user is on the dashboard page",
-              "durationInMillis": 7159
+              "durationInMillis": 7276
             },
             {
               "step": "When the user logs into the dashboard",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When the user logs into the dashboard",
-              "durationInMillis": 13830
+              "durationInMillis": 13826
             },
             {
               "step": "Then they should see the the summary page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then they should see the the summary page",
-              "durationInMillis": 4037
+              "durationInMillis": 4041
             }
           ]
         },
@@ -2562,19 +2562,19 @@
               "step": "Given the user is on the dashboard homepage",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given the user is on the dashboard homepage",
-              "durationInMillis": 1585
+              "durationInMillis": 1488
             },
             {
               "step": "When the user reviews the application",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When the user reviews the application",
-              "durationInMillis": 21306
+              "durationInMillis": 21355
             },
             {
               "step": "Then the user should update insurance information",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then the user should update insurance information",
-              "durationInMillis": 5071
+              "durationInMillis": 5025
             }
           ]
         },
