@@ -1,0 +1,354 @@
+<acceptance-test-run title="Logging into Disaster Assistance dashboard" name="Logging into Disaster Assistance dashboard" steps="80" successful="80" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="12" timestamp="2017-01-06T11:07:17.027-05:00">
+  <user-story id="fullRegression" name="Full regression" path="stories/fullRegression/fullRegression.story"/>
+  <tags>
+    <tag name="Full regression" type="feature"/>
+    <tag name="Full regression/Full regression" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>username</header>
+      <header>password</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>430990610</value>
+        <value>1960-9-15</value>
+      </row>
+      <row result="SUCCESS">
+        <value>786787687</value>
+        <value>1984-1-1</value>
+      </row>
+      <row result="SUCCESS">
+        <value>158338199</value>
+        <value>1966-6-6</value>
+      </row>
+      <row result="SUCCESS">
+        <value>430993352</value>
+        <value>1987-12-12</value>
+      </row>
+      <row result="SUCCESS">
+        <value>875473101</value>
+        <value>1979-1-2</value>
+      </row>
+      <row result="SUCCESS">
+        <value>735213161</value>
+        <value>1968-05-01</value>
+      </row>
+      <row result="SUCCESS">
+        <value>594575741</value>
+        <value>1961-01-01</value>
+      </row>
+      <row result="SUCCESS">
+        <value>333011003</value>
+        <value>1990-01-04</value>
+      </row>
+      <row result="SUCCESS">
+        <value>333011004</value>
+        <value>1990-01-05</value>
+      </row>
+      <row result="SUCCESS">
+        <value>333011005</value>
+        <value>1990-01-06</value>
+      </row>
+      <row result="SUCCESS">
+        <value>333011006</value>
+        <value>1990-01-07</value>
+      </row>
+      <row result="SUCCESS">
+        <value>333011007</value>
+        <value>1990-01-08</value>
+      </row>
+      <row result="SUCCESS">
+        <value>049828525</value>
+        <value>1971-11-11</value>
+      </row>
+      <row result="SUCCESS">
+        <value>001010001</value>
+        <value>1919-12-12</value>
+      </row>
+      <row result="SUCCESS">
+        <value>735151123</value>
+        <value>1968-05-01</value>
+      </row>
+      <row result="SUCCESS">
+        <value>735251523</value>
+        <value>1968-05-01</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {username=430990610, password=1960-9-15}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the summary page with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[2] {username=786787687, password=1984-1-1}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the summary page with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[3] {username=158338199, password=1966-6-6}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the summary page with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[4] {username=430993352, password=1987-12-12}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the summary page with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[5] {username=875473101, password=1979-1-2}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the summary page with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[6] {username=735213161, password=1968-05-01}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the summary page with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[7] {username=594575741, password=1961-01-01}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the summary page with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[8] {username=333011003, password=1990-01-04}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the summary page with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[9] {username=333011004, password=1990-01-05}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the summary page with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[10] {username=333011005, password=1990-01-06}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the summary page with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[11] {username=333011006, password=1990-01-07}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the summary page with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[12] {username=333011007, password=1990-01-08}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the summary page with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[13] {username=049828525, password=1971-11-11}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the summary page with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[14] {username=001010001, password=1919-12-12}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the summary page with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[15] {username=735151123, password=1968-05-01}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the summary page with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[16] {username=735251523, password=1968-05-01}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="1">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the summary page with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

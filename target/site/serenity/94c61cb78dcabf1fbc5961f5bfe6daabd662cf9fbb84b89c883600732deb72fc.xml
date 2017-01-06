@@ -1,0 +1,183 @@
+<acceptance-test-run title="View all application information" name="View all application information" steps="45" successful="45" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="7" timestamp="2017-01-06T11:07:17.087-05:00">
+  <user-story id="fullRegression" name="Full regression" path="stories/fullRegression/fullRegression.story"/>
+  <tags>
+    <tag name="Full regression" type="feature"/>
+    <tag name="Full regression/Full regression" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>username</header>
+      <header>password</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>430990610</value>
+        <value>1960-9-15</value>
+      </row>
+      <row result="SUCCESS">
+        <value>786787687</value>
+        <value>1984-1-1</value>
+      </row>
+      <row result="SUCCESS">
+        <value>158338199</value>
+        <value>1966-6-6</value>
+      </row>
+      <row result="SUCCESS">
+        <value>049828525</value>
+        <value>1971-11-11</value>
+      </row>
+      <row result="SUCCESS">
+        <value>735251523</value>
+        <value>1968-05-01</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {username=430990610, password=1960-9-15}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user reviews the application with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view mailing address information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view phone number information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view electronic fund information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view insurance information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[2] {username=786787687, password=1984-1-1}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="1">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user reviews the application with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view mailing address information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view phone number information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view electronic fund information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view insurance information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[3] {username=158338199, password=1966-6-6}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user reviews the application with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view mailing address information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view phone number information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view electronic fund information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view insurance information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[4] {username=049828525, password=1971-11-11}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user reviews the application with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view mailing address information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view phone number information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view electronic fund information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view insurance information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[5] {username=735251523, password=1968-05-01}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user reviews the application with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view mailing address information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view phone number information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view electronic fund information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1">
+      <description>Then the user should view insurance information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

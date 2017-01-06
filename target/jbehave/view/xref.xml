@@ -1,0 +1,2331 @@
+<xref>
+  <stories>
+    <performableStory>
+      <story>
+        <path>stories/fullRegression/fullRegression.story</path>
+        <description>
+          <descriptionAsString></descriptionAsString>
+        </description>
+        <narrative>
+          <inOrderTo>assert that the dashboard functionality of https://www.disasterassistance.gov/ is working</inOrderTo>
+          <asA>tester</asA>
+          <iWantTo>run the daily regressions at least twice a day</iWantTo>
+          <soThat></soThat>
+        </narrative>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <lifecycle>
+          <before>
+            <steps class="java.util.Arrays$ArrayList">
+              <a class="string-array"/>
+            </steps>
+          </before>
+          <after/>
+        </lifecycle>
+        <scenarios>
+          <scenario>
+            <title>Logging into Disaster Assistance dashboard</title>
+            <meta>
+              <properties>
+                <property name="skip" value=""/>
+              </properties>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|username|password|
+|430990610|1960-9-15|
+|786787687|1984-1-1|
+|158338199|1966-6-6|
+|430993352|1987-12-12|
+|875473101|1979-1-2|
+|735213161|1968-05-01|
+|594575741|1961-01-01|
+|333011003|1990-01-04|
+|333011004|1990-01-05|
+|333011005|1990-01-06|
+|333011006|1990-01-07|
+|333011007|1990-01-08|
+|049828525|1971-11-11|
+|001010001|1919-12-12| 
+|735151123|1968-05-01| 
+|735251523|1968-05-01|</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>username</string>
+                <string>password</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>430990610</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1960-9-15</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>786787687</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1984-1-1</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>158338199</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1966-6-6</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>430993352</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1987-12-12</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>875473101</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1979-1-2</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>735213161</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1968-05-01</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>594575741</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1961-01-01</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>333011003</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1990-01-04</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>333011004</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1990-01-05</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>333011005</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1990-01-06</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>333011006</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1990-01-07</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>333011007</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1990-01-08</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>049828525</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1971-11-11</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>001010001</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1919-12-12</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>735151123</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1968-05-01</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>735251523</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1968-05-01</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given the user is on the dashboard page</string>
+              <string>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</string>
+              <string>Then they should see the summary page with &lt;username&gt;</string>
+              <string>Then the user logs out of the dashboard</string>
+              <string>Then they should see the home page</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>View all application information</title>
+            <meta>
+              <properties>
+                <property name="skip" value=""/>
+              </properties>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|username|password|
+|430990610|1960-9-15|
+|786787687|1984-1-1|
+|158338199|1966-6-6|
+|049828525|1971-11-11|
+|735251523|1968-05-01|</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>username</string>
+                <string>password</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>430990610</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1960-9-15</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>786787687</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1984-1-1</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>158338199</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1966-6-6</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>049828525</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1971-11-11</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>735251523</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1968-05-01</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given the user is on the dashboard page</string>
+              <string>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</string>
+              <string>Then the user reviews the application with &lt;username&gt;</string>
+              <string>Then the user should view mailing address information</string>
+              <string>Then the user should view phone number information</string>
+              <string>Then the user should view electronic fund information</string>
+              <string>Then the user should view insurance information</string>
+              <string>Then the user logs out of the dashboard</string>
+              <string>Then they should see the home page</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>View notifications on homepage</title>
+            <meta>
+              <properties>
+                <property name="skip" value=""/>
+              </properties>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|username|password|
+|430990610|1960-9-15|
+|786787687|1984-1-1|
+|158338199|1966-6-6|
+|049828525|1971-11-11|
+|735251523|1968-05-01|</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>username</string>
+                <string>password</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>430990610</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1960-9-15</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>786787687</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1984-1-1</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>158338199</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1966-6-6</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>049828525</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1971-11-11</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>735251523</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1968-05-01</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given the user is on the dashboard page</string>
+              <string>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</string>
+              <string>Then the user is on the summary page with &lt;username&gt;</string>
+              <string>Then the notification should be displayed</string>
+              <string>Then the user logs out of the dashboard</string>
+              <string>Then they should see the home page</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>View personalized list of FOAs from the additional resources</title>
+            <meta>
+              <properties>
+                <property name="skip" value=""/>
+              </properties>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|username|password|
+|430990610|1960-9-15|
+|158338199|1966-6-6|
+|049828525|1971-11-11|
+|735251523|1968-05-01|
+|786787687|1984-1-1|</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>username</string>
+                <string>password</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>430990610</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1960-9-15</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>158338199</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1966-6-6</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>049828525</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1971-11-11</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>735251523</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1968-05-01</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>786787687</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1984-1-1</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given the user is on the dashboard page</string>
+              <string>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</string>
+              <string>Then the user views additional resources with the &lt;username&gt;</string>
+              <string>Then the user should view the list of FOAs with &lt;username&gt;</string>
+              <string>Then the user logs out of the dashboard</string>
+              <string>Then they should see the home page</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>Mailing address information is saved</title>
+            <meta>
+              <properties>
+                <property name="skip" value=""/>
+              </properties>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|username|password|
+|430990610|1960-9-15|
+|158338199|1966-6-6|
+|735251523|1968-05-01|
+|786787687|1984-1-1|</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>username</string>
+                <string>password</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>430990610</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1960-9-15</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>158338199</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1966-6-6</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>735251523</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1968-05-01</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>786787687</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1984-1-1</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given the user is on the dashboard page</string>
+              <string>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</string>
+              <string>Then the user reviews the application with &lt;username&gt;</string>
+              <string>Then the user should update mailing address information</string>
+              <string>Then the user goes back to the summary page</string>
+              <string>Then the user reviews the application with &lt;username&gt;</string>
+              <string>Then the user should see their saved mailing information</string>
+              <string>Then the user logs out of the dashboard</string>
+              <string>Then they should see the home page</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>Phone number information is updated and saved</title>
+            <meta>
+              <properties>
+                <property name="skip" value=""/>
+              </properties>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|username|password|
+|430990610|1960-9-15|
+|158338199|1966-6-6|
+|786787687|1984-1-1|
+|049828525|1971-11-11|</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>username</string>
+                <string>password</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>430990610</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1960-9-15</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>158338199</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1966-6-6</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>786787687</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1984-1-1</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>username</string>
+                    <string>049828525</string>
+                  </entry>
+                  <entry>
+                    <string>password</string>
+                    <string>1971-11-11</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given the user is on the dashboard page</string>
+              <string>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</string>
+              <string>Then the user reviews the application with &lt;username&gt;</string>
+              <string>Then the user should update phone number information with &lt;username&gt;</string>
+              <string>Then the user goes back to the summary page</string>
+              <string>Then the user reviews the application with &lt;username&gt;</string>
+              <string>Then the user should see their saved phone number information</string>
+              <string>Then the user logs out of the dashboard</string>
+              <string>Then they should see the home page</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>Update electronic fund application information</title>
+            <meta>
+              <properties>
+                <property name="skip" value=""/>
+              </properties>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given the user is on the dashboard homepage</string>
+              <string>When the user reviews the application</string>
+              <string>Then the user should update electronic fund information</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>Electronic fund information is saved</title>
+            <meta>
+              <properties>
+                <property name="skip" value=""/>
+              </properties>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given the user is on the dashboard homepage</string>
+              <string>When the user reviews the application</string>
+              <string>Then the user should see their saved information</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>Logging into the dashboard</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given the user is on the dashboard page</string>
+              <string>When the user logs into the dashboard</string>
+              <string>Then they should see the the summary page</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>Update insurance application information</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given the user is on the dashboard homepage</string>
+              <string>When the user reviews the application</string>
+              <string>Then the user should update insurance information</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>Insurance application information is saved</title>
+            <meta>
+              <properties>
+                <property name="skip" value=""/>
+              </properties>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given the user is on the dashboard homepage</string>
+              <string>When the user reviews the application</string>
+              <string>Then the user should see their saved insurance information</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>Logging out of the dashboard</title>
+            <meta>
+              <properties>
+                <property name="skip" value=""/>
+              </properties>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given the user is on the dashboard page</string>
+              <string>When the user logs out of the dashboard</string>
+              <string>Then they should see the home page</string>
+            </steps>
+          </scenario>
+        </scenarios>
+        <name>fullRegression.story</name>
+      </story>
+      <localizedNarrative>In order to assert that the dashboard functionality of https://www.disasterassistance.gov/ is working
+As a tester
+I want to run the daily regressions at least twice a day</localizedNarrative>
+      <allowed>true</allowed>
+      <status>SUCCESSFUL</status>
+      <givenStories/>
+      <scenarios>
+        <performableScenario>
+          <scenario>
+            <title>Logging into the dashboard</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given the user is on the dashboard page</string>
+              <string>When the user logs into the dashboard</string>
+              <string>Then they should see the the summary page</string>
+            </steps>
+          </scenario>
+          <storyPath>stories/fullRegression/fullRegression.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+            </beforeSteps>
+            <steps>
+              <matches/>
+              <results>
+                <successful>
+                  <step>Given the user is on the dashboard page</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Given the user is on the dashboard page</parametrisedStep>
+                  <durationInMillis>6997</durationInMillis>
+                </successful>
+                <successful>
+                  <step>When the user logs into the dashboard</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When the user logs into the dashboard</parametrisedStep>
+                  <durationInMillis>13851</durationInMillis>
+                </successful>
+                <successful>
+                  <step>Then they should see the the summary page</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then they should see the the summary page</parametrisedStep>
+                  <durationInMillis>4042</durationInMillis>
+                </successful>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>Logging into the dashboard</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <headerSeparator>|</headerSeparator>
+                  <valueSeparator>|</valueSeparator>
+                  <ignorableSeparator>|--</ignorableSeparator>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                  <trim>true</trim>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+              <steps>
+                <string>Given the user is on the dashboard page</string>
+                <string>When the user logs into the dashboard</string>
+                <string>Then they should see the the summary page</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+        <performableScenario>
+          <scenario>
+            <title>Update insurance application information</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given the user is on the dashboard homepage</string>
+              <string>When the user reviews the application</string>
+              <string>Then the user should update insurance information</string>
+            </steps>
+          </scenario>
+          <storyPath>stories/fullRegression/fullRegression.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+            </beforeSteps>
+            <steps>
+              <matches/>
+              <results>
+                <successful>
+                  <step>Given the user is on the dashboard homepage</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Given the user is on the dashboard homepage</parametrisedStep>
+                  <durationInMillis>1498</durationInMillis>
+                </successful>
+                <successful>
+                  <step>When the user reviews the application</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When the user reviews the application</parametrisedStep>
+                  <durationInMillis>21439</durationInMillis>
+                </successful>
+                <successful>
+                  <step>Then the user should update insurance information</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then the user should update insurance information</parametrisedStep>
+                  <durationInMillis>4940</durationInMillis>
+                </successful>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>Update insurance application information</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <headerSeparator>|</headerSeparator>
+                  <valueSeparator>|</valueSeparator>
+                  <ignorableSeparator>|--</ignorableSeparator>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                  <trim>true</trim>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+              <steps>
+                <string>Given the user is on the dashboard homepage</string>
+                <string>When the user reviews the application</string>
+                <string>Then the user should update insurance information</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+      </scenarios>
+      <beforeSteps/>
+      <afterSteps/>
+      <timing>
+        <durationInMillis>54880</durationInMillis>
+      </timing>
+      <givenStory>false</givenStory>
+    </performableStory>
+  </stories>
+  <scenarios>
+    <performableScenario>
+      <scenario>
+        <title>Logging into the dashboard</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <headerSeparator>|</headerSeparator>
+          <valueSeparator>|</valueSeparator>
+          <ignorableSeparator>|--</ignorableSeparator>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <property name="headerSeparator" value="|"/>
+            <property name="valueSeparator" value="|"/>
+            <property name="ignorableSeparator" value="|--"/>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+          <trim>true</trim>
+        </examplesTable>
+        <steps>
+          <string>Given the user is on the dashboard page</string>
+          <string>When the user logs into the dashboard</string>
+          <string>Then they should see the the summary page</string>
+        </steps>
+      </scenario>
+      <storyPath>stories/fullRegression/fullRegression.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+        </beforeSteps>
+        <steps>
+          <matches/>
+          <results>
+            <successful>
+              <step>Given the user is on the dashboard page</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Given the user is on the dashboard page</parametrisedStep>
+              <durationInMillis>6997</durationInMillis>
+            </successful>
+            <successful>
+              <step>When the user logs into the dashboard</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When the user logs into the dashboard</parametrisedStep>
+              <durationInMillis>13851</durationInMillis>
+            </successful>
+            <successful>
+              <step>Then they should see the the summary page</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then they should see the the summary page</parametrisedStep>
+              <durationInMillis>4042</durationInMillis>
+            </successful>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>Logging into the dashboard</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+          <steps>
+            <string>Given the user is on the dashboard page</string>
+            <string>When the user logs into the dashboard</string>
+            <string>Then they should see the the summary page</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+    <performableScenario>
+      <scenario>
+        <title>Update insurance application information</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <headerSeparator>|</headerSeparator>
+          <valueSeparator>|</valueSeparator>
+          <ignorableSeparator>|--</ignorableSeparator>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <property name="headerSeparator" value="|"/>
+            <property name="valueSeparator" value="|"/>
+            <property name="ignorableSeparator" value="|--"/>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+          <trim>true</trim>
+        </examplesTable>
+        <steps>
+          <string>Given the user is on the dashboard homepage</string>
+          <string>When the user reviews the application</string>
+          <string>Then the user should update insurance information</string>
+        </steps>
+      </scenario>
+      <storyPath>stories/fullRegression/fullRegression.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+        </beforeSteps>
+        <steps>
+          <matches/>
+          <results>
+            <successful>
+              <step>Given the user is on the dashboard homepage</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Given the user is on the dashboard homepage</parametrisedStep>
+              <durationInMillis>1498</durationInMillis>
+            </successful>
+            <successful>
+              <step>When the user reviews the application</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When the user reviews the application</parametrisedStep>
+              <durationInMillis>21439</durationInMillis>
+            </successful>
+            <successful>
+              <step>Then the user should update insurance information</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then the user should update insurance information</parametrisedStep>
+              <durationInMillis>4940</durationInMillis>
+            </successful>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>Update insurance application information</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+          <steps>
+            <string>Given the user is on the dashboard homepage</string>
+            <string>When the user reviews the application</string>
+            <string>Then the user should update insurance information</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+  </scenarios>
+</xref>

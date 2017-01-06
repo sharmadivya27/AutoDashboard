@@ -1,0 +1,4 @@
+gov/DA/dashboard/test/DAREAcceptanceTestSuite.class
+gov/DA/dashboard/test/steps/DailyRegression.class
+gov/DA/dashboard/test/steps/serenity/User.class
+gov/DA/dashboard/test/pages/DAPage.class

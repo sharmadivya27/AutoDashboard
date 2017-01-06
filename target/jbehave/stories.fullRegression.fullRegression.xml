@@ -1,0 +1,17 @@
+<story path="stories/fullRegression/fullRegression.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">assert that the dashboard functionality of https://www.disasterassistance.gov/ is working</inOrderTo>
+  <asA keyword="As a">tester</asA>
+  <iWantTo keyword="I want to">run the daily regressions at least twice a day</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Logging into the dashboard">
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard</step>
+<step outcome="successful">Then they should see the the summary page</step>
+</scenario>
+<scenario keyword="Scenario:" title="Update insurance application information">
+<step outcome="successful">Given the user is on the dashboard homepage</step>
+<step outcome="successful">When the user reviews the application</step>
+<step outcome="successful">Then the user should update insurance information</step>
+</scenario>
+</story>

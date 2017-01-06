@@ -1,0 +1,16 @@
+<acceptance-test-run title="Update electronic fund application information" name="Update electronic fund application information" steps="3" successful="0" failures="0" skipped="3" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="16" timestamp="2017-01-06T11:07:17.127-05:00">
+  <user-story id="fullRegression" name="Full regression" path="stories/fullRegression/fullRegression.story"/>
+  <tags>
+    <tag name="Full regression" type="feature"/>
+    <tag name="Full regression/Full regression" type="story"/>
+  </tags>
+  <test-step result="SKIPPED" duration="15">
+    <description>Given the user is on the dashboard homepage</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>When the user reviews the application</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then the user should update electronic fund information</description>
+  </test-step>
+</acceptance-test-run>
