@@ -1,4 +1,4 @@
-<acceptance-test-run title="View notifications on homepage" name="View notifications on homepage" steps="30" successful="30" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="3" timestamp="2017-01-06T11:51:45.007-05:00">
+<acceptance-test-run title="View notifications on homepage" name="View notifications on homepage" steps="108" successful="108" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="369975" timestamp="2017-02-07T13:23:36.325-05:00" session-id="5a908fbc5aa69397ac183fb1fcb6db25">
   <user-story id="fullRegression" name="Full regression" path="stories/fullRegression/fullRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -26,112 +26,940 @@
         <value>1966-6-6</value>
       </row>
       <row result="SUCCESS">
+        <value>430993352</value>
+        <value>1987-12-12</value>
+      </row>
+      <row result="SUCCESS">
+        <value>875473101</value>
+        <value>1979-1-2</value>
+      </row>
+      <row result="SUCCESS">
+        <value>735213161</value>
+        <value>1968-05-01</value>
+      </row>
+      <row result="SUCCESS">
+        <value>594575741</value>
+        <value>1961-01-01</value>
+      </row>
+      <row result="SUCCESS">
+        <value>333011003</value>
+        <value>1990-01-04</value>
+      </row>
+      <row result="SUCCESS">
+        <value>333011004</value>
+        <value>1990-01-05</value>
+      </row>
+      <row result="SUCCESS">
+        <value>333011005</value>
+        <value>1990-01-06</value>
+      </row>
+      <row result="SUCCESS">
+        <value>333011006</value>
+        <value>1990-01-07</value>
+      </row>
+      <row result="SUCCESS">
+        <value>333011007</value>
+        <value>1990-01-08</value>
+      </row>
+      <row result="SUCCESS">
         <value>049828525</value>
         <value>1971-11-11</value>
+      </row>
+      <row result="SUCCESS">
+        <value>001010001</value>
+        <value>1919-12-12</value>
+      </row>
+      <row result="SUCCESS">
+        <value>735151123</value>
+        <value>1968-05-01</value>
       </row>
       <row result="SUCCESS">
         <value>735251523</value>
         <value>1968-05-01</value>
       </row>
+      <row result="SUCCESS">
+        <value>430991038</value>
+        <value>1987-3-26</value>
+      </row>
+      <row result="SUCCESS">
+        <value>265798306</value>
+        <value>1966-12-12</value>
+      </row>
     </rows>
   </examples>
-  <test-group name="[1] {username=430990610, password=1960-9-15}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the dashboard page</description>
+  <test-group name="[1] {username=430990610, password=1960-9-15}" result="SUCCESS">
+    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="a85058decac52b223844310290c8b4e1.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="8437">
+        <screenshots>
+          <screenshot image="cdf47f14aeaaed05c5b95b047778ba4e.png"/>
+        </screenshots>
+        <description>On dashboard login page</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="7225">
+      <screenshots>
+        <screenshot image="a85058decac52b223844310290c8b4e1.png"/>
+        <screenshot image="a4997d51bac35e8af6fb60e9331570f5.png"/>
+      </screenshots>
+      <description>When the user logs into the dashboard with {430990610} and {1960-9-15}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    <test-step result="SUCCESS" duration="5478">
+      <screenshots>
+        <screenshot image="39bef31861dc342e61ed0262d11882c9.png"/>
+        <screenshot image="8c505f51ac00bb3a41801e0aaeaa24cf.png"/>
+      </screenshots>
+      <description>Then the user is on the summary page with {430990610}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the user is on the summary page with &lt;username&gt;</description>
+    <test-step result="SUCCESS" duration="305">
+      <screenshots>
+        <screenshot image="8c505f51ac00bb3a41801e0aaeaa24cf.png"/>
+      </screenshots>
+      <description>Then the notification should be displayed with {430990610}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the notification should be displayed</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="6024">
+      <screenshots>
+        <screenshot image="8c505f51ac00bb3a41801e0aaeaa24cf.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="394">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[2] {username=786787687, password=1984-1-1}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the dashboard page</description>
+  <test-group name="[2] {username=786787687, password=1984-1-1}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1497">
+        <screenshots>
+          <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
+        </screenshots>
+        <description>On dashboard login page</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="6681">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="9256ef6a6ab59b313bb2f9a71b011776.png"/>
+      </screenshots>
+      <description>When the user logs into the dashboard with {786787687} and {1984-1-1}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    <test-step result="SUCCESS" duration="4681">
+      <screenshots>
+        <screenshot image="3f7d38b03ac605c52974bb616dc8eddc.png"/>
+        <screenshot image="3015b9c005b70da11327fe3e5419ac7f.png"/>
+      </screenshots>
+      <description>Then the user is on the summary page with {786787687}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the user is on the summary page with &lt;username&gt;</description>
+    <test-step result="SUCCESS" duration="282">
+      <screenshots>
+        <screenshot image="3015b9c005b70da11327fe3e5419ac7f.png"/>
+      </screenshots>
+      <description>Then the notification should be displayed with {786787687}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the notification should be displayed</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="5180">
+      <screenshots>
+        <screenshot image="3015b9c005b70da11327fe3e5419ac7f.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="366">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[3] {username=158338199, password=1966-6-6}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the dashboard page</description>
+  <test-group name="[3] {username=158338199, password=1966-6-6}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1705">
+        <screenshots>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
+        </screenshots>
+        <description>On dashboard login page</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="9668">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="870912cdbe037cc57d4a91cf610e65bb.png"/>
+      </screenshots>
+      <description>When the user logs into the dashboard with {158338199} and {1966-6-6}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    <test-step result="SUCCESS" duration="4700">
+      <screenshots>
+        <screenshot image="75cc36bc63f2c829b0464a55aa278424.png"/>
+        <screenshot image="15aaf298d539464a0373a15af857b863.png"/>
+      </screenshots>
+      <description>Then the user is on the summary page with {158338199}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the user is on the summary page with &lt;username&gt;</description>
+    <test-step result="SUCCESS" duration="3278">
+      <screenshots>
+        <screenshot image="bcd80caf5271d0bdfa2a4250945fa393.png"/>
+        <screenshot image="7b3a8b37ee6a43f08c1b70b268eb7f28.png"/>
+      </screenshots>
+      <description>Then the notification should be displayed with {158338199}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the notification should be displayed</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="5175">
+      <screenshots>
+        <screenshot image="7b3a8b37ee6a43f08c1b70b268eb7f28.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="372">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[4] {username=049828525, password=1971-11-11}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the dashboard page</description>
+  <test-group name="[4] {username=430993352, password=1987-12-12}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1596">
+        <screenshots>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
+        </screenshots>
+        <description>On dashboard login page</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="6675">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="df631a82238f4752be8ecd6c382a08dd.png"/>
+      </screenshots>
+      <description>When the user logs into the dashboard with {430993352} and {1987-12-12}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    <test-step result="SUCCESS" duration="4704">
+      <screenshots>
+        <screenshot image="b42efd35e82883a896c2e8fac838215e.png"/>
+        <screenshot image="5909ad46d38870ac684a6673bbb4cd5b.png"/>
+      </screenshots>
+      <description>Then the user is on the summary page with {430993352}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the user is on the summary page with &lt;username&gt;</description>
+    <test-step result="SUCCESS" duration="280">
+      <screenshots>
+        <screenshot image="5909ad46d38870ac684a6673bbb4cd5b.png"/>
+      </screenshots>
+      <description>Then the notification should be displayed with {430993352}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the notification should be displayed</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="5076">
+      <screenshots>
+        <screenshot image="5909ad46d38870ac684a6673bbb4cd5b.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="371">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[5] {username=735251523, password=1968-05-01}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="0">
-      <description>Given the user is on the dashboard page</description>
+  <test-group name="[5] {username=875473101, password=1979-1-2}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1520">
+        <screenshots>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
+        </screenshots>
+        <description>On dashboard login page</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="6736">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="38b7fdd306af4de878ea920825a64b6b.png"/>
+      </screenshots>
+      <description>When the user logs into the dashboard with {875473101} and {1979-1-2}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    <test-step result="SUCCESS" duration="4632">
+      <screenshots>
+        <screenshot image="bf452c69c4c2a075246fbe41450daddf.png"/>
+        <screenshot image="27df323a70b116c5257616eb8b5484c6.png"/>
+      </screenshots>
+      <description>Then the user is on the summary page with {875473101}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the user is on the summary page with &lt;username&gt;</description>
+    <test-step result="SUCCESS" duration="277">
+      <screenshots>
+        <screenshot image="23e01816967e94eafe6c4bc74a6eceae.png"/>
+        <screenshot image="bcd80caf5271d0bdfa2a4250945fa393.png"/>
+      </screenshots>
+      <description>Then the notification should be displayed with {875473101}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
-      <description>Then the notification should be displayed</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="5220">
+      <screenshots>
+        <screenshot image="5ce77790993e8ab38225901057c2536d.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="370">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[6] {username=735213161, password=1968-05-01}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1727">
+        <screenshots>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
+        </screenshots>
+        <description>On dashboard login page</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="6675">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="920aed4573d3e1e42012499766276379.png"/>
+      </screenshots>
+      <description>When the user logs into the dashboard with {735213161} and {1968-05-01}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="4672">
+      <screenshots>
+        <screenshot image="920aed4573d3e1e42012499766276379.png"/>
+      </screenshots>
+      <description>Then the user is on the summary page with {735213161}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="273">
+      <screenshots>
+        <screenshot image="920aed4573d3e1e42012499766276379.png"/>
+      </screenshots>
+      <description>Then the notification should be displayed with {735213161}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="5114">
+      <screenshots>
+        <screenshot image="920aed4573d3e1e42012499766276379.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="385">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[7] {username=594575741, password=1961-01-01}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1568">
+        <screenshots>
+          <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        </screenshots>
+        <description>On dashboard login page</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="6737">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="92320cf9dd7cfcaea025f0277690a786.png"/>
+      </screenshots>
+      <description>When the user logs into the dashboard with {594575741} and {1961-01-01}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="4669">
+      <screenshots>
+        <screenshot image="92320cf9dd7cfcaea025f0277690a786.png"/>
+      </screenshots>
+      <description>Then the user is on the summary page with {594575741}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="274">
+      <screenshots>
+        <screenshot image="92320cf9dd7cfcaea025f0277690a786.png"/>
+      </screenshots>
+      <description>Then the notification should be displayed with {594575741}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="5287">
+      <screenshots>
+        <screenshot image="92320cf9dd7cfcaea025f0277690a786.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="376">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[8] {username=333011003, password=1990-01-04}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1691">
+        <screenshots>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
+        </screenshots>
+        <description>On dashboard login page</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="6686">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="46e5cd875e977517739e1f805e65bc12.png"/>
+      </screenshots>
+      <description>When the user logs into the dashboard with {333011003} and {1990-01-04}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="4785">
+      <screenshots>
+        <screenshot image="46e5cd875e977517739e1f805e65bc12.png"/>
+        <screenshot image="7f5683a85dd26d09b599796e5f5b9ea6.png"/>
+      </screenshots>
+      <description>Then the user is on the summary page with {333011003}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="278">
+      <screenshots>
+        <screenshot image="7f5683a85dd26d09b599796e5f5b9ea6.png"/>
+      </screenshots>
+      <description>Then the notification should be displayed with {333011003}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="5080">
+      <screenshots>
+        <screenshot image="7f5683a85dd26d09b599796e5f5b9ea6.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="366">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[9] {username=333011004, password=1990-01-05}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1505">
+        <screenshots>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
+        </screenshots>
+        <description>On dashboard login page</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="6658">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="f42b7a7780e0cdfdf99895a803104728.png"/>
+      </screenshots>
+      <description>When the user logs into the dashboard with {333011004} and {1990-01-05}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="4698">
+      <screenshots>
+        <screenshot image="4528963ca1d5579c95208d8ebd7ad068.png"/>
+        <screenshot image="bb2c297e3f00d4ea7ce7e19ebb07f9d6.png"/>
+      </screenshots>
+      <description>Then the user is on the summary page with {333011004}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="286">
+      <screenshots>
+        <screenshot image="bb2c297e3f00d4ea7ce7e19ebb07f9d6.png"/>
+      </screenshots>
+      <description>Then the notification should be displayed with {333011004}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="5237">
+      <screenshots>
+        <screenshot image="bb2c297e3f00d4ea7ce7e19ebb07f9d6.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="368">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[10] {username=333011005, password=1990-01-06}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1803">
+        <screenshots>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
+        </screenshots>
+        <description>On dashboard login page</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="6669">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="0408d911bf8934e278e40f3693fafc60.png"/>
+      </screenshots>
+      <description>When the user logs into the dashboard with {333011005} and {1990-01-06}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="4801">
+      <screenshots>
+        <screenshot image="0408d911bf8934e278e40f3693fafc60.png"/>
+      </screenshots>
+      <description>Then the user is on the summary page with {333011005}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="274">
+      <screenshots>
+        <screenshot image="0408d911bf8934e278e40f3693fafc60.png"/>
+      </screenshots>
+      <description>Then the notification should be displayed with {333011005}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="5095">
+      <screenshots>
+        <screenshot image="0408d911bf8934e278e40f3693fafc60.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="372">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[11] {username=333011006, password=1990-01-07}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1507">
+        <screenshots>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
+        </screenshots>
+        <description>On dashboard login page</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="6564">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="57aa2f8869a5924408bf5d3577d9286b.png"/>
+      </screenshots>
+      <description>When the user logs into the dashboard with {333011006} and {1990-01-07}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="4731">
+      <screenshots>
+        <screenshot image="57aa2f8869a5924408bf5d3577d9286b.png"/>
+      </screenshots>
+      <description>Then the user is on the summary page with {333011006}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="275">
+      <screenshots>
+        <screenshot image="57aa2f8869a5924408bf5d3577d9286b.png"/>
+      </screenshots>
+      <description>Then the notification should be displayed with {333011006}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="5223">
+      <screenshots>
+        <screenshot image="57aa2f8869a5924408bf5d3577d9286b.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="367">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[12] {username=333011007, password=1990-01-08}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1612">
+        <screenshots>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
+        </screenshots>
+        <description>On dashboard login page</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="6660">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="e4e3b2f0b9cd922c42425ff8bc4aa88f.png"/>
+      </screenshots>
+      <description>When the user logs into the dashboard with {333011007} and {1990-01-08}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="4660">
+      <screenshots>
+        <screenshot image="e4e3b2f0b9cd922c42425ff8bc4aa88f.png"/>
+      </screenshots>
+      <description>Then the user is on the summary page with {333011007}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="272">
+      <screenshots>
+        <screenshot image="e4e3b2f0b9cd922c42425ff8bc4aa88f.png"/>
+      </screenshots>
+      <description>Then the notification should be displayed with {333011007}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="5102">
+      <screenshots>
+        <screenshot image="e4e3b2f0b9cd922c42425ff8bc4aa88f.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="368">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[13] {username=049828525, password=1971-11-11}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1541">
+        <screenshots>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
+        </screenshots>
+        <description>On dashboard login page</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="9666">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="2596c8c939b29b5e2624c42ea2b868f9.png"/>
+      </screenshots>
+      <description>When the user logs into the dashboard with {049828525} and {1971-11-11}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="5009">
+      <screenshots>
+        <screenshot image="1d883be719eb5972888d540d116853c3.png"/>
+        <screenshot image="c1949755dd07575ab26a0c42633facee.png"/>
+      </screenshots>
+      <description>Then the user is on the summary page with {049828525}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="3296">
+      <screenshots>
+        <screenshot image="c1949755dd07575ab26a0c42633facee.png"/>
+      </screenshots>
+      <description>Then the notification should be displayed with {049828525}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="5041">
+      <screenshots>
+        <screenshot image="c1949755dd07575ab26a0c42633facee.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="379">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[14] {username=001010001, password=1919-12-12}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1947">
+        <screenshots>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
+        </screenshots>
+        <description>On dashboard login page</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="6691">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="857c573713795213ce2183d966429a84.png"/>
+      </screenshots>
+      <description>When the user logs into the dashboard with {001010001} and {1919-12-12}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="4706">
+      <screenshots>
+        <screenshot image="857c573713795213ce2183d966429a84.png"/>
+      </screenshots>
+      <description>Then the user is on the summary page with {001010001}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="271">
+      <screenshots>
+        <screenshot image="857c573713795213ce2183d966429a84.png"/>
+      </screenshots>
+      <description>Then the notification should be displayed with {001010001}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="5230">
+      <screenshots>
+        <screenshot image="857c573713795213ce2183d966429a84.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="368">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[15] {username=735151123, password=1968-05-01}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1540">
+        <screenshots>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
+        </screenshots>
+        <description>On dashboard login page</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="6874">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="fafecaf07a1ee4875ec56f7973759fd3.png"/>
+      </screenshots>
+      <description>When the user logs into the dashboard with {735151123} and {1968-05-01}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="4663">
+      <screenshots>
+        <screenshot image="d216749a4fd12ca918f38df1afc17a50.png"/>
+        <screenshot image="f25996ba11a26ce42ba984abc89db832.png"/>
+      </screenshots>
+      <description>Then the user is on the summary page with {735151123}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="276">
+      <screenshots>
+        <screenshot image="f25996ba11a26ce42ba984abc89db832.png"/>
+      </screenshots>
+      <description>Then the notification should be displayed with {735151123}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="5136">
+      <screenshots>
+        <screenshot image="f25996ba11a26ce42ba984abc89db832.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="378">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[16] {username=735251523, password=1968-05-01}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1669">
+        <screenshots>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
+        </screenshots>
+        <description>On dashboard login page</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="6660">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="2d4b298c152915cbde98422240c86da6.png"/>
+      </screenshots>
+      <description>When the user logs into the dashboard with {735251523} and {1968-05-01}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="4751">
+      <screenshots>
+        <screenshot image="a84a2f7079781dd6f8b9dad553d587f4.png"/>
+        <screenshot image="8fb8a44518cce901a2f3d62059aee76c.png"/>
+      </screenshots>
+      <description>Then the user is on the summary page with {735251523}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="273">
+      <screenshots>
+        <screenshot image="8fb8a44518cce901a2f3d62059aee76c.png"/>
+      </screenshots>
+      <description>Then the notification should be displayed with {735251523}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="5337">
+      <screenshots>
+        <screenshot image="8fb8a44518cce901a2f3d62059aee76c.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="380">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[17] {username=430991038, password=1987-3-26}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1729">
+        <screenshots>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
+        </screenshots>
+        <description>On dashboard login page</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="6655">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="641d4958e9d1d4826c75f2bd6072f247.png"/>
+      </screenshots>
+      <description>When the user logs into the dashboard with {430991038} and {1987-3-26}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="4767">
+      <screenshots>
+        <screenshot image="afa113f1138d7034ea3cc458f2599667.png"/>
+        <screenshot image="0c2b1dd6e310471e6732ac69ec16eebb.png"/>
+      </screenshots>
+      <description>Then the user is on the summary page with {430991038}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="277">
+      <screenshots>
+        <screenshot image="0c2b1dd6e310471e6732ac69ec16eebb.png"/>
+      </screenshots>
+      <description>Then the notification should be displayed with {430991038}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="5111">
+      <screenshots>
+        <screenshot image="0c2b1dd6e310471e6732ac69ec16eebb.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="404">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="[18] {username=265798306, password=1966-12-12}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+    </screenshots>
+    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1633">
+        <screenshots>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
+        </screenshots>
+        <description>On dashboard login page</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="7085">
+      <screenshots>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="2c5b372847e122c20a4a3ab71656da21.png"/>
+      </screenshots>
+      <description>When the user logs into the dashboard with {265798306} and {1966-12-12}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="4815">
+      <screenshots>
+        <screenshot image="247ea06e9f24adffc9d06609a67bfa4f.png"/>
+      </screenshots>
+      <description>Then the user is on the summary page with {265798306}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="276">
+      <screenshots>
+        <screenshot image="247ea06e9f24adffc9d06609a67bfa4f.png"/>
+      </screenshots>
+      <description>Then the notification should be displayed with {265798306}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="5237">
+      <screenshots>
+        <screenshot image="247ea06e9f24adffc9d06609a67bfa4f.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="377">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>

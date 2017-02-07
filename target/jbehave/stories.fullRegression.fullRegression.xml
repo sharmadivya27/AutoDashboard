@@ -4,14 +4,698 @@
   <asA keyword="As a">tester</asA>
   <iWantTo keyword="I want to">run the daily regressions at least twice a day</iWantTo>
 </narrative>
-<scenario keyword="Scenario:" title="Logging into the dashboard">
+<scenario keyword="Scenario:" title="View notifications on homepage">
+<examples keyword="Examples:">
+<step>Given the user is on the dashboard page</step>
+<step>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</step>
+<step>Then the user is on the summary page with &lt;username&gt;</step>
+<step>Then the notification should be displayed with &lt;username&gt;</step>
+<step>Then the user logs out of the dashboard</step>
+<step>Then they should see the home page</step>
+<parameters>
+<names><name>username</name><name>password</name></names>
+<values><value>430990610</value><value>1960-9-15</value></values>
+<values><value>786787687</value><value>1984-1-1</value></values>
+<values><value>158338199</value><value>1966-6-6</value></values>
+<values><value>430993352</value><value>1987-12-12</value></values>
+<values><value>875473101</value><value>1979-1-2</value></values>
+<values><value>735213161</value><value>1968-05-01</value></values>
+<values><value>594575741</value><value>1961-01-01</value></values>
+<values><value>333011003</value><value>1990-01-04</value></values>
+<values><value>333011004</value><value>1990-01-05</value></values>
+<values><value>333011005</value><value>1990-01-06</value></values>
+<values><value>333011006</value><value>1990-01-07</value></values>
+<values><value>333011007</value><value>1990-01-08</value></values>
+<values><value>049828525</value><value>1971-11-11</value></values>
+<values><value>001010001</value><value>1919-12-12</value></values>
+<values><value>735151123</value><value>1968-05-01</value></values>
+<values><value>735251523</value><value>1968-05-01</value></values>
+<values><value>430991038</value><value>1987-3-26</value></values>
+<values><value>265798306</value><value>1966-12-12</value></values>
+</parameters>
+
+<example keyword="Example:">{username=430990610, password=1960-9-15}</example>
 <step outcome="successful">Given the user is on the dashboard page</step>
-<step outcome="successful">When the user logs into the dashboard</step>
-<step outcome="successful">Then they should see the the summary page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>430990610</parameter> and <parameter>1960-9-15</parameter></step>
+<step outcome="successful">Then the user is on the summary page with <parameter>430990610</parameter></step>
+<step outcome="successful">Then the notification should be displayed with <parameter>430990610</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=786787687, password=1984-1-1}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>786787687</parameter> and <parameter>1984-1-1</parameter></step>
+<step outcome="successful">Then the user is on the summary page with <parameter>786787687</parameter></step>
+<step outcome="successful">Then the notification should be displayed with <parameter>786787687</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=158338199, password=1966-6-6}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>158338199</parameter> and <parameter>1966-6-6</parameter></step>
+<step outcome="successful">Then the user is on the summary page with <parameter>158338199</parameter></step>
+<step outcome="successful">Then the notification should be displayed with <parameter>158338199</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=430993352, password=1987-12-12}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>430993352</parameter> and <parameter>1987-12-12</parameter></step>
+<step outcome="successful">Then the user is on the summary page with <parameter>430993352</parameter></step>
+<step outcome="successful">Then the notification should be displayed with <parameter>430993352</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=875473101, password=1979-1-2}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>875473101</parameter> and <parameter>1979-1-2</parameter></step>
+<step outcome="successful">Then the user is on the summary page with <parameter>875473101</parameter></step>
+<step outcome="successful">Then the notification should be displayed with <parameter>875473101</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=735213161, password=1968-05-01}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>735213161</parameter> and <parameter>1968-05-01</parameter></step>
+<step outcome="successful">Then the user is on the summary page with <parameter>735213161</parameter></step>
+<step outcome="successful">Then the notification should be displayed with <parameter>735213161</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=594575741, password=1961-01-01}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>594575741</parameter> and <parameter>1961-01-01</parameter></step>
+<step outcome="successful">Then the user is on the summary page with <parameter>594575741</parameter></step>
+<step outcome="successful">Then the notification should be displayed with <parameter>594575741</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=333011003, password=1990-01-04}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>333011003</parameter> and <parameter>1990-01-04</parameter></step>
+<step outcome="successful">Then the user is on the summary page with <parameter>333011003</parameter></step>
+<step outcome="successful">Then the notification should be displayed with <parameter>333011003</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=333011004, password=1990-01-05}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>333011004</parameter> and <parameter>1990-01-05</parameter></step>
+<step outcome="successful">Then the user is on the summary page with <parameter>333011004</parameter></step>
+<step outcome="successful">Then the notification should be displayed with <parameter>333011004</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=333011005, password=1990-01-06}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>333011005</parameter> and <parameter>1990-01-06</parameter></step>
+<step outcome="successful">Then the user is on the summary page with <parameter>333011005</parameter></step>
+<step outcome="successful">Then the notification should be displayed with <parameter>333011005</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=333011006, password=1990-01-07}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>333011006</parameter> and <parameter>1990-01-07</parameter></step>
+<step outcome="successful">Then the user is on the summary page with <parameter>333011006</parameter></step>
+<step outcome="successful">Then the notification should be displayed with <parameter>333011006</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=333011007, password=1990-01-08}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>333011007</parameter> and <parameter>1990-01-08</parameter></step>
+<step outcome="successful">Then the user is on the summary page with <parameter>333011007</parameter></step>
+<step outcome="successful">Then the notification should be displayed with <parameter>333011007</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=049828525, password=1971-11-11}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>049828525</parameter> and <parameter>1971-11-11</parameter></step>
+<step outcome="successful">Then the user is on the summary page with <parameter>049828525</parameter></step>
+<step outcome="successful">Then the notification should be displayed with <parameter>049828525</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=001010001, password=1919-12-12}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>001010001</parameter> and <parameter>1919-12-12</parameter></step>
+<step outcome="successful">Then the user is on the summary page with <parameter>001010001</parameter></step>
+<step outcome="successful">Then the notification should be displayed with <parameter>001010001</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=735151123, password=1968-05-01}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>735151123</parameter> and <parameter>1968-05-01</parameter></step>
+<step outcome="successful">Then the user is on the summary page with <parameter>735151123</parameter></step>
+<step outcome="successful">Then the notification should be displayed with <parameter>735151123</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=735251523, password=1968-05-01}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>735251523</parameter> and <parameter>1968-05-01</parameter></step>
+<step outcome="successful">Then the user is on the summary page with <parameter>735251523</parameter></step>
+<step outcome="successful">Then the notification should be displayed with <parameter>735251523</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=430991038, password=1987-3-26}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>430991038</parameter> and <parameter>1987-3-26</parameter></step>
+<step outcome="successful">Then the user is on the summary page with <parameter>430991038</parameter></step>
+<step outcome="successful">Then the notification should be displayed with <parameter>430991038</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=265798306, password=1966-12-12}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>265798306</parameter> and <parameter>1966-12-12</parameter></step>
+<step outcome="successful">Then the user is on the summary page with <parameter>265798306</parameter></step>
+<step outcome="successful">Then the notification should be displayed with <parameter>265798306</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+</examples>
 </scenario>
-<scenario keyword="Scenario:" title="Update insurance application information">
-<step outcome="successful">Given the user is on the dashboard homepage</step>
-<step outcome="successful">When the user reviews the application</step>
-<step outcome="successful">Then the user should update insurance information</step>
+<scenario keyword="Scenario:" title="View personalized list of FOAs from the additional resources">
+<examples keyword="Examples:">
+<step>Given the user is on the dashboard page</step>
+<step>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</step>
+<step>Then the user views additional resources with the &lt;username&gt;</step>
+<step>Then the user should view the list of FOAs with &lt;username&gt;</step>
+<step>Then the user logs out of the dashboard</step>
+<step>Then they should see the home page</step>
+<parameters>
+<names><name>username</name><name>password</name></names>
+<values><value>430990610</value><value>1960-9-15</value></values>
+<values><value>786787687</value><value>1984-1-1</value></values>
+<values><value>158338199</value><value>1966-6-6</value></values>
+<values><value>430993352</value><value>1987-12-12</value></values>
+<values><value>875473101</value><value>1979-1-2</value></values>
+<values><value>735213161</value><value>1968-05-01</value></values>
+<values><value>594575741</value><value>1961-01-01</value></values>
+<values><value>333011003</value><value>1990-01-04</value></values>
+<values><value>333011004</value><value>1990-01-05</value></values>
+<values><value>333011005</value><value>1990-01-06</value></values>
+<values><value>333011006</value><value>1990-01-07</value></values>
+<values><value>333011007</value><value>1990-01-08</value></values>
+<values><value>049828525</value><value>1971-11-11</value></values>
+<values><value>001010001</value><value>1919-12-12</value></values>
+<values><value>735151123</value><value>1968-05-01</value></values>
+<values><value>735251523</value><value>1968-05-01</value></values>
+<values><value>430991038</value><value>1987-3-26</value></values>
+<values><value>265798306</value><value>1966-12-12</value></values>
+</parameters>
+
+<example keyword="Example:">{username=430990610, password=1960-9-15}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>430990610</parameter> and <parameter>1960-9-15</parameter></step>
+<step outcome="successful">Then the user views additional resources with the <parameter>430990610</parameter></step>
+<step outcome="successful">Then the user should view the list of FOAs with <parameter>430990610</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=786787687, password=1984-1-1}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>786787687</parameter> and <parameter>1984-1-1</parameter></step>
+<step outcome="successful">Then the user views additional resources with the <parameter>786787687</parameter></step>
+<step outcome="successful">Then the user should view the list of FOAs with <parameter>786787687</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=158338199, password=1966-6-6}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>158338199</parameter> and <parameter>1966-6-6</parameter></step>
+<step outcome="successful">Then the user views additional resources with the <parameter>158338199</parameter></step>
+<step outcome="successful">Then the user should view the list of FOAs with <parameter>158338199</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=430993352, password=1987-12-12}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>430993352</parameter> and <parameter>1987-12-12</parameter></step>
+<step outcome="successful">Then the user views additional resources with the <parameter>430993352</parameter></step>
+<step outcome="successful">Then the user should view the list of FOAs with <parameter>430993352</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=875473101, password=1979-1-2}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>875473101</parameter> and <parameter>1979-1-2</parameter></step>
+<step outcome="successful">Then the user views additional resources with the <parameter>875473101</parameter></step>
+<step outcome="successful">Then the user should view the list of FOAs with <parameter>875473101</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=735213161, password=1968-05-01}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>735213161</parameter> and <parameter>1968-05-01</parameter></step>
+<step outcome="successful">Then the user views additional resources with the <parameter>735213161</parameter></step>
+<step outcome="successful">Then the user should view the list of FOAs with <parameter>735213161</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=594575741, password=1961-01-01}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>594575741</parameter> and <parameter>1961-01-01</parameter></step>
+<step outcome="successful">Then the user views additional resources with the <parameter>594575741</parameter></step>
+<step outcome="successful">Then the user should view the list of FOAs with <parameter>594575741</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=333011003, password=1990-01-04}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>333011003</parameter> and <parameter>1990-01-04</parameter></step>
+<step outcome="successful">Then the user views additional resources with the <parameter>333011003</parameter></step>
+<step outcome="successful">Then the user should view the list of FOAs with <parameter>333011003</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=333011004, password=1990-01-05}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>333011004</parameter> and <parameter>1990-01-05</parameter></step>
+<step outcome="successful">Then the user views additional resources with the <parameter>333011004</parameter></step>
+<step outcome="successful">Then the user should view the list of FOAs with <parameter>333011004</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=333011005, password=1990-01-06}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>333011005</parameter> and <parameter>1990-01-06</parameter></step>
+<step outcome="successful">Then the user views additional resources with the <parameter>333011005</parameter></step>
+<step outcome="successful">Then the user should view the list of FOAs with <parameter>333011005</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=333011006, password=1990-01-07}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>333011006</parameter> and <parameter>1990-01-07</parameter></step>
+<step outcome="successful">Then the user views additional resources with the <parameter>333011006</parameter></step>
+<step outcome="successful">Then the user should view the list of FOAs with <parameter>333011006</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=333011007, password=1990-01-08}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>333011007</parameter> and <parameter>1990-01-08</parameter></step>
+<step outcome="successful">Then the user views additional resources with the <parameter>333011007</parameter></step>
+<step outcome="successful">Then the user should view the list of FOAs with <parameter>333011007</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=049828525, password=1971-11-11}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>049828525</parameter> and <parameter>1971-11-11</parameter></step>
+<step outcome="successful">Then the user views additional resources with the <parameter>049828525</parameter></step>
+<step outcome="successful">Then the user should view the list of FOAs with <parameter>049828525</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=001010001, password=1919-12-12}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>001010001</parameter> and <parameter>1919-12-12</parameter></step>
+<step outcome="successful">Then the user views additional resources with the <parameter>001010001</parameter></step>
+<step outcome="successful">Then the user should view the list of FOAs with <parameter>001010001</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=735151123, password=1968-05-01}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>735151123</parameter> and <parameter>1968-05-01</parameter></step>
+<step outcome="successful">Then the user views additional resources with the <parameter>735151123</parameter></step>
+<step outcome="successful">Then the user should view the list of FOAs with <parameter>735151123</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=735251523, password=1968-05-01}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>735251523</parameter> and <parameter>1968-05-01</parameter></step>
+<step outcome="successful">Then the user views additional resources with the <parameter>735251523</parameter></step>
+<step outcome="successful">Then the user should view the list of FOAs with <parameter>735251523</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=430991038, password=1987-3-26}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>430991038</parameter> and <parameter>1987-3-26</parameter></step>
+<step outcome="successful">Then the user views additional resources with the <parameter>430991038</parameter></step>
+<step outcome="successful">Then the user should view the list of FOAs with <parameter>430991038</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=265798306, password=1966-12-12}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>265798306</parameter> and <parameter>1966-12-12</parameter></step>
+<step outcome="successful">Then the user views additional resources with the <parameter>265798306</parameter></step>
+<step outcome="successful">Then the user should view the list of FOAs with <parameter>265798306</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+</examples>
+</scenario>
+<scenario keyword="Scenario:" title="All information is updated and saved">
+<examples keyword="Examples:">
+<step>Given the user is on the dashboard page</step>
+<step>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</step>
+<step>Then the user reviews the application with &lt;username&gt;</step>
+<step>Then the user should view mailing address information with &lt;username&gt;</step>
+<step>Then the user should view phone number information with &lt;username&gt;</step>
+<step>Then the user should view electronic fund information with &lt;username&gt;</step>
+<step>Then the user should view insurance information with &lt;username&gt;</step>
+<step>Then the user should update mailing address information</step>
+<step>Then the user should update phone number information with &lt;username&gt;</step>
+<step>Then the user should update insurance information with &lt;username&gt;</step>
+<step>Then the user goes back to the summary page</step>
+<step>Then the user reviews the application with &lt;username&gt;</step>
+<step>Then the user should see their saved mailing information</step>
+<step>Then the user should see their saved phone number information</step>
+<step>Then the user should see their saved insurance information with &lt;username&gt;</step>
+<step>Then the user logs out of the dashboard</step>
+<step>Then they should see the home page</step>
+<parameters>
+<names><name>username</name><name>password</name></names>
+<values><value>430990610</value><value>1960-9-15</value></values>
+<values><value>786787687</value><value>1984-1-1</value></values>
+<values><value>158338199</value><value>1966-6-6</value></values>
+<values><value>430993352</value><value>1987-12-12</value></values>
+<values><value>735213161</value><value>1968-05-01</value></values>
+<values><value>594575741</value><value>1961-01-01</value></values>
+<values><value>333011003</value><value>1990-01-04</value></values>
+<values><value>333011004</value><value>1990-01-05</value></values>
+<values><value>333011005</value><value>1990-01-06</value></values>
+<values><value>333011006</value><value>1990-01-07</value></values>
+<values><value>049828525</value><value>1971-11-11</value></values>
+<values><value>001010001</value><value>1919-12-12</value></values>
+<values><value>735151123</value><value>1968-05-01</value></values>
+<values><value>735251523</value><value>1968-05-01</value></values>
+<values><value>430991038</value><value>1987-3-26</value></values>
+<values><value>265798306</value><value>1966-12-12</value></values>
+</parameters>
+
+<example keyword="Example:">{username=430990610, password=1960-9-15}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>430990610</parameter> and <parameter>1960-9-15</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>430990610</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>430990610</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>430990610</parameter></step>
+<step outcome="successful">Then the user should view electronic fund information with <parameter>430990610</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>430990610</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>430990610</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>430990610</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>430990610</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>430990610</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=786787687, password=1984-1-1}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>786787687</parameter> and <parameter>1984-1-1</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>786787687</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>786787687</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>786787687</parameter></step>
+<step outcome="successful">Then the user should view electronic fund information with <parameter>786787687</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>786787687</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>786787687</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>786787687</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>786787687</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>786787687</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=158338199, password=1966-6-6}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>158338199</parameter> and <parameter>1966-6-6</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>158338199</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>158338199</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>158338199</parameter></step>
+<step outcome="successful">Then the user should view electronic fund information with <parameter>158338199</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>158338199</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>158338199</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>158338199</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>158338199</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>158338199</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=430993352, password=1987-12-12}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>430993352</parameter> and <parameter>1987-12-12</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>430993352</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>430993352</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>430993352</parameter></step>
+<step outcome="successful">Then the user should view electronic fund information with <parameter>430993352</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>430993352</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>430993352</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>430993352</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>430993352</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>430993352</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=735213161, password=1968-05-01}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>735213161</parameter> and <parameter>1968-05-01</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>735213161</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>735213161</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>735213161</parameter></step>
+<step outcome="successful">Then the user should view electronic fund information with <parameter>735213161</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>735213161</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>735213161</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>735213161</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>735213161</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>735213161</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=594575741, password=1961-01-01}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>594575741</parameter> and <parameter>1961-01-01</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>594575741</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>594575741</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>594575741</parameter></step>
+<step outcome="successful">Then the user should view electronic fund information with <parameter>594575741</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>594575741</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>594575741</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>594575741</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>594575741</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>594575741</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=333011003, password=1990-01-04}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>333011003</parameter> and <parameter>1990-01-04</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>333011003</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>333011003</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>333011003</parameter></step>
+<step outcome="successful">Then the user should view electronic fund information with <parameter>333011003</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>333011003</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>333011003</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>333011003</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>333011003</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>333011003</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=333011004, password=1990-01-05}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>333011004</parameter> and <parameter>1990-01-05</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>333011004</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>333011004</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>333011004</parameter></step>
+<step outcome="successful">Then the user should view electronic fund information with <parameter>333011004</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>333011004</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>333011004</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>333011004</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>333011004</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>333011004</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=333011005, password=1990-01-06}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>333011005</parameter> and <parameter>1990-01-06</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>333011005</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>333011005</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>333011005</parameter></step>
+<step outcome="successful">Then the user should view electronic fund information with <parameter>333011005</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>333011005</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>333011005</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>333011005</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>333011005</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>333011005</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=333011006, password=1990-01-07}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>333011006</parameter> and <parameter>1990-01-07</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>333011006</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>333011006</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>333011006</parameter></step>
+<step outcome="successful">Then the user should view electronic fund information with <parameter>333011006</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>333011006</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>333011006</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>333011006</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>333011006</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>333011006</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=049828525, password=1971-11-11}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>049828525</parameter> and <parameter>1971-11-11</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>049828525</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>049828525</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>049828525</parameter></step>
+<step outcome="successful">Then the user should view electronic fund information with <parameter>049828525</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>049828525</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>049828525</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>049828525</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>049828525</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>049828525</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=001010001, password=1919-12-12}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>001010001</parameter> and <parameter>1919-12-12</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>001010001</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>001010001</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>001010001</parameter></step>
+<step outcome="successful">Then the user should view electronic fund information with <parameter>001010001</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>001010001</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>001010001</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>001010001</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>001010001</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>001010001</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=735151123, password=1968-05-01}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>735151123</parameter> and <parameter>1968-05-01</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>735151123</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>735151123</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>735151123</parameter></step>
+<step outcome="successful">Then the user should view electronic fund information with <parameter>735151123</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>735151123</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>735151123</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>735151123</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>735151123</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>735151123</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=735251523, password=1968-05-01}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>735251523</parameter> and <parameter>1968-05-01</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>735251523</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>735251523</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>735251523</parameter></step>
+<step outcome="successful">Then the user should view electronic fund information with <parameter>735251523</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>735251523</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>735251523</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>735251523</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>735251523</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>735251523</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=430991038, password=1987-3-26}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>430991038</parameter> and <parameter>1987-3-26</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>430991038</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>430991038</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>430991038</parameter></step>
+<step outcome="successful">Then the user should view electronic fund information with <parameter>430991038</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>430991038</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>430991038</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>430991038</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>430991038</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>430991038</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+
+<example keyword="Example:">{username=265798306, password=1966-12-12}</example>
+<step outcome="successful">Given the user is on the dashboard page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>265798306</parameter> and <parameter>1966-12-12</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>265798306</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>265798306</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>265798306</parameter></step>
+<step outcome="successful">Then the user should view electronic fund information with <parameter>265798306</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>265798306</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>265798306</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>265798306</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>265798306</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>265798306</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
+</examples>
 </scenario>
 </story>

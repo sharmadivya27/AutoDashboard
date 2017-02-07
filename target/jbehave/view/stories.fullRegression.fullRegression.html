@@ -15,16 +15,771 @@
 <div class="element iWantTo"><span class="keyword iWantTo">I want to</span> run the daily regressions at least twice a day</div>
 </div>
 <div class="scenario">
-<h2>Scenario: Logging into the dashboard</h2>
+<h2>Scenario: View notifications on homepage</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given the user is on the dashboard page</div>
+<div class="step">When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</div>
+<div class="step">Then the user is on the summary page with &lt;username&gt;</div>
+<div class="step">Then the notification should be displayed with &lt;username&gt;</div>
+<div class="step">Then the user logs out of the dashboard</div>
+<div class="step">Then they should see the home page</div>
+<table>
+<thead>
+<tr>
+<th>username</th><th>password</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>430990610</td><td>1960-9-15</td></tr>
+<tr>
+<td>786787687</td><td>1984-1-1</td></tr>
+<tr>
+<td>158338199</td><td>1966-6-6</td></tr>
+<tr>
+<td>430993352</td><td>1987-12-12</td></tr>
+<tr>
+<td>875473101</td><td>1979-1-2</td></tr>
+<tr>
+<td>735213161</td><td>1968-05-01</td></tr>
+<tr>
+<td>594575741</td><td>1961-01-01</td></tr>
+<tr>
+<td>333011003</td><td>1990-01-04</td></tr>
+<tr>
+<td>333011004</td><td>1990-01-05</td></tr>
+<tr>
+<td>333011005</td><td>1990-01-06</td></tr>
+<tr>
+<td>333011006</td><td>1990-01-07</td></tr>
+<tr>
+<td>333011007</td><td>1990-01-08</td></tr>
+<tr>
+<td>049828525</td><td>1971-11-11</td></tr>
+<tr>
+<td>001010001</td><td>1919-12-12</td></tr>
+<tr>
+<td>735151123</td><td>1968-05-01</td></tr>
+<tr>
+<td>735251523</td><td>1968-05-01</td></tr>
+<tr>
+<td>430991038</td><td>1987-3-26</td></tr>
+<tr>
+<td>265798306</td><td>1966-12-12</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {username=430990610, password=1960-9-15}</h3>
 <div class="step successful">Given the user is on the dashboard page</div>
-<div class="step successful">When the user logs into the dashboard</div>
-<div class="step successful">Then they should see the the summary page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">430990610</span> and <span class="step parameter">1960-9-15</span></div>
+<div class="step successful">Then the user is on the summary page with <span class="step parameter">430990610</span></div>
+<div class="step successful">Then the notification should be displayed with <span class="step parameter">430990610</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=786787687, password=1984-1-1}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">786787687</span> and <span class="step parameter">1984-1-1</span></div>
+<div class="step successful">Then the user is on the summary page with <span class="step parameter">786787687</span></div>
+<div class="step successful">Then the notification should be displayed with <span class="step parameter">786787687</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=158338199, password=1966-6-6}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">158338199</span> and <span class="step parameter">1966-6-6</span></div>
+<div class="step successful">Then the user is on the summary page with <span class="step parameter">158338199</span></div>
+<div class="step successful">Then the notification should be displayed with <span class="step parameter">158338199</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=430993352, password=1987-12-12}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">430993352</span> and <span class="step parameter">1987-12-12</span></div>
+<div class="step successful">Then the user is on the summary page with <span class="step parameter">430993352</span></div>
+<div class="step successful">Then the notification should be displayed with <span class="step parameter">430993352</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=875473101, password=1979-1-2}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">875473101</span> and <span class="step parameter">1979-1-2</span></div>
+<div class="step successful">Then the user is on the summary page with <span class="step parameter">875473101</span></div>
+<div class="step successful">Then the notification should be displayed with <span class="step parameter">875473101</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=735213161, password=1968-05-01}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">735213161</span> and <span class="step parameter">1968-05-01</span></div>
+<div class="step successful">Then the user is on the summary page with <span class="step parameter">735213161</span></div>
+<div class="step successful">Then the notification should be displayed with <span class="step parameter">735213161</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=594575741, password=1961-01-01}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">594575741</span> and <span class="step parameter">1961-01-01</span></div>
+<div class="step successful">Then the user is on the summary page with <span class="step parameter">594575741</span></div>
+<div class="step successful">Then the notification should be displayed with <span class="step parameter">594575741</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=333011003, password=1990-01-04}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">333011003</span> and <span class="step parameter">1990-01-04</span></div>
+<div class="step successful">Then the user is on the summary page with <span class="step parameter">333011003</span></div>
+<div class="step successful">Then the notification should be displayed with <span class="step parameter">333011003</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=333011004, password=1990-01-05}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">333011004</span> and <span class="step parameter">1990-01-05</span></div>
+<div class="step successful">Then the user is on the summary page with <span class="step parameter">333011004</span></div>
+<div class="step successful">Then the notification should be displayed with <span class="step parameter">333011004</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=333011005, password=1990-01-06}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">333011005</span> and <span class="step parameter">1990-01-06</span></div>
+<div class="step successful">Then the user is on the summary page with <span class="step parameter">333011005</span></div>
+<div class="step successful">Then the notification should be displayed with <span class="step parameter">333011005</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=333011006, password=1990-01-07}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">333011006</span> and <span class="step parameter">1990-01-07</span></div>
+<div class="step successful">Then the user is on the summary page with <span class="step parameter">333011006</span></div>
+<div class="step successful">Then the notification should be displayed with <span class="step parameter">333011006</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=333011007, password=1990-01-08}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">333011007</span> and <span class="step parameter">1990-01-08</span></div>
+<div class="step successful">Then the user is on the summary page with <span class="step parameter">333011007</span></div>
+<div class="step successful">Then the notification should be displayed with <span class="step parameter">333011007</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=049828525, password=1971-11-11}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">049828525</span> and <span class="step parameter">1971-11-11</span></div>
+<div class="step successful">Then the user is on the summary page with <span class="step parameter">049828525</span></div>
+<div class="step successful">Then the notification should be displayed with <span class="step parameter">049828525</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=001010001, password=1919-12-12}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">001010001</span> and <span class="step parameter">1919-12-12</span></div>
+<div class="step successful">Then the user is on the summary page with <span class="step parameter">001010001</span></div>
+<div class="step successful">Then the notification should be displayed with <span class="step parameter">001010001</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=735151123, password=1968-05-01}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">735151123</span> and <span class="step parameter">1968-05-01</span></div>
+<div class="step successful">Then the user is on the summary page with <span class="step parameter">735151123</span></div>
+<div class="step successful">Then the notification should be displayed with <span class="step parameter">735151123</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=735251523, password=1968-05-01}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">735251523</span> and <span class="step parameter">1968-05-01</span></div>
+<div class="step successful">Then the user is on the summary page with <span class="step parameter">735251523</span></div>
+<div class="step successful">Then the notification should be displayed with <span class="step parameter">735251523</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=430991038, password=1987-3-26}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">430991038</span> and <span class="step parameter">1987-3-26</span></div>
+<div class="step successful">Then the user is on the summary page with <span class="step parameter">430991038</span></div>
+<div class="step successful">Then the notification should be displayed with <span class="step parameter">430991038</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=265798306, password=1966-12-12}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">265798306</span> and <span class="step parameter">1966-12-12</span></div>
+<div class="step successful">Then the user is on the summary page with <span class="step parameter">265798306</span></div>
+<div class="step successful">Then the notification should be displayed with <span class="step parameter">265798306</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+</div>
 </div>
 <div class="scenario">
-<h2>Scenario: Update insurance application information</h2>
-<div class="step successful">Given the user is on the dashboard homepage</div>
-<div class="step successful">When the user reviews the application</div>
-<div class="step successful">Then the user should update insurance information</div>
+<h2>Scenario: View personalized list of FOAs from the additional resources</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given the user is on the dashboard page</div>
+<div class="step">When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</div>
+<div class="step">Then the user views additional resources with the &lt;username&gt;</div>
+<div class="step">Then the user should view the list of FOAs with &lt;username&gt;</div>
+<div class="step">Then the user logs out of the dashboard</div>
+<div class="step">Then they should see the home page</div>
+<table>
+<thead>
+<tr>
+<th>username</th><th>password</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>430990610</td><td>1960-9-15</td></tr>
+<tr>
+<td>786787687</td><td>1984-1-1</td></tr>
+<tr>
+<td>158338199</td><td>1966-6-6</td></tr>
+<tr>
+<td>430993352</td><td>1987-12-12</td></tr>
+<tr>
+<td>875473101</td><td>1979-1-2</td></tr>
+<tr>
+<td>735213161</td><td>1968-05-01</td></tr>
+<tr>
+<td>594575741</td><td>1961-01-01</td></tr>
+<tr>
+<td>333011003</td><td>1990-01-04</td></tr>
+<tr>
+<td>333011004</td><td>1990-01-05</td></tr>
+<tr>
+<td>333011005</td><td>1990-01-06</td></tr>
+<tr>
+<td>333011006</td><td>1990-01-07</td></tr>
+<tr>
+<td>333011007</td><td>1990-01-08</td></tr>
+<tr>
+<td>049828525</td><td>1971-11-11</td></tr>
+<tr>
+<td>001010001</td><td>1919-12-12</td></tr>
+<tr>
+<td>735151123</td><td>1968-05-01</td></tr>
+<tr>
+<td>735251523</td><td>1968-05-01</td></tr>
+<tr>
+<td>430991038</td><td>1987-3-26</td></tr>
+<tr>
+<td>265798306</td><td>1966-12-12</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {username=430990610, password=1960-9-15}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">430990610</span> and <span class="step parameter">1960-9-15</span></div>
+<div class="step successful">Then the user views additional resources with the <span class="step parameter">430990610</span></div>
+<div class="step successful">Then the user should view the list of FOAs with <span class="step parameter">430990610</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=786787687, password=1984-1-1}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">786787687</span> and <span class="step parameter">1984-1-1</span></div>
+<div class="step successful">Then the user views additional resources with the <span class="step parameter">786787687</span></div>
+<div class="step successful">Then the user should view the list of FOAs with <span class="step parameter">786787687</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=158338199, password=1966-6-6}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">158338199</span> and <span class="step parameter">1966-6-6</span></div>
+<div class="step successful">Then the user views additional resources with the <span class="step parameter">158338199</span></div>
+<div class="step successful">Then the user should view the list of FOAs with <span class="step parameter">158338199</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=430993352, password=1987-12-12}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">430993352</span> and <span class="step parameter">1987-12-12</span></div>
+<div class="step successful">Then the user views additional resources with the <span class="step parameter">430993352</span></div>
+<div class="step successful">Then the user should view the list of FOAs with <span class="step parameter">430993352</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=875473101, password=1979-1-2}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">875473101</span> and <span class="step parameter">1979-1-2</span></div>
+<div class="step successful">Then the user views additional resources with the <span class="step parameter">875473101</span></div>
+<div class="step successful">Then the user should view the list of FOAs with <span class="step parameter">875473101</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=735213161, password=1968-05-01}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">735213161</span> and <span class="step parameter">1968-05-01</span></div>
+<div class="step successful">Then the user views additional resources with the <span class="step parameter">735213161</span></div>
+<div class="step successful">Then the user should view the list of FOAs with <span class="step parameter">735213161</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=594575741, password=1961-01-01}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">594575741</span> and <span class="step parameter">1961-01-01</span></div>
+<div class="step successful">Then the user views additional resources with the <span class="step parameter">594575741</span></div>
+<div class="step successful">Then the user should view the list of FOAs with <span class="step parameter">594575741</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=333011003, password=1990-01-04}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">333011003</span> and <span class="step parameter">1990-01-04</span></div>
+<div class="step successful">Then the user views additional resources with the <span class="step parameter">333011003</span></div>
+<div class="step successful">Then the user should view the list of FOAs with <span class="step parameter">333011003</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=333011004, password=1990-01-05}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">333011004</span> and <span class="step parameter">1990-01-05</span></div>
+<div class="step successful">Then the user views additional resources with the <span class="step parameter">333011004</span></div>
+<div class="step successful">Then the user should view the list of FOAs with <span class="step parameter">333011004</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=333011005, password=1990-01-06}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">333011005</span> and <span class="step parameter">1990-01-06</span></div>
+<div class="step successful">Then the user views additional resources with the <span class="step parameter">333011005</span></div>
+<div class="step successful">Then the user should view the list of FOAs with <span class="step parameter">333011005</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=333011006, password=1990-01-07}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">333011006</span> and <span class="step parameter">1990-01-07</span></div>
+<div class="step successful">Then the user views additional resources with the <span class="step parameter">333011006</span></div>
+<div class="step successful">Then the user should view the list of FOAs with <span class="step parameter">333011006</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=333011007, password=1990-01-08}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">333011007</span> and <span class="step parameter">1990-01-08</span></div>
+<div class="step successful">Then the user views additional resources with the <span class="step parameter">333011007</span></div>
+<div class="step successful">Then the user should view the list of FOAs with <span class="step parameter">333011007</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=049828525, password=1971-11-11}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">049828525</span> and <span class="step parameter">1971-11-11</span></div>
+<div class="step successful">Then the user views additional resources with the <span class="step parameter">049828525</span></div>
+<div class="step successful">Then the user should view the list of FOAs with <span class="step parameter">049828525</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=001010001, password=1919-12-12}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">001010001</span> and <span class="step parameter">1919-12-12</span></div>
+<div class="step successful">Then the user views additional resources with the <span class="step parameter">001010001</span></div>
+<div class="step successful">Then the user should view the list of FOAs with <span class="step parameter">001010001</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=735151123, password=1968-05-01}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">735151123</span> and <span class="step parameter">1968-05-01</span></div>
+<div class="step successful">Then the user views additional resources with the <span class="step parameter">735151123</span></div>
+<div class="step successful">Then the user should view the list of FOAs with <span class="step parameter">735151123</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=735251523, password=1968-05-01}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">735251523</span> and <span class="step parameter">1968-05-01</span></div>
+<div class="step successful">Then the user views additional resources with the <span class="step parameter">735251523</span></div>
+<div class="step successful">Then the user should view the list of FOAs with <span class="step parameter">735251523</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=430991038, password=1987-3-26}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">430991038</span> and <span class="step parameter">1987-3-26</span></div>
+<div class="step successful">Then the user views additional resources with the <span class="step parameter">430991038</span></div>
+<div class="step successful">Then the user should view the list of FOAs with <span class="step parameter">430991038</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=265798306, password=1966-12-12}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">265798306</span> and <span class="step parameter">1966-12-12</span></div>
+<div class="step successful">Then the user views additional resources with the <span class="step parameter">265798306</span></div>
+<div class="step successful">Then the user should view the list of FOAs with <span class="step parameter">265798306</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: All information is updated and saved</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given the user is on the dashboard page</div>
+<div class="step">When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</div>
+<div class="step">Then the user reviews the application with &lt;username&gt;</div>
+<div class="step">Then the user should view mailing address information with &lt;username&gt;</div>
+<div class="step">Then the user should view phone number information with &lt;username&gt;</div>
+<div class="step">Then the user should view electronic fund information with &lt;username&gt;</div>
+<div class="step">Then the user should view insurance information with &lt;username&gt;</div>
+<div class="step">Then the user should update mailing address information</div>
+<div class="step">Then the user should update phone number information with &lt;username&gt;</div>
+<div class="step">Then the user should update insurance information with &lt;username&gt;</div>
+<div class="step">Then the user goes back to the summary page</div>
+<div class="step">Then the user reviews the application with &lt;username&gt;</div>
+<div class="step">Then the user should see their saved mailing information</div>
+<div class="step">Then the user should see their saved phone number information</div>
+<div class="step">Then the user should see their saved insurance information with &lt;username&gt;</div>
+<div class="step">Then the user logs out of the dashboard</div>
+<div class="step">Then they should see the home page</div>
+<table>
+<thead>
+<tr>
+<th>username</th><th>password</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>430990610</td><td>1960-9-15</td></tr>
+<tr>
+<td>786787687</td><td>1984-1-1</td></tr>
+<tr>
+<td>158338199</td><td>1966-6-6</td></tr>
+<tr>
+<td>430993352</td><td>1987-12-12</td></tr>
+<tr>
+<td>735213161</td><td>1968-05-01</td></tr>
+<tr>
+<td>594575741</td><td>1961-01-01</td></tr>
+<tr>
+<td>333011003</td><td>1990-01-04</td></tr>
+<tr>
+<td>333011004</td><td>1990-01-05</td></tr>
+<tr>
+<td>333011005</td><td>1990-01-06</td></tr>
+<tr>
+<td>333011006</td><td>1990-01-07</td></tr>
+<tr>
+<td>049828525</td><td>1971-11-11</td></tr>
+<tr>
+<td>001010001</td><td>1919-12-12</td></tr>
+<tr>
+<td>735151123</td><td>1968-05-01</td></tr>
+<tr>
+<td>735251523</td><td>1968-05-01</td></tr>
+<tr>
+<td>430991038</td><td>1987-3-26</td></tr>
+<tr>
+<td>265798306</td><td>1966-12-12</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {username=430990610, password=1960-9-15}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">430990610</span> and <span class="step parameter">1960-9-15</span></div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">430990610</span></div>
+<div class="step successful">Then the user should view mailing address information with <span class="step parameter">430990610</span></div>
+<div class="step successful">Then the user should view phone number information with <span class="step parameter">430990610</span></div>
+<div class="step successful">Then the user should view electronic fund information with <span class="step parameter">430990610</span></div>
+<div class="step successful">Then the user should view insurance information with <span class="step parameter">430990610</span></div>
+<div class="step successful">Then the user should update mailing address information</div>
+<div class="step successful">Then the user should update phone number information with <span class="step parameter">430990610</span></div>
+<div class="step successful">Then the user should update insurance information with <span class="step parameter">430990610</span></div>
+<div class="step successful">Then the user goes back to the summary page</div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">430990610</span></div>
+<div class="step successful">Then the user should see their saved mailing information</div>
+<div class="step successful">Then the user should see their saved phone number information</div>
+<div class="step successful">Then the user should see their saved insurance information with <span class="step parameter">430990610</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=786787687, password=1984-1-1}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">786787687</span> and <span class="step parameter">1984-1-1</span></div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">786787687</span></div>
+<div class="step successful">Then the user should view mailing address information with <span class="step parameter">786787687</span></div>
+<div class="step successful">Then the user should view phone number information with <span class="step parameter">786787687</span></div>
+<div class="step successful">Then the user should view electronic fund information with <span class="step parameter">786787687</span></div>
+<div class="step successful">Then the user should view insurance information with <span class="step parameter">786787687</span></div>
+<div class="step successful">Then the user should update mailing address information</div>
+<div class="step successful">Then the user should update phone number information with <span class="step parameter">786787687</span></div>
+<div class="step successful">Then the user should update insurance information with <span class="step parameter">786787687</span></div>
+<div class="step successful">Then the user goes back to the summary page</div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">786787687</span></div>
+<div class="step successful">Then the user should see their saved mailing information</div>
+<div class="step successful">Then the user should see their saved phone number information</div>
+<div class="step successful">Then the user should see their saved insurance information with <span class="step parameter">786787687</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=158338199, password=1966-6-6}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">158338199</span> and <span class="step parameter">1966-6-6</span></div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">158338199</span></div>
+<div class="step successful">Then the user should view mailing address information with <span class="step parameter">158338199</span></div>
+<div class="step successful">Then the user should view phone number information with <span class="step parameter">158338199</span></div>
+<div class="step successful">Then the user should view electronic fund information with <span class="step parameter">158338199</span></div>
+<div class="step successful">Then the user should view insurance information with <span class="step parameter">158338199</span></div>
+<div class="step successful">Then the user should update mailing address information</div>
+<div class="step successful">Then the user should update phone number information with <span class="step parameter">158338199</span></div>
+<div class="step successful">Then the user should update insurance information with <span class="step parameter">158338199</span></div>
+<div class="step successful">Then the user goes back to the summary page</div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">158338199</span></div>
+<div class="step successful">Then the user should see their saved mailing information</div>
+<div class="step successful">Then the user should see their saved phone number information</div>
+<div class="step successful">Then the user should see their saved insurance information with <span class="step parameter">158338199</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=430993352, password=1987-12-12}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">430993352</span> and <span class="step parameter">1987-12-12</span></div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">430993352</span></div>
+<div class="step successful">Then the user should view mailing address information with <span class="step parameter">430993352</span></div>
+<div class="step successful">Then the user should view phone number information with <span class="step parameter">430993352</span></div>
+<div class="step successful">Then the user should view electronic fund information with <span class="step parameter">430993352</span></div>
+<div class="step successful">Then the user should view insurance information with <span class="step parameter">430993352</span></div>
+<div class="step successful">Then the user should update mailing address information</div>
+<div class="step successful">Then the user should update phone number information with <span class="step parameter">430993352</span></div>
+<div class="step successful">Then the user should update insurance information with <span class="step parameter">430993352</span></div>
+<div class="step successful">Then the user goes back to the summary page</div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">430993352</span></div>
+<div class="step successful">Then the user should see their saved mailing information</div>
+<div class="step successful">Then the user should see their saved phone number information</div>
+<div class="step successful">Then the user should see their saved insurance information with <span class="step parameter">430993352</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=735213161, password=1968-05-01}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">735213161</span> and <span class="step parameter">1968-05-01</span></div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">735213161</span></div>
+<div class="step successful">Then the user should view mailing address information with <span class="step parameter">735213161</span></div>
+<div class="step successful">Then the user should view phone number information with <span class="step parameter">735213161</span></div>
+<div class="step successful">Then the user should view electronic fund information with <span class="step parameter">735213161</span></div>
+<div class="step successful">Then the user should view insurance information with <span class="step parameter">735213161</span></div>
+<div class="step successful">Then the user should update mailing address information</div>
+<div class="step successful">Then the user should update phone number information with <span class="step parameter">735213161</span></div>
+<div class="step successful">Then the user should update insurance information with <span class="step parameter">735213161</span></div>
+<div class="step successful">Then the user goes back to the summary page</div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">735213161</span></div>
+<div class="step successful">Then the user should see their saved mailing information</div>
+<div class="step successful">Then the user should see their saved phone number information</div>
+<div class="step successful">Then the user should see their saved insurance information with <span class="step parameter">735213161</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=594575741, password=1961-01-01}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">594575741</span> and <span class="step parameter">1961-01-01</span></div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">594575741</span></div>
+<div class="step successful">Then the user should view mailing address information with <span class="step parameter">594575741</span></div>
+<div class="step successful">Then the user should view phone number information with <span class="step parameter">594575741</span></div>
+<div class="step successful">Then the user should view electronic fund information with <span class="step parameter">594575741</span></div>
+<div class="step successful">Then the user should view insurance information with <span class="step parameter">594575741</span></div>
+<div class="step successful">Then the user should update mailing address information</div>
+<div class="step successful">Then the user should update phone number information with <span class="step parameter">594575741</span></div>
+<div class="step successful">Then the user should update insurance information with <span class="step parameter">594575741</span></div>
+<div class="step successful">Then the user goes back to the summary page</div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">594575741</span></div>
+<div class="step successful">Then the user should see their saved mailing information</div>
+<div class="step successful">Then the user should see their saved phone number information</div>
+<div class="step successful">Then the user should see their saved insurance information with <span class="step parameter">594575741</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=333011003, password=1990-01-04}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">333011003</span> and <span class="step parameter">1990-01-04</span></div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">333011003</span></div>
+<div class="step successful">Then the user should view mailing address information with <span class="step parameter">333011003</span></div>
+<div class="step successful">Then the user should view phone number information with <span class="step parameter">333011003</span></div>
+<div class="step successful">Then the user should view electronic fund information with <span class="step parameter">333011003</span></div>
+<div class="step successful">Then the user should view insurance information with <span class="step parameter">333011003</span></div>
+<div class="step successful">Then the user should update mailing address information</div>
+<div class="step successful">Then the user should update phone number information with <span class="step parameter">333011003</span></div>
+<div class="step successful">Then the user should update insurance information with <span class="step parameter">333011003</span></div>
+<div class="step successful">Then the user goes back to the summary page</div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">333011003</span></div>
+<div class="step successful">Then the user should see their saved mailing information</div>
+<div class="step successful">Then the user should see their saved phone number information</div>
+<div class="step successful">Then the user should see their saved insurance information with <span class="step parameter">333011003</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=333011004, password=1990-01-05}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">333011004</span> and <span class="step parameter">1990-01-05</span></div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">333011004</span></div>
+<div class="step successful">Then the user should view mailing address information with <span class="step parameter">333011004</span></div>
+<div class="step successful">Then the user should view phone number information with <span class="step parameter">333011004</span></div>
+<div class="step successful">Then the user should view electronic fund information with <span class="step parameter">333011004</span></div>
+<div class="step successful">Then the user should view insurance information with <span class="step parameter">333011004</span></div>
+<div class="step successful">Then the user should update mailing address information</div>
+<div class="step successful">Then the user should update phone number information with <span class="step parameter">333011004</span></div>
+<div class="step successful">Then the user should update insurance information with <span class="step parameter">333011004</span></div>
+<div class="step successful">Then the user goes back to the summary page</div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">333011004</span></div>
+<div class="step successful">Then the user should see their saved mailing information</div>
+<div class="step successful">Then the user should see their saved phone number information</div>
+<div class="step successful">Then the user should see their saved insurance information with <span class="step parameter">333011004</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=333011005, password=1990-01-06}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">333011005</span> and <span class="step parameter">1990-01-06</span></div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">333011005</span></div>
+<div class="step successful">Then the user should view mailing address information with <span class="step parameter">333011005</span></div>
+<div class="step successful">Then the user should view phone number information with <span class="step parameter">333011005</span></div>
+<div class="step successful">Then the user should view electronic fund information with <span class="step parameter">333011005</span></div>
+<div class="step successful">Then the user should view insurance information with <span class="step parameter">333011005</span></div>
+<div class="step successful">Then the user should update mailing address information</div>
+<div class="step successful">Then the user should update phone number information with <span class="step parameter">333011005</span></div>
+<div class="step successful">Then the user should update insurance information with <span class="step parameter">333011005</span></div>
+<div class="step successful">Then the user goes back to the summary page</div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">333011005</span></div>
+<div class="step successful">Then the user should see their saved mailing information</div>
+<div class="step successful">Then the user should see their saved phone number information</div>
+<div class="step successful">Then the user should see their saved insurance information with <span class="step parameter">333011005</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=333011006, password=1990-01-07}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">333011006</span> and <span class="step parameter">1990-01-07</span></div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">333011006</span></div>
+<div class="step successful">Then the user should view mailing address information with <span class="step parameter">333011006</span></div>
+<div class="step successful">Then the user should view phone number information with <span class="step parameter">333011006</span></div>
+<div class="step successful">Then the user should view electronic fund information with <span class="step parameter">333011006</span></div>
+<div class="step successful">Then the user should view insurance information with <span class="step parameter">333011006</span></div>
+<div class="step successful">Then the user should update mailing address information</div>
+<div class="step successful">Then the user should update phone number information with <span class="step parameter">333011006</span></div>
+<div class="step successful">Then the user should update insurance information with <span class="step parameter">333011006</span></div>
+<div class="step successful">Then the user goes back to the summary page</div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">333011006</span></div>
+<div class="step successful">Then the user should see their saved mailing information</div>
+<div class="step successful">Then the user should see their saved phone number information</div>
+<div class="step successful">Then the user should see their saved insurance information with <span class="step parameter">333011006</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=049828525, password=1971-11-11}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">049828525</span> and <span class="step parameter">1971-11-11</span></div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">049828525</span></div>
+<div class="step successful">Then the user should view mailing address information with <span class="step parameter">049828525</span></div>
+<div class="step successful">Then the user should view phone number information with <span class="step parameter">049828525</span></div>
+<div class="step successful">Then the user should view electronic fund information with <span class="step parameter">049828525</span></div>
+<div class="step successful">Then the user should view insurance information with <span class="step parameter">049828525</span></div>
+<div class="step successful">Then the user should update mailing address information</div>
+<div class="step successful">Then the user should update phone number information with <span class="step parameter">049828525</span></div>
+<div class="step successful">Then the user should update insurance information with <span class="step parameter">049828525</span></div>
+<div class="step successful">Then the user goes back to the summary page</div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">049828525</span></div>
+<div class="step successful">Then the user should see their saved mailing information</div>
+<div class="step successful">Then the user should see their saved phone number information</div>
+<div class="step successful">Then the user should see their saved insurance information with <span class="step parameter">049828525</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=001010001, password=1919-12-12}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">001010001</span> and <span class="step parameter">1919-12-12</span></div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">001010001</span></div>
+<div class="step successful">Then the user should view mailing address information with <span class="step parameter">001010001</span></div>
+<div class="step successful">Then the user should view phone number information with <span class="step parameter">001010001</span></div>
+<div class="step successful">Then the user should view electronic fund information with <span class="step parameter">001010001</span></div>
+<div class="step successful">Then the user should view insurance information with <span class="step parameter">001010001</span></div>
+<div class="step successful">Then the user should update mailing address information</div>
+<div class="step successful">Then the user should update phone number information with <span class="step parameter">001010001</span></div>
+<div class="step successful">Then the user should update insurance information with <span class="step parameter">001010001</span></div>
+<div class="step successful">Then the user goes back to the summary page</div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">001010001</span></div>
+<div class="step successful">Then the user should see their saved mailing information</div>
+<div class="step successful">Then the user should see their saved phone number information</div>
+<div class="step successful">Then the user should see their saved insurance information with <span class="step parameter">001010001</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=735151123, password=1968-05-01}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">735151123</span> and <span class="step parameter">1968-05-01</span></div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">735151123</span></div>
+<div class="step successful">Then the user should view mailing address information with <span class="step parameter">735151123</span></div>
+<div class="step successful">Then the user should view phone number information with <span class="step parameter">735151123</span></div>
+<div class="step successful">Then the user should view electronic fund information with <span class="step parameter">735151123</span></div>
+<div class="step successful">Then the user should view insurance information with <span class="step parameter">735151123</span></div>
+<div class="step successful">Then the user should update mailing address information</div>
+<div class="step successful">Then the user should update phone number information with <span class="step parameter">735151123</span></div>
+<div class="step successful">Then the user should update insurance information with <span class="step parameter">735151123</span></div>
+<div class="step successful">Then the user goes back to the summary page</div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">735151123</span></div>
+<div class="step successful">Then the user should see their saved mailing information</div>
+<div class="step successful">Then the user should see their saved phone number information</div>
+<div class="step successful">Then the user should see their saved insurance information with <span class="step parameter">735151123</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=735251523, password=1968-05-01}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">735251523</span> and <span class="step parameter">1968-05-01</span></div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">735251523</span></div>
+<div class="step successful">Then the user should view mailing address information with <span class="step parameter">735251523</span></div>
+<div class="step successful">Then the user should view phone number information with <span class="step parameter">735251523</span></div>
+<div class="step successful">Then the user should view electronic fund information with <span class="step parameter">735251523</span></div>
+<div class="step successful">Then the user should view insurance information with <span class="step parameter">735251523</span></div>
+<div class="step successful">Then the user should update mailing address information</div>
+<div class="step successful">Then the user should update phone number information with <span class="step parameter">735251523</span></div>
+<div class="step successful">Then the user should update insurance information with <span class="step parameter">735251523</span></div>
+<div class="step successful">Then the user goes back to the summary page</div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">735251523</span></div>
+<div class="step successful">Then the user should see their saved mailing information</div>
+<div class="step successful">Then the user should see their saved phone number information</div>
+<div class="step successful">Then the user should see their saved insurance information with <span class="step parameter">735251523</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=430991038, password=1987-3-26}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">430991038</span> and <span class="step parameter">1987-3-26</span></div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">430991038</span></div>
+<div class="step successful">Then the user should view mailing address information with <span class="step parameter">430991038</span></div>
+<div class="step successful">Then the user should view phone number information with <span class="step parameter">430991038</span></div>
+<div class="step successful">Then the user should view electronic fund information with <span class="step parameter">430991038</span></div>
+<div class="step successful">Then the user should view insurance information with <span class="step parameter">430991038</span></div>
+<div class="step successful">Then the user should update mailing address information</div>
+<div class="step successful">Then the user should update phone number information with <span class="step parameter">430991038</span></div>
+<div class="step successful">Then the user should update insurance information with <span class="step parameter">430991038</span></div>
+<div class="step successful">Then the user goes back to the summary page</div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">430991038</span></div>
+<div class="step successful">Then the user should see their saved mailing information</div>
+<div class="step successful">Then the user should see their saved phone number information</div>
+<div class="step successful">Then the user should see their saved insurance information with <span class="step parameter">430991038</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+
+<h3 class="example">Example: {username=265798306, password=1966-12-12}</h3>
+<div class="step successful">Given the user is on the dashboard page</div>
+<div class="step successful">When the user logs into the dashboard with <span class="step parameter">265798306</span> and <span class="step parameter">1966-12-12</span></div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">265798306</span></div>
+<div class="step successful">Then the user should view mailing address information with <span class="step parameter">265798306</span></div>
+<div class="step successful">Then the user should view phone number information with <span class="step parameter">265798306</span></div>
+<div class="step successful">Then the user should view electronic fund information with <span class="step parameter">265798306</span></div>
+<div class="step successful">Then the user should view insurance information with <span class="step parameter">265798306</span></div>
+<div class="step successful">Then the user should update mailing address information</div>
+<div class="step successful">Then the user should update phone number information with <span class="step parameter">265798306</span></div>
+<div class="step successful">Then the user should update insurance information with <span class="step parameter">265798306</span></div>
+<div class="step successful">Then the user goes back to the summary page</div>
+<div class="step successful">Then the user reviews the application with <span class="step parameter">265798306</span></div>
+<div class="step successful">Then the user should see their saved mailing information</div>
+<div class="step successful">Then the user should see their saved phone number information</div>
+<div class="step successful">Then the user should see their saved insurance information with <span class="step parameter">265798306</span></div>
+<div class="step successful">Then the user logs out of the dashboard</div>
+<div class="step successful">Then they should see the home page</div>
+</div>
 </div>
 </div>
 
