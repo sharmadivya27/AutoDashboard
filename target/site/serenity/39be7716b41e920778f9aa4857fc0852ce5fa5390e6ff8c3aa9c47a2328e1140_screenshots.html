@@ -1,0 +1,414 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Staging Dashboard Automation</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="9ae253df307de05a36ca124505d4a2d8981675c35b419f9780cc7d01cb523f0f.html">Full Regression</a>
+                > <a
+                    href="39be7716b41e920778f9aa4857fc0852ce5fa5390e6ff8c3aa9c47a2328e1140.html">All information is updated and saved </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-02-2017 12:54</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Full Regression </span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                In order to  assert that the dashboard functionality of https://www.disasterassistance.gov/ is working<br>As a  tester<br>I want to  run the daily regressions at least twice a day
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-3x' title='ERROR'></i></span>
+                            <span class="test-case-title">
+                                <span class="error-color">All information is updated and saved
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+
+        <div class="scenario">Given the user is on the dashboard page<br>When the user logs into the dashboard with {430990610} and {1960-9-15}<br>Then the user reviews the application with {430990610}<br>Then the user should view mailing address information with {430990610}<br>Then the user should view phone number information with {430990610}<br>Then the user should view insurance information with {430990610}<br>Then the user should update mailing address information<br>Then the user should update phone number information with {430990610}<br>Then the user should update insurance information with {430990610}<br>Then the user goes back to the summary page<br>Then the user reviews the application with {430990610}<br>Then the user should see their saved mailing information<br>Then the user should see their saved phone number information<br>Then the user should see their saved insurance information with {430990610}<br>Then the user logs out of the dashboard<br>Then they should see the home page</div>
+    </div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+                <div class="panel-heading"><span class='error-caption ellipsis'>ERROR: No such element exception: Timed out after 2 seconds. Element not found</span></div>
+                <div class="panel-body">
+                    <a href="pagesource8758155974602107757.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_a190fca0a34162af582cd3faf4d7418c.png" title="On dashboard login page" width="960"/>
+                <img src="a190fca0a34162af582cd3faf4d7418c.png" title="When the user logs into the dashboard with {430990610} and {1960-9-15}" width="960"/>
+                <img src="scaled_9ac778ea7cedb0100bd5a12d071c52b5.png" title="When the user logs into the dashboard with {430990610} and {1960-9-15}" width="960"/>
+                <img src="scaled_1e25ce5a1ec91c2c63697da104d4133a.png" title="Then the user reviews the application with {430990610}" width="960"/>
+                <img src="scaled_1ccec2c21d78ec6cd3efc88b209a70bc.png" title="Then the user reviews the application with {430990610}" width="960"/>
+                <img src="1ccec2c21d78ec6cd3efc88b209a70bc.png" title="Then the user should view mailing address information with {430990610}" width="960"/>
+                <img src="scaled_b02c51cb6a4eda0922bc64aff06b9908.png" title="Then the user should view mailing address information with {430990610}" width="960"/>
+                <img src="b02c51cb6a4eda0922bc64aff06b9908.png" title="Then the user should view phone number information with {430990610}" width="960"/>
+                <img src="b02c51cb6a4eda0922bc64aff06b9908.png" title="Then the user should view insurance information with {430990610}" width="960"/>
+                <img src="b02c51cb6a4eda0922bc64aff06b9908.png" title="Then the user should update mailing address information" width="960"/>
+                <img src="scaled_cf0467b333eb5ff74082a16b4768fdb1.png" title="Then the user should update mailing address information" width="960"/>
+                <img src="cf0467b333eb5ff74082a16b4768fdb1.png" title="Then the user should update phone number information with {430990610}" width="960"/>
+                <img src="scaled_428f72229e6cc6c8450c149ad7e4e415.png" title="Then the user should update phone number information with {430990610}" width="960"/>
+                <img src="428f72229e6cc6c8450c149ad7e4e415.png" title="Then the user should update insurance information with {430990610}" width="960"/>
+                <img src="scaled_1c57a055207a833f4689179517382b08.png" title="Then the user should update insurance information with {430990610}" width="960"/>
+                <img src="1c57a055207a833f4689179517382b08.png" title="Then the user goes back to the summary page" width="960"/>
+                <img src="scaled_b536c7cd90334b61e218b08248f10337.png" title="Then the user goes back to the summary page" width="960"/>
+                <img src="b536c7cd90334b61e218b08248f10337.png" title="Then the user reviews the application with {430990610}" width="960"/>
+                <img src="scaled_674ae9c3cdf88bb76faa4d09e8904d65.png" title="Then the user reviews the application with {430990610}" width="960"/>
+                <img src="674ae9c3cdf88bb76faa4d09e8904d65.png" title="Then the user should see their saved mailing information" width="960"/>
+                <img src="scaled_3c3b26555130348b3c7710bcd768b464.png" title="Then the user should see their saved mailing information" width="960"/>
+                <img src="3c3b26555130348b3c7710bcd768b464.png" title="Then the user should see their saved phone number information" width="960"/>
+                <img src="3c3b26555130348b3c7710bcd768b464.png" title="Then the user should see their saved insurance information with {430990610}" width="960"/>
+                <img src="3c3b26555130348b3c7710bcd768b464.png" title="Then the user logs out of the dashboard" width="960"/>
+                <img src="scaled_9663c0b9ba1f427fe353dde8ad3adafd.png" title="Then the user logs out of the dashboard" width="960"/>
+                <img src="9663c0b9ba1f427fe353dde8ad3adafd.png" title="Then they should see the home page" width="960"/>
+                <img src="9663c0b9ba1f427fe353dde8ad3adafd.png" title="On dashboard login page" width="960"/>
+                <img src="scaled_f5fd1dba72c33f49407fe61b6a1730ca.png" title="On dashboard login page" width="960"/>
+                <img src="scaled_c6f9ddc6ecf3f5a1520144e5373b47c5.png" title="When the user logs into the dashboard with {786787687} and {1984-1-1}" width="960"/>
+                <img src="scaled_ad14035f4b8985d93155bc6518ef14a5.png" title="When the user logs into the dashboard with {786787687} and {1984-1-1}" width="960"/>
+                <img src="scaled_5d563b1b33f2add9d1590a61f566cdfa.png" title="Then the user reviews the application with {786787687}" width="960"/>
+                <img src="scaled_538305d851fa8c1173f4ed0de3034eac.png" title="Then the user reviews the application with {786787687}" width="960"/>
+                <img src="538305d851fa8c1173f4ed0de3034eac.png" title="Then the user should view mailing address information with {786787687}" width="960"/>
+                <img src="scaled_77566562a41bfd7cd690484c2f4fe2dd.png" title="Then the user should view mailing address information with {786787687}" width="960"/>
+                <img src="77566562a41bfd7cd690484c2f4fe2dd.png" title="Then the user should view phone number information with {786787687}" width="960"/>
+                <img src="77566562a41bfd7cd690484c2f4fe2dd.png" title="Then the user should view insurance information with {786787687}" width="960"/>
+                <img src="77566562a41bfd7cd690484c2f4fe2dd.png" title="Then the user should update mailing address information" width="960"/>
+                <img src="scaled_3fbb6bd5973da6bee666fce205ae2d92.png" title="Then the user should update mailing address information" width="960"/>
+                <img src="3fbb6bd5973da6bee666fce205ae2d92.png" title="Then the user should update phone number information with {786787687}" width="960"/>
+                <img src="scaled_232b17bec488b470d741cde479028857.png" title="Then the user should update phone number information with {786787687}" width="960"/>
+                <img src="232b17bec488b470d741cde479028857.png" title="Then the user should update insurance information with {786787687}" width="960"/>
+                <img src="scaled_fb47e986238707bbddd6bfbacf40f8cd.png" title="Then the user should update insurance information with {786787687}" width="960"/>
+                <img src="fb47e986238707bbddd6bfbacf40f8cd.png" title="Then the user goes back to the summary page" width="960"/>
+                <img src="scaled_7c01be883c4bf2439c1172d3db5b7206.png" title="Then the user goes back to the summary page" width="960"/>
+                <img src="7c01be883c4bf2439c1172d3db5b7206.png" title="Then the user reviews the application with {786787687}" width="960"/>
+                <img src="538305d851fa8c1173f4ed0de3034eac.png" title="Then the user reviews the application with {786787687}" width="960"/>
+                <img src="538305d851fa8c1173f4ed0de3034eac.png" title="Then the user should see their saved mailing information" width="960"/>
+                <img src="77566562a41bfd7cd690484c2f4fe2dd.png" title="Then the user should see their saved mailing information" width="960"/>
+                <img src="77566562a41bfd7cd690484c2f4fe2dd.png" title="Then the user should see their saved phone number information" width="960"/>
+                <img src="77566562a41bfd7cd690484c2f4fe2dd.png" title="Then the user should see their saved insurance information with {786787687}" width="960"/>
+                <img src="77566562a41bfd7cd690484c2f4fe2dd.png" title="Then the user logs out of the dashboard" width="960"/>
+                <img src="9663c0b9ba1f427fe353dde8ad3adafd.png" title="Then the user logs out of the dashboard" width="960"/>
+                <img src="9663c0b9ba1f427fe353dde8ad3adafd.png" title="Then they should see the home page" width="960"/>
+                <img src="f5fd1dba72c33f49407fe61b6a1730ca.png" title="On dashboard login page" width="960"/>
+                <img src="c6f9ddc6ecf3f5a1520144e5373b47c5.png" title="When the user logs into the dashboard with {158338199} and {1966-6-6}" width="960"/>
+                <img src="scaled_19fe7e851e431f918a2e8887c7e5eafc.png" title="When the user logs into the dashboard with {158338199} and {1966-6-6}" width="960"/>
+                <img src="scaled_f166a802ee4a50d839c567a3cf982cbd.png" title="Then the user reviews the application with {158338199}" width="960"/>
+                <img src="scaled_1b2daad29e1ac5f0e8399aa8db28fb9f.png" title="Then the user reviews the application with {158338199}" width="960"/>
+                <img src="1b2daad29e1ac5f0e8399aa8db28fb9f.png" title="Then the user should view mailing address information with {158338199}" width="960"/>
+                <img src="scaled_158576d89c8d1f50aafe77bb3939b2ec.png" title="Then the user should view mailing address information with {158338199}" width="960"/>
+                <img src="158576d89c8d1f50aafe77bb3939b2ec.png" title="Then the user should view phone number information with {158338199}" width="960"/>
+                <img src="158576d89c8d1f50aafe77bb3939b2ec.png" title="Then the user should view insurance information with {158338199}" width="960"/>
+                <img src="158576d89c8d1f50aafe77bb3939b2ec.png" title="Then the user should update mailing address information" width="960"/>
+                <img src="scaled_6b47928ea5bf058d31624b24f7b57496.png" title="Then the user should update mailing address information" width="960"/>
+                <img src="6b47928ea5bf058d31624b24f7b57496.png" title="Then the user should update phone number information with {158338199}" width="960"/>
+                <img src="scaled_cf736e17c2686cbb0a518e71a77ccd6d.png" title="Then the user should update phone number information with {158338199}" width="960"/>
+                <img src="cf736e17c2686cbb0a518e71a77ccd6d.png" title="Then the user should update insurance information with {158338199}" width="960"/>
+                <img src="scaled_38d590241d351625f5139d4e337bf754.png" title="Then the user should update insurance information with {158338199}" width="960"/>
+                <img src="38d590241d351625f5139d4e337bf754.png" title="Then the user goes back to the summary page" width="960"/>
+                <img src="scaled_79536b54697bc441ff43bd3fd5ea160c.png" title="Then the user goes back to the summary page" width="960"/>
+                <img src="scaled_b9e3670d181fbe51c78e2c5e587afce1.png" title="Then the user reviews the application with {158338199}" width="960"/>
+                <img src="1b2daad29e1ac5f0e8399aa8db28fb9f.png" title="Then the user reviews the application with {158338199}" width="960"/>
+                <img src="1b2daad29e1ac5f0e8399aa8db28fb9f.png" title="Then the user should see their saved mailing information" width="960"/>
+                <img src="158576d89c8d1f50aafe77bb3939b2ec.png" title="Then the user should see their saved mailing information" width="960"/>
+                <img src="158576d89c8d1f50aafe77bb3939b2ec.png" title="Then the user should see their saved phone number information" width="960"/>
+                <img src="158576d89c8d1f50aafe77bb3939b2ec.png" title="Then the user should see their saved insurance information with {158338199}" width="960"/>
+                <img src="158576d89c8d1f50aafe77bb3939b2ec.png" title="Then the user logs out of the dashboard" width="960"/>
+                <img src="9663c0b9ba1f427fe353dde8ad3adafd.png" title="Then the user logs out of the dashboard" width="960"/>
+                <img src="9663c0b9ba1f427fe353dde8ad3adafd.png" title="Then they should see the home page" width="960"/>
+                <img src="f5fd1dba72c33f49407fe61b6a1730ca.png" title="On dashboard login page" width="960"/>
+                <img src="c6f9ddc6ecf3f5a1520144e5373b47c5.png" title="When the user logs into the dashboard with {430993352} and {1987-12-12}" width="960"/>
+                <img src="scaled_dee65f3c080928038130fe93241fa4de.png" title="When the user logs into the dashboard with {430993352} and {1987-12-12}" width="960"/>
+                <img src="dee65f3c080928038130fe93241fa4de.png" title="Then the user reviews the application with {430993352}" width="960"/>
+                <img src="scaled_5ae421cd94e05122702326287d280edd.png" title="Then the user reviews the application with {430993352}" width="960"/>
+                <img src="5ae421cd94e05122702326287d280edd.png" title="Then the user should view mailing address information with {430993352}" width="960"/>
+                <img src="scaled_620057227f1123ceba38bf09c03d2322.png" title="Then the user should view mailing address information with {430993352}" width="960"/>
+                <img src="620057227f1123ceba38bf09c03d2322.png" title="Then the user should view phone number information with {430993352}" width="960"/>
+                <img src="620057227f1123ceba38bf09c03d2322.png" title="Then the user should view insurance information with {430993352}" width="960"/>
+                <img src="620057227f1123ceba38bf09c03d2322.png" title="Then the user should update mailing address information" width="960"/>
+                <img src="scaled_7993e31e924c37e2cf10d9fded61a682.png" title="Then the user should update mailing address information" width="960"/>
+                <img src="7993e31e924c37e2cf10d9fded61a682.png" title="Then the user should update phone number information with {430993352}" width="960"/>
+                <img src="scaled_fb45d28347bba5c4977f14d9fd24ae16.png" title="Then the user should update phone number information with {430993352}" width="960"/>
+                <img src="fb45d28347bba5c4977f14d9fd24ae16.png" title="Then the user should update insurance information with {430993352}" width="960"/>
+                <img src="scaled_9185409e752f7ac72e0220146a76ff2f.png" title="Then the user should update insurance information with {430993352}" width="960"/>
+                <img src="9185409e752f7ac72e0220146a76ff2f.png" title="Then the user goes back to the summary page" width="960"/>
+                <img src="scaled_acc44d403f9ae45bc8c61b3ceb4228c2.png" title="Then the user goes back to the summary page" width="960"/>
+                <img src="acc44d403f9ae45bc8c61b3ceb4228c2.png" title="Then the user reviews the application with {430993352}" width="960"/>
+                <img src="5ae421cd94e05122702326287d280edd.png" title="Then the user reviews the application with {430993352}" width="960"/>
+                <img src="5ae421cd94e05122702326287d280edd.png" title="Then the user should see their saved mailing information" width="960"/>
+                <img src="620057227f1123ceba38bf09c03d2322.png" title="Then the user should see their saved mailing information" width="960"/>
+                <img src="620057227f1123ceba38bf09c03d2322.png" title="Then the user should see their saved phone number information" width="960"/>
+                <img src="620057227f1123ceba38bf09c03d2322.png" title="Then the user should see their saved insurance information with {430993352}" width="960"/>
+                <img src="620057227f1123ceba38bf09c03d2322.png" title="Then the user logs out of the dashboard" width="960"/>
+                <img src="9663c0b9ba1f427fe353dde8ad3adafd.png" title="Then the user logs out of the dashboard" width="960"/>
+                <img src="9663c0b9ba1f427fe353dde8ad3adafd.png" title="Then they should see the home page" width="960"/>
+                <img src="f5fd1dba72c33f49407fe61b6a1730ca.png" title="On dashboard login page" width="960"/>
+                <img src="c6f9ddc6ecf3f5a1520144e5373b47c5.png" title="When the user logs into the dashboard with {735213161} and {1968-05-01}" width="960"/>
+                <img src="scaled_f9bc5cb7cc1254e297d1c31392e1bbaf.png" title="When the user logs into the dashboard with {735213161} and {1968-05-01}" width="960"/>
+                <img src="f9bc5cb7cc1254e297d1c31392e1bbaf.png" title="Then the user reviews the application with {735213161}" width="960"/>
+                <img src="scaled_514af2e6c2b6e3eaa7adde8c685144df.png" title="Then the user reviews the application with {735213161}" width="960"/>
+                <img src="514af2e6c2b6e3eaa7adde8c685144df.png" title="Then the user should view mailing address information with {735213161}" width="960"/>
+                <img src="scaled_748a1824c61d26fd2bdf0a91a914ea8e.png" title="Then the user should view mailing address information with {735213161}" width="960"/>
+                <img src="748a1824c61d26fd2bdf0a91a914ea8e.png" title="Then the user should view phone number information with {735213161}" width="960"/>
+                <img src="748a1824c61d26fd2bdf0a91a914ea8e.png" title="Then the user should view insurance information with {735213161}" width="960"/>
+                <img src="748a1824c61d26fd2bdf0a91a914ea8e.png" title="Then the user should update mailing address information" width="960"/>
+                <img src="scaled_4ad70e9fe71008746dc53a8273e33ce2.png" title="Then the user should update mailing address information" width="960"/>
+                <img src="4ad70e9fe71008746dc53a8273e33ce2.png" title="Then the user should update phone number information with {735213161}" width="960"/>
+                <img src="scaled_cbcbf4bf1bd4a8c0e0c6617ab5435b84.png" title="Then the user should update phone number information with {735213161}" width="960"/>
+                <img src="cbcbf4bf1bd4a8c0e0c6617ab5435b84.png" title="Then the user should update insurance information with {735213161}" width="960"/>
+                <img src="scaled_980949bb423b90d6f0b195ea021d5749.png" title="Then the user should update insurance information with {735213161}" width="960"/>
+                <img src="980949bb423b90d6f0b195ea021d5749.png" title="Then the user goes back to the summary page" width="960"/>
+                <img src="f9bc5cb7cc1254e297d1c31392e1bbaf.png" title="Then the user goes back to the summary page" width="960"/>
+                <img src="f9bc5cb7cc1254e297d1c31392e1bbaf.png" title="Then the user reviews the application with {735213161}" width="960"/>
+                <img src="514af2e6c2b6e3eaa7adde8c685144df.png" title="Then the user reviews the application with {735213161}" width="960"/>
+                <img src="514af2e6c2b6e3eaa7adde8c685144df.png" title="Then the user should see their saved mailing information" width="960"/>
+                <img src="748a1824c61d26fd2bdf0a91a914ea8e.png" title="Then the user should see their saved mailing information" width="960"/>
+                <img src="748a1824c61d26fd2bdf0a91a914ea8e.png" title="Then the user should see their saved phone number information" width="960"/>
+                <img src="748a1824c61d26fd2bdf0a91a914ea8e.png" title="Then the user should see their saved insurance information with {735213161}" width="960"/>
+                <img src="748a1824c61d26fd2bdf0a91a914ea8e.png" title="Then the user logs out of the dashboard" width="960"/>
+                <img src="9663c0b9ba1f427fe353dde8ad3adafd.png" title="Then the user logs out of the dashboard" width="960"/>
+                <img src="9663c0b9ba1f427fe353dde8ad3adafd.png" title="Then they should see the home page" width="960"/>
+                <img src="f5fd1dba72c33f49407fe61b6a1730ca.png" title="On dashboard login page" width="960"/>
+                <img src="c6f9ddc6ecf3f5a1520144e5373b47c5.png" title="When the user logs into the dashboard with {594575741} and {1961-01-01}" width="960"/>
+                <img src="scaled_a4708b7432f97550f496caa2b6744ce2.png" title="When the user logs into the dashboard with {594575741} and {1961-01-01}" width="960"/>
+                <img src="a4708b7432f97550f496caa2b6744ce2.png" title="Then the user reviews the application with {594575741}" width="960"/>
+                <img src="scaled_19a37edd4d86141bae1f5e395e754904.png" title="Then the user reviews the application with {594575741}" width="960"/>
+                <img src="19a37edd4d86141bae1f5e395e754904.png" title="Then the user should view mailing address information with {594575741}" width="960"/>
+                <img src="scaled_9fc251c8fba97d146cde207d0b71d343.png" title="Then the user should view mailing address information with {594575741}" width="960"/>
+                <img src="9fc251c8fba97d146cde207d0b71d343.png" title="Then the user should view phone number information with {594575741}" width="960"/>
+                <img src="9fc251c8fba97d146cde207d0b71d343.png" title="Then the user should view insurance information with {594575741}" width="960"/>
+                <img src="9fc251c8fba97d146cde207d0b71d343.png" title="Then the user should update mailing address information" width="960"/>
+                <img src="scaled_04df707b8362bb069cb328071a842c6d.png" title="Then the user should update mailing address information" width="960"/>
+                <img src="04df707b8362bb069cb328071a842c6d.png" title="Then the user should update phone number information with {594575741}" width="960"/>
+                <img src="scaled_baed6d2109b3026ef2fda5f44cda504b.png" title="Then the user should update phone number information with {594575741}" width="960"/>
+                <img src="baed6d2109b3026ef2fda5f44cda504b.png" title="Then the user should update insurance information with {594575741}" width="960"/>
+                <img src="scaled_a8934e3eaf7f9b8082bd92be13e6719e.png" title="Then the user should update insurance information with {594575741}" width="960"/>
+                <img src="a8934e3eaf7f9b8082bd92be13e6719e.png" title="Then the user goes back to the summary page" width="960"/>
+                <img src="a4708b7432f97550f496caa2b6744ce2.png" title="Then the user goes back to the summary page" width="960"/>
+                <img src="a4708b7432f97550f496caa2b6744ce2.png" title="Then the user reviews the application with {594575741}" width="960"/>
+                <img src="19a37edd4d86141bae1f5e395e754904.png" title="Then the user reviews the application with {594575741}" width="960"/>
+                <img src="19a37edd4d86141bae1f5e395e754904.png" title="Then the user should see their saved mailing information" width="960"/>
+                <img src="9fc251c8fba97d146cde207d0b71d343.png" title="Then the user should see their saved mailing information" width="960"/>
+                <img src="9fc251c8fba97d146cde207d0b71d343.png" title="Then the user should see their saved phone number information" width="960"/>
+                <img src="9fc251c8fba97d146cde207d0b71d343.png" title="Then the user should see their saved insurance information with {594575741}" width="960"/>
+                <img src="9fc251c8fba97d146cde207d0b71d343.png" title="Then the user logs out of the dashboard" width="960"/>
+                <img src="9663c0b9ba1f427fe353dde8ad3adafd.png" title="Then the user logs out of the dashboard" width="960"/>
+                <img src="9663c0b9ba1f427fe353dde8ad3adafd.png" title="Then they should see the home page" width="960"/>
+                <img src="f5fd1dba72c33f49407fe61b6a1730ca.png" title="On dashboard login page" width="960"/>
+                <img src="c6f9ddc6ecf3f5a1520144e5373b47c5.png" title="When the user logs into the dashboard with {333011003} and {1990-01-04}" width="960"/>
+                <img src="scaled_177303ec2fa9271edd0b642c6b2ea931.png" title="When the user logs into the dashboard with {333011003} and {1990-01-04}" width="960"/>
+                <img src="scaled_d86e34c6b0b1eedd2640610595cb9473.png" title="Then the user reviews the application with {333011003}" width="960"/>
+                <img src="scaled_b93dc21cb07dab6f83ebe298cd3ada9f.png" title="Then the user reviews the application with {333011003}" width="960"/>
+                <img src="b93dc21cb07dab6f83ebe298cd3ada9f.png" title="Then the user should view mailing address information with {333011003}" width="960"/>
+                <img src="scaled_b31d51b58d12c01881fddfaec02b0339.png" title="Then the user should view mailing address information with {333011003}" width="960"/>
+                <img src="b31d51b58d12c01881fddfaec02b0339.png" title="Then the user should view phone number information with {333011003}" width="960"/>
+                <img src="b31d51b58d12c01881fddfaec02b0339.png" title="Then the user should view insurance information with {333011003}" width="960"/>
+                <img src="b31d51b58d12c01881fddfaec02b0339.png" title="Then the user should update mailing address information" width="960"/>
+                <img src="scaled_3b8b9c4666630c014a642dee87212c69.png" title="Then the user should update mailing address information" width="960"/>
+                <img src="3b8b9c4666630c014a642dee87212c69.png" title="Then the user should update phone number information with {333011003}" width="960"/>
+                <img src="scaled_432e6708c5106540d4b3d2aaf2b39302.png" title="Then the user should update phone number information with {333011003}" width="960"/>
+                <img src="432e6708c5106540d4b3d2aaf2b39302.png" title="Then the user should update insurance information with {333011003}" width="960"/>
+                <img src="scaled_08c9d883a6486b8d3bd00a9527c73c68.png" title="Then the user should update insurance information with {333011003}" width="960"/>
+                <img src="08c9d883a6486b8d3bd00a9527c73c68.png" title="Then the user goes back to the summary page" width="960"/>
+                <img src="scaled_022428d838295a6fd789f887603d83b3.png" title="Then the user goes back to the summary page" width="960"/>
+                <img src="022428d838295a6fd789f887603d83b3.png" title="Then the user reviews the application with {333011003}" width="960"/>
+                <img src="b93dc21cb07dab6f83ebe298cd3ada9f.png" title="Then the user reviews the application with {333011003}" width="960"/>
+                <img src="b93dc21cb07dab6f83ebe298cd3ada9f.png" title="Then the user should see their saved mailing information" width="960"/>
+                <img src="b31d51b58d12c01881fddfaec02b0339.png" title="Then the user should see their saved mailing information" width="960"/>
+                <img src="b31d51b58d12c01881fddfaec02b0339.png" title="Then the user should see their saved phone number information" width="960"/>
+                <img src="b31d51b58d12c01881fddfaec02b0339.png" title="Then the user should see their saved insurance information with {333011003}" width="960"/>
+                <img src="b31d51b58d12c01881fddfaec02b0339.png" title="Then the user logs out of the dashboard" width="960"/>
+                <img src="9663c0b9ba1f427fe353dde8ad3adafd.png" title="Then the user logs out of the dashboard" width="960"/>
+                <img src="9663c0b9ba1f427fe353dde8ad3adafd.png" title="Then they should see the home page" width="960"/>
+                <img src="f5fd1dba72c33f49407fe61b6a1730ca.png" title="On dashboard login page" width="960"/>
+                <img src="c6f9ddc6ecf3f5a1520144e5373b47c5.png" title="When the user logs into the dashboard with {333011004} and {1990-01-05}" width="960"/>
+                <img src="scaled_a571e7362ee02d02ba53de7d9175ac19.png" title="When the user logs into the dashboard with {333011004} and {1990-01-05}" width="960"/>
+                <img src="scaled_5f90bbdfac02d9fc635bffd73871137d.png" title="Then the user reviews the application with {333011004}" width="960"/>
+                <img src="scaled_aeb6de49469db80dd0722e06ee202224.png" title="Then the user reviews the application with {333011004}" width="960"/>
+                <img src="aeb6de49469db80dd0722e06ee202224.png" title="Then the user should view mailing address information with {333011004}" width="960"/>
+                <img src="scaled_95d0d7b85949ef254c60b271cf1b48c1.png" title="Then the user should view mailing address information with {333011004}" width="960"/>
+                <img src="95d0d7b85949ef254c60b271cf1b48c1.png" title="Then the user should view phone number information with {333011004}" width="960"/>
+                <img src="95d0d7b85949ef254c60b271cf1b48c1.png" title="Then the user should view insurance information with {333011004}" width="960"/>
+                <img src="95d0d7b85949ef254c60b271cf1b48c1.png" title="Then the user should update mailing address information" width="960"/>
+                <img src="scaled_7b291271115866094203271aea0f2706.png" title="Then the user should update mailing address information" width="960"/>
+                <img src="7b291271115866094203271aea0f2706.png" title="Then the user should update phone number information with {333011004}" width="960"/>
+                <img src="scaled_f30aef01ff77c3dcf0f5967d4f71e6b0.png" title="Then the user should update phone number information with {333011004}" width="960"/>
+                <img src="f30aef01ff77c3dcf0f5967d4f71e6b0.png" title="Then the user should update insurance information with {333011004}" width="960"/>
+                <img src="scaled_4d22fbbdfe84d802cf646018765d09b3.png" title="Then the user should update insurance information with {333011004}" width="960"/>
+                <img src="4d22fbbdfe84d802cf646018765d09b3.png" title="Then the user goes back to the summary page" width="960"/>
+                <img src="scaled_109a37d54cfbe0bdeae4b78588abf222.png" title="Then the user goes back to the summary page" width="960"/>
+                <img src="109a37d54cfbe0bdeae4b78588abf222.png" title="Then the user reviews the application with {333011004}" width="960"/>
+                <img src="aeb6de49469db80dd0722e06ee202224.png" title="Then the user reviews the application with {333011004}" width="960"/>
+                <img src="aeb6de49469db80dd0722e06ee202224.png" title="Then the user should see their saved mailing information" width="960"/>
+                <img src="95d0d7b85949ef254c60b271cf1b48c1.png" title="Then the user should see their saved mailing information" width="960"/>
+                <img src="95d0d7b85949ef254c60b271cf1b48c1.png" title="Then the user should see their saved phone number information" width="960"/>
+                <img src="95d0d7b85949ef254c60b271cf1b48c1.png" title="Then the user should see their saved insurance information with {333011004}" width="960"/>
+                <img src="95d0d7b85949ef254c60b271cf1b48c1.png" title="Then the user logs out of the dashboard" width="960"/>
+                <img src="9663c0b9ba1f427fe353dde8ad3adafd.png" title="Then the user logs out of the dashboard" width="960"/>
+                <img src="9663c0b9ba1f427fe353dde8ad3adafd.png" title="Then they should see the home page" width="960"/>
+                <img src="f5fd1dba72c33f49407fe61b6a1730ca.png" title="On dashboard login page" width="960"/>
+                <img src="c6f9ddc6ecf3f5a1520144e5373b47c5.png" title="When the user logs into the dashboard with {333011005} and {1990-01-06}" width="960"/>
+                <img src="scaled_218e6cdd472b9f58aa7a034162db31d9.png" title="When the user logs into the dashboard with {333011005} and {1990-01-06}" width="960"/>
+                <img src="218e6cdd472b9f58aa7a034162db31d9.png" title="Then the user reviews the application with {333011005}" width="960"/>
+                <img src="scaled_eecfc4f8ddfd704e0362cd5fa772e77d.png" title="Then the user reviews the application with {333011005}" width="960"/>
+                <img src="scaled_92997cb6c92520a9c9b75087e9f08e56.png" title="Go to applicant tab" width="960"/>
+                <img src="scaled_bdc5f90b6d7c2060fcba3e38d41eb0f4.png" title="Go to applicant tab" width="960"/>
+                <img src="scaled_bdb4ba4d56fa9697de6275997b175a33.png" title="On dashboard login page" width="960"/>
+                <img src="scaled_943ca8eb1357517a4a7495094a5a17ad.png" title="On dashboard login page" width="960"/>
+                <img src="218e6cdd472b9f58aa7a034162db31d9.png" title="Fill in form: 333011006, 1990-01-07" width="960"/>
+                <img src="218e6cdd472b9f58aa7a034162db31d9.png" title="Fill in form: 333011006, 1990-01-07" width="960"/>
+                <img src="218e6cdd472b9f58aa7a034162db31d9.png" title="On dashboard login page" width="960"/>
+                <img src="scaled_8f54548c59d5804c669c3892dd7d8020.png" title="On dashboard login page" width="960"/>
+                <img src="218e6cdd472b9f58aa7a034162db31d9.png" title="Fill in form: 049828525, 1971-11-11" width="960"/>
+                <img src="218e6cdd472b9f58aa7a034162db31d9.png" title="Fill in form: 049828525, 1971-11-11" width="960"/>
+                <img src="scaled_e52a037f0eca120c53ee0cadb2a40efc.png" title="On dashboard login page" width="960"/>
+                <img src="218e6cdd472b9f58aa7a034162db31d9.png" title="Fill in form: 001010001, 1919-12-12" width="960"/>
+                <img src="scaled_237716ce7fdc171da4ec49b954a646aa.png" title="On dashboard login page" width="960"/>
+                <img src="218e6cdd472b9f58aa7a034162db31d9.png" title="Fill in form: 735151123, 1968-05-01" width="960"/>
+                <img src="scaled_60cba80eaf01fba65b970fb12ef531ae.png" title="On dashboard login page" width="960"/>
+                <img src="218e6cdd472b9f58aa7a034162db31d9.png" title="Fill in form: 735251523, 1968-05-01" width="960"/>
+                <img src="237716ce7fdc171da4ec49b954a646aa.png" title="On dashboard login page" width="960"/>
+                <img src="218e6cdd472b9f58aa7a034162db31d9.png" title="Fill in form: 430991038, 1987-3-26" width="960"/>
+                <img src="scaled_e73bf5a3f3f31eeec8fe4f769bd4515c.png" title="On dashboard login page" width="960"/>
+                <img src="218e6cdd472b9f58aa7a034162db31d9.png" title="Fill in form: 265798306, 1966-12-12: <span class='error-color'>ERROR</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.1.36</span>
+</div>
+</body>
+</html>

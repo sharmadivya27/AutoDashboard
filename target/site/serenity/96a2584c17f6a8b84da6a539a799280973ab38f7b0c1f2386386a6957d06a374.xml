@@ -1,0 +1,54 @@
+<acceptance-test-run title="Electronic fund application information is updated and saved" name="Electronic fund application information is updated and saved" steps="10" successful="10" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="1" timestamp="2017-02-09T12:40:25.626-05:00">
+  <user-story id="fullRegression" name="Full regression" path="stories/fullRegression/fullRegression.story"/>
+  <tags>
+    <tag name="Full regression" type="feature"/>
+    <tag name="Full regression/Full regression" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>username</header>
+      <header>password</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>430990610</value>
+        <value>1960-9-15</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {username=430990610, password=1960-9-15}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user reviews the application with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1">
+      <description>Then the user should view electronic fund information with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should update electronic fund information with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user goes back to the summary page</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user reviews the application with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should see their saved bank information</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user logs out of the dashboard</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then they should see the home page</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

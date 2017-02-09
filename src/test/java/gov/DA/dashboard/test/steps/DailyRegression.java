@@ -14,7 +14,6 @@ public class DailyRegression {
 	User user;
 
 	// Scenario: View notifications on homepage
-	// given see above
 	
 	@Given("the user is on the dashboard page")
 	public void givenTheUserIsOnTheDashboardPage() {
@@ -38,6 +37,7 @@ public class DailyRegression {
 
 	// Scenario: View personalized list of FOAs from the additional resources
 	// given see above
+	// when see above 
 
 	@Then("the user views additional resources with the <username>")
 	public void userViewsAdditionalResources(@Named("username") String username) {
@@ -50,6 +50,8 @@ public class DailyRegression {
 	}
 
 	// Scenario: Update all information
+	// given see above 
+	// when see above 
 
 	@Then("the user reviews the application with <username>")
 	public void userReviewsApplication(@Named("username") String username) {

@@ -4,7 +4,7 @@ As a  tester
 I want to  run the daily regressions at least twice a day 
 
 Scenario: View notifications on homepage
-Meta:
+Meta: @skip
 Given the user is on the dashboard page
 When the user logs into the dashboard with <username> and <password> 
 Then the user is on the summary page with <username>
@@ -34,7 +34,7 @@ Examples:
 |265798306|1966-12-12|
 
 Scenario: View personalized list of FOAs from the additional resources
-Meta: 
+Meta: @skip
 Given the user is on the dashboard page
 When the user logs into the dashboard with <username> and <password> 
 Then the user views additional resources with the <username>
@@ -70,7 +70,6 @@ When the user logs into the dashboard with <username> and <password>
 Then the user reviews the application with <username>
 Then the user should view mailing address information with <username>
 Then the user should view phone number information with <username>
-Then the user should view electronic fund information with <username>
 Then the user should view insurance information with <username>
 Then the user should update mailing address information
 Then the user should update phone number information with <username>
@@ -102,7 +101,6 @@ Examples:
 |430991038|1987-3-26|
 |265798306|1966-12-12|
 
-
 Scenario: Electronic fund application information is updated and saved 
 Meta: @skip
 Given the user is on the dashboard page
@@ -118,5 +116,4 @@ Then they should see the home page
 
 Examples:
 |username|password|
-
 |430990610|1960-9-15|

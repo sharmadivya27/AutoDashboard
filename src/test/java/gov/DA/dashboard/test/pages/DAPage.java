@@ -47,7 +47,7 @@ public class DAPage extends PageObject {
 	@FindBy(xpath = "//*[@id='status-view']/div/div[3]/div/div/div/div[3]/form/div[1]/div/div[2]")
 	private WebElementFacade bankBox3;
 
-	@FindBy(xpath = "//*[@id='status-view']/div/div[3]/div/div/div/div[4]/form/div[1]/div")
+	@FindBy(xpath = "//*[@id='status-view']/div/div[3]/div/div/div/div[2]/form/div[1]/div")
 	private WebElementFacade insuranceBox;
 
 	@FindBy(xpath = "//*[@id='status-section']/div[2]/div/div[1]/span[2]/a")
@@ -74,13 +74,13 @@ public class DAPage extends PageObject {
 	@FindBy(xpath = "//*[@id='status-view']/div/div[3]/div/div/div/div[1]/form/div[2]/button")
 	private WebElementFacade mailingSaveButton;
 
-	@FindBy(xpath = "//*[@id='status-view']/div/div[3]/div/div/div/div[2]/form/div[1]/div/div[3]/div[1]/div/div[3]/input")
+	@FindBy(xpath = "//*[@id='status-view']/div/div[3]/div/div/div/contact-info/div/form/div[1]/div/div[3]/div[1]/div/div/input")
 	private WebElementFacade damagedPhoneNumber;
 
-	@FindBy(xpath = "//*[@id='status-view']/div/div[3]/div/div/div/div[2]/form/div[1]/div/div[3]/div[2]/div/div[3]/input")
+	@FindBy(xpath = "//*[@id='status-view']/div/div[3]/div/div/div/contact-info/div/form/div[1]/div/div[3]/div[2]/div/div/input")
 	private WebElementFacade currentPhoneNumber;
 
-	@FindBy(xpath = "//*[@id='status-view']/div/div[3]/div/div/div/div[2]/form/div[2]/button")
+	@FindBy(xpath = "//*[@id='status-view']/div/div[3]/div/div/div/contact-info/div/form/div[2]/button")
 	private WebElementFacade phoneSaveButton;
 
 	@FindBy(xpath = "//*[@id='status-view']/div/div[3]/div/div/div/div[2]/div[2]/form/div[2]/button[1]")
@@ -125,7 +125,7 @@ public class DAPage extends PageObject {
 	@FindBy(xpath = "//*[@id='insurance-phoneNumber-0']")
 	private WebElementFacade insurancePhoneNumber;
 
-	@FindBy(xpath = "//*[@id='status-view']/div/div[3]/div/div/div/div[4]/form/div[2]/button[2]")
+	@FindBy(xpath = "//*[@id='status-view']/div/div[3]/div/div/div/div[2]/form/div[2]/button[2]")
 	private WebElementFacade insuranceSaveButton;
 
 	@FindBy(xpath = "//*[@id='updateResultModal']")
@@ -193,7 +193,6 @@ public class DAPage extends PageObject {
 
 	public String updatePhoneInformation() {
 		this.evaluateJavascript("window.scrollBy(0,50)", "");
-		damagedPhoneNumber.clear();
 		damagedPhoneNumber.type("2222222222");
 		currentPhoneNumber.click();
 		currentPhoneNumber.type("3333333333");

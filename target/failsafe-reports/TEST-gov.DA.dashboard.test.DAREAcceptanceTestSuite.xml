@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="gov.DA.dashboard.test.DAREAcceptanceTestSuite" time="2,232.534" tests="494" errors="0" skipped="0" failures="0">
+<testsuite name="gov.DA.dashboard.test.DAREAcceptanceTestSuite" time="327.974" tests="261" errors="9" skipped="110" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib"/>
@@ -61,498 +61,1100 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="BeforeStories" classname="java.lang.Object" time="0.007"/>
-  <testcase name="Given the user is on the dashboard page" classname="gov.DA.dashboard.test.steps.DailyRegression" time="9.009"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.921"/>
-  <testcase name="Then the user is on the summary page with &lt;username&gt;" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.355"/>
-  <testcase name="Then the notification should be displayed with &lt;username&gt;" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.159"/>
-  <testcase name="Then the user logs out of the dashboard" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.896"/>
-  <testcase name="Then they should see the home page" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.197"/>
-  <testcase name="Given the user is on the dashboard page​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.625"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.557"/>
-  <testcase name="Then the user is on the summary page with &lt;username&gt;​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.558"/>
-  <testcase name="Then the notification should be displayed with &lt;username&gt;​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.151"/>
-  <testcase name="Then the user logs out of the dashboard​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.057"/>
-  <testcase name="Then they should see the home page​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.184"/>
-  <testcase name="Given the user is on the dashboard page​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.829"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="9.547"/>
-  <testcase name="Then the user is on the summary page with &lt;username&gt;​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.578"/>
-  <testcase name="Then the notification should be displayed with &lt;username&gt;​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.158"/>
-  <testcase name="Then the user logs out of the dashboard​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.044"/>
-  <testcase name="Then they should see the home page​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.19"/>
-  <testcase name="Given the user is on the dashboard page​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.721"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.551"/>
-  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.556"/>
-  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.153"/>
-  <testcase name="Then the user logs out of the dashboard​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.952"/>
-  <testcase name="Then they should see the home page​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.189"/>
-  <testcase name="Given the user is on the dashboard page​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.645"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.614"/>
-  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.511"/>
-  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.155"/>
-  <testcase name="Then the user logs out of the dashboard​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.102"/>
-  <testcase name="Then they should see the home page​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.189"/>
-  <testcase name="Given the user is on the dashboard page​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.849"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.553"/>
-  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.533"/>
-  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.151"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.99"/>
-  <testcase name="Then they should see the home page​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.184"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.691"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.616"/>
-  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.535"/>
-  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.154"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.162"/>
-  <testcase name="Then they should see the home page​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.189"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.817"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.565"/>
-  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.654"/>
-  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.151"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.956"/>
-  <testcase name="Then they should see the home page​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.186"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.627"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.538"/>
-  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.578"/>
-  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.152"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.113"/>
-  <testcase name="Then they should see the home page​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.188"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.926"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.549"/>
-  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.676"/>
-  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.152"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.971"/>
-  <testcase name="Then they should see the home page​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.183"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.633"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.444"/>
-  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.605"/>
-  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.151"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.1"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.19"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.734"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.539"/>
-  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.538"/>
-  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.15"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.983"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.185"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.661"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="9.545"/>
-  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.892"/>
-  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.158"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.92"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.183"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.068"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.545"/>
-  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.585"/>
-  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.149"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.109"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.184"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.661"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.754"/>
-  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.524"/>
-  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.15"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.015"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.193"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.791"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.54"/>
-  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.634"/>
-  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.149"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.215"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.18"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.847"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.534"/>
-  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.647"/>
-  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.151"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.989"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.187"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.754"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.965"/>
-  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.695"/>
-  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.15"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.115"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.196"/>
-  <testcase name="Scenario: View notifications on homepage" classname="Scenario: View notifications on homepage" time="0.201"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.887"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.543"/>
-  <testcase name="Then the user views additional resources with the &lt;username&gt;" classname="gov.DA.dashboard.test.steps.DailyRegression" time="14.598"/>
-  <testcase name="Then the user should view the list of FOAs with &lt;username&gt;" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.221"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.32"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.204"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.23"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.515"/>
-  <testcase name="Then the user views additional resources with the &lt;username&gt;​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="13.207"/>
-  <testcase name="Then the user should view the list of FOAs with &lt;username&gt;​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.2"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.383"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.186"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.93"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="9.663"/>
-  <testcase name="Then the user views additional resources with the &lt;username&gt;​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="13.2"/>
-  <testcase name="Then the user should view the list of FOAs with &lt;username&gt;​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.016"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.184"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.183"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.956"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.529"/>
-  <testcase name="Then the user views additional resources with the &lt;username&gt;​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="13.295"/>
-  <testcase name="Then the user should view the list of FOAs with &lt;username&gt;​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.179"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.069"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.184"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.162"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.503"/>
-  <testcase name="Then the user views additional resources with the &lt;username&gt;​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="13.286"/>
-  <testcase name="Then the user should view the list of FOAs with &lt;username&gt;​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.029"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.084"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.183"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.932"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.536"/>
-  <testcase name="Then the user views additional resources with the &lt;username&gt;​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="13.193"/>
-  <testcase name="Then the user should view the list of FOAs with &lt;username&gt;​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.19"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.083"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.182"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.034"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.439"/>
-  <testcase name="Then the user views additional resources with the &lt;username&gt;​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="13.292"/>
-  <testcase name="Then the user should view the list of FOAs with &lt;username&gt;​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.158"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.467"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.186"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.038"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.554"/>
-  <testcase name="Then the user views additional resources with the &lt;username&gt;​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="13.198"/>
-  <testcase name="Then the user should view the list of FOAs with &lt;username&gt;​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.172"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.372"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.182"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.16"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.533"/>
-  <testcase name="Then the user views additional resources with the &lt;username&gt;​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="13.195"/>
-  <testcase name="Then the user should view the list of FOAs with &lt;username&gt;​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.177"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.985"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.205"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.908"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.432"/>
-  <testcase name="Then the user views additional resources with the &lt;username&gt;​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="13.201"/>
-  <testcase name="Then the user should view the list of FOAs with &lt;username&gt;​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.15"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.417"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.194"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.323"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.427"/>
-  <testcase name="Then the user views additional resources with the &lt;username&gt;​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="13.198"/>
-  <testcase name="Then the user should view the list of FOAs with &lt;username&gt;​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.152"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.375"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.185"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.272"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.531"/>
-  <testcase name="Then the user views additional resources with the &lt;username&gt;​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="13.198"/>
-  <testcase name="Then the user should view the list of FOAs with &lt;username&gt;​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.045"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.055"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.187"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.047"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="9.622"/>
-  <testcase name="Then the user views additional resources with the &lt;username&gt;​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="13.198"/>
-  <testcase name="Then the user should view the list of FOAs with &lt;username&gt;​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.038"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.238"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.178"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.271"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.606"/>
-  <testcase name="Then the user views additional resources with the &lt;username&gt;​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="13.201"/>
-  <testcase name="Then the user should view the list of FOAs with &lt;username&gt;​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.053"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.125"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.185"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.395"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.53"/>
-  <testcase name="Then the user views additional resources with the &lt;username&gt;​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="13.193"/>
-  <testcase name="Then the user should view the list of FOAs with &lt;username&gt;​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.036"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.17"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.19"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.207"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.534"/>
-  <testcase name="Then the user views additional resources with the &lt;username&gt;​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="13.202"/>
-  <testcase name="Then the user should view the list of FOAs with &lt;username&gt;​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.043"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.18"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.184"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.074"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.525"/>
-  <testcase name="Then the user views additional resources with the &lt;username&gt;​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="13.196"/>
-  <testcase name="Then the user should view the list of FOAs with &lt;username&gt;​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.058"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.134"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.185"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.119"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.428"/>
-  <testcase name="Then the user views additional resources with the &lt;username&gt;​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="13.197"/>
-  <testcase name="Then the user should view the list of FOAs with &lt;username&gt;​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.19"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.302"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.186"/>
-  <testcase name="Scenario: View personalized list of FOAs from the additional resources" classname="Scenario: View personalized list of FOAs from the additional resources" time="0.188"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.73"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.523"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.204"/>
-  <testcase name="Then the user should view mailing address information with &lt;username&gt;" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.216"/>
-  <testcase name="Then the user should view phone number information with &lt;username&gt;" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.149"/>
-  <testcase name="Then the user should view electronic fund information with &lt;username&gt;" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.148"/>
-  <testcase name="Then the user should view insurance information with &lt;username&gt;" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.15"/>
-  <testcase name="Then the user should update mailing address information" classname="gov.DA.dashboard.test.steps.DailyRegression" time="7.56"/>
-  <testcase name="Then the user should update phone number information with &lt;username&gt;" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.492"/>
-  <testcase name="Then the user should update insurance information with &lt;username&gt;" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.659"/>
-  <testcase name="Then the user goes back to the summary page" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.762"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.198"/>
-  <testcase name="Then the user should see their saved mailing information" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.515"/>
-  <testcase name="Then the user should see their saved phone number information" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.261"/>
-  <testcase name="Then the user should see their saved insurance information with &lt;username&gt;" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.313"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.271"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.193"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.288"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.57"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.201"/>
-  <testcase name="Then the user should view mailing address information with &lt;username&gt;​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.235"/>
-  <testcase name="Then the user should view phone number information with &lt;username&gt;​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.277"/>
-  <testcase name="Then the user should view electronic fund information with &lt;username&gt;​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.153"/>
-  <testcase name="Then the user should view insurance information with &lt;username&gt;​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.334"/>
-  <testcase name="Then the user should update mailing address information​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="7.646"/>
-  <testcase name="Then the user should update phone number information with &lt;username&gt;​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.076"/>
-  <testcase name="Then the user should update insurance information with &lt;username&gt;​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.634"/>
-  <testcase name="Then the user goes back to the summary page​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.911"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.206"/>
-  <testcase name="Then the user should see their saved mailing information​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.363"/>
-  <testcase name="Then the user should see their saved phone number information​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.251"/>
-  <testcase name="Then the user should see their saved insurance information with &lt;username&gt;​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.309"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.35"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.19"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.922"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="9.546"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.198"/>
-  <testcase name="Then the user should view mailing address information with &lt;username&gt;​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.227"/>
-  <testcase name="Then the user should view phone number information with &lt;username&gt;​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.15"/>
-  <testcase name="Then the user should view electronic fund information with &lt;username&gt;​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.148"/>
-  <testcase name="Then the user should view insurance information with &lt;username&gt;​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.149"/>
-  <testcase name="Then the user should update mailing address information​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="7.616"/>
-  <testcase name="Then the user should update phone number information with &lt;username&gt;​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.33"/>
-  <testcase name="Then the user should update insurance information with &lt;username&gt;​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.664"/>
-  <testcase name="Then the user goes back to the summary page​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.199"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.196"/>
-  <testcase name="Then the user should see their saved mailing information​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.355"/>
-  <testcase name="Then the user should see their saved phone number information​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.311"/>
-  <testcase name="Then the user should see their saved insurance information with &lt;username&gt;​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.297"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.176"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.179"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.166"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.54"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.198"/>
-  <testcase name="Then the user should view mailing address information with &lt;username&gt;​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.214"/>
-  <testcase name="Then the user should view phone number information with &lt;username&gt;​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.148"/>
-  <testcase name="Then the user should view electronic fund information with &lt;username&gt;​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.149"/>
-  <testcase name="Then the user should view insurance information with &lt;username&gt;​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.151"/>
-  <testcase name="Then the user should update mailing address information​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="7.555"/>
-  <testcase name="Then the user should update phone number information with &lt;username&gt;​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.522"/>
-  <testcase name="Then the user should update insurance information with &lt;username&gt;​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.656"/>
-  <testcase name="Then the user goes back to the summary page​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.763"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.326"/>
-  <testcase name="Then the user should see their saved mailing information​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.362"/>
-  <testcase name="Then the user should see their saved phone number information​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.25"/>
-  <testcase name="Then the user should see their saved insurance information with &lt;username&gt;​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.304"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.102"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.183"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.639"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.533"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.193"/>
-  <testcase name="Then the user should view mailing address information with &lt;username&gt;​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.222"/>
-  <testcase name="Then the user should view phone number information with &lt;username&gt;​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.148"/>
-  <testcase name="Then the user should view electronic fund information with &lt;username&gt;​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.149"/>
-  <testcase name="Then the user should view insurance information with &lt;username&gt;​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.149"/>
-  <testcase name="Then the user should update mailing address information​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="7.551"/>
-  <testcase name="Then the user should update phone number information with &lt;username&gt;​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.368"/>
-  <testcase name="Then the user should update insurance information with &lt;username&gt;​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.577"/>
-  <testcase name="Then the user goes back to the summary page​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.763"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.191"/>
-  <testcase name="Then the user should see their saved mailing information​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.351"/>
-  <testcase name="Then the user should see their saved phone number information​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.242"/>
-  <testcase name="Then the user should see their saved insurance information with &lt;username&gt;​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.292"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.06"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.188"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.023"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.525"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.197"/>
-  <testcase name="Then the user should view mailing address information with &lt;username&gt;​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.215"/>
-  <testcase name="Then the user should view phone number information with &lt;username&gt;​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.15"/>
-  <testcase name="Then the user should view electronic fund information with &lt;username&gt;​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.151"/>
-  <testcase name="Then the user should view insurance information with &lt;username&gt;​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.149"/>
-  <testcase name="Then the user should update mailing address information​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="7.521"/>
-  <testcase name="Then the user should update phone number information with &lt;username&gt;​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.465"/>
-  <testcase name="Then the user should update insurance information with &lt;username&gt;​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.667"/>
-  <testcase name="Then the user goes back to the summary page​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.855"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.264"/>
-  <testcase name="Then the user should see their saved mailing information​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.374"/>
-  <testcase name="Then the user should see their saved phone number information​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.233"/>
-  <testcase name="Then the user should see their saved insurance information with &lt;username&gt;​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.298"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.999"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.183"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.775"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.532"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.345"/>
-  <testcase name="Then the user should view mailing address information with &lt;username&gt;​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.319"/>
-  <testcase name="Then the user should view phone number information with &lt;username&gt;​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.269"/>
-  <testcase name="Then the user should view electronic fund information with &lt;username&gt;​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.179"/>
-  <testcase name="Then the user should view insurance information with &lt;username&gt;​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.154"/>
-  <testcase name="Then the user should update mailing address information​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="7.601"/>
-  <testcase name="Then the user should update phone number information with &lt;username&gt;​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.604"/>
-  <testcase name="Then the user should update insurance information with &lt;username&gt;​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.384"/>
-  <testcase name="Then the user goes back to the summary page​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.871"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.289"/>
-  <testcase name="Then the user should see their saved mailing information​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.366"/>
-  <testcase name="Then the user should see their saved phone number information​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.242"/>
-  <testcase name="Then the user should see their saved insurance information with &lt;username&gt;​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.3"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.073"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.211"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.626"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.535"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.201"/>
-  <testcase name="Then the user should view mailing address information with &lt;username&gt;​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.223"/>
-  <testcase name="Then the user should view phone number information with &lt;username&gt;​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.154"/>
-  <testcase name="Then the user should view electronic fund information with &lt;username&gt;​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.354"/>
-  <testcase name="Then the user should view insurance information with &lt;username&gt;​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.154"/>
-  <testcase name="Then the user should update mailing address information​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="7.517"/>
-  <testcase name="Then the user should update phone number information with &lt;username&gt;​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.585"/>
-  <testcase name="Then the user should update insurance information with &lt;username&gt;​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.836"/>
-  <testcase name="Then the user goes back to the summary page​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.094"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.266"/>
-  <testcase name="Then the user should see their saved mailing information​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.533"/>
-  <testcase name="Then the user should see their saved phone number information​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.361"/>
-  <testcase name="Then the user should see their saved insurance information with &lt;username&gt;​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.302"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.014"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.19"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.686"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.538"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.198"/>
-  <testcase name="Then the user should view mailing address information with &lt;username&gt;​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.21"/>
-  <testcase name="Then the user should view phone number information with &lt;username&gt;​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.15"/>
-  <testcase name="Then the user should view electronic fund information with &lt;username&gt;​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.151"/>
-  <testcase name="Then the user should view insurance information with &lt;username&gt;​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.148"/>
-  <testcase name="Then the user should update mailing address information​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="7.642"/>
-  <testcase name="Then the user should update phone number information with &lt;username&gt;​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.379"/>
-  <testcase name="Then the user should update insurance information with &lt;username&gt;​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.563"/>
-  <testcase name="Then the user goes back to the summary page​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.759"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.275"/>
-  <testcase name="Then the user should see their saved mailing information​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.344"/>
-  <testcase name="Then the user should see their saved phone number information​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.244"/>
-  <testcase name="Then the user should see their saved insurance information with &lt;username&gt;​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.295"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.016"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.191"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.627"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.429"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.217"/>
-  <testcase name="Then the user should view mailing address information with &lt;username&gt;​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.214"/>
-  <testcase name="Then the user should view phone number information with &lt;username&gt;​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.147"/>
-  <testcase name="Then the user should view electronic fund information with &lt;username&gt;​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.148"/>
-  <testcase name="Then the user should view insurance information with &lt;username&gt;​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.155"/>
-  <testcase name="Then the user should update mailing address information​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="7.552"/>
-  <testcase name="Then the user should update phone number information with &lt;username&gt;​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.485"/>
-  <testcase name="Then the user should update insurance information with &lt;username&gt;​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.54"/>
-  <testcase name="Then the user goes back to the summary page​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.716"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.271"/>
-  <testcase name="Then the user should see their saved mailing information​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.419"/>
-  <testcase name="Then the user should see their saved phone number information​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.235"/>
-  <testcase name="Then the user should see their saved insurance information with &lt;username&gt;​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.298"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.058"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.196"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.658"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="9.64"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.305"/>
-  <testcase name="Then the user should view mailing address information with &lt;username&gt;​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.263"/>
-  <testcase name="Then the user should view phone number information with &lt;username&gt;​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.153"/>
-  <testcase name="Then the user should view electronic fund information with &lt;username&gt;​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.152"/>
-  <testcase name="Then the user should view insurance information with &lt;username&gt;​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.147"/>
-  <testcase name="Then the user should update mailing address information​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="7.782"/>
-  <testcase name="Then the user should update phone number information with &lt;username&gt;​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.865"/>
-  <testcase name="Then the user should update insurance information with &lt;username&gt;​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.687"/>
-  <testcase name="Then the user goes back to the summary page​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.766"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.197"/>
-  <testcase name="Then the user should see their saved mailing information​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.352"/>
-  <testcase name="Then the user should see their saved phone number information​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.238"/>
-  <testcase name="Then the user should see their saved insurance information with &lt;username&gt;​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.294"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.958"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.189"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.715"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.539"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.198"/>
-  <testcase name="Then the user should view mailing address information with &lt;username&gt;​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.211"/>
-  <testcase name="Then the user should view phone number information with &lt;username&gt;​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.15"/>
-  <testcase name="Then the user should view electronic fund information with &lt;username&gt;​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.149"/>
-  <testcase name="Then the user should view insurance information with &lt;username&gt;​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.148"/>
-  <testcase name="Then the user should update mailing address information​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="7.465"/>
-  <testcase name="Then the user should update phone number information with &lt;username&gt;​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.482"/>
-  <testcase name="Then the user should update insurance information with &lt;username&gt;​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.713"/>
-  <testcase name="Then the user goes back to the summary page​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.73"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.2"/>
-  <testcase name="Then the user should see their saved mailing information​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.38"/>
-  <testcase name="Then the user should see their saved phone number information​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.245"/>
-  <testcase name="Then the user should see their saved insurance information with &lt;username&gt;​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.297"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.008"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.184"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.809"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.431"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.2"/>
-  <testcase name="Then the user should view mailing address information with &lt;username&gt;​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.207"/>
-  <testcase name="Then the user should view phone number information with &lt;username&gt;​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.148"/>
-  <testcase name="Then the user should view electronic fund information with &lt;username&gt;​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.148"/>
-  <testcase name="Then the user should view insurance information with &lt;username&gt;​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.15"/>
-  <testcase name="Then the user should update mailing address information​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="7.495"/>
-  <testcase name="Then the user should update phone number information with &lt;username&gt;​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.372"/>
-  <testcase name="Then the user should update insurance information with &lt;username&gt;​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.521"/>
-  <testcase name="Then the user goes back to the summary page​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.778"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.198"/>
-  <testcase name="Then the user should see their saved mailing information​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.35"/>
-  <testcase name="Then the user should see their saved phone number information​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.238"/>
-  <testcase name="Then the user should see their saved insurance information with &lt;username&gt;​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.295"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.976"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.192"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.651"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.529"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.197"/>
-  <testcase name="Then the user should view mailing address information with &lt;username&gt;​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.231"/>
-  <testcase name="Then the user should view phone number information with &lt;username&gt;​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.148"/>
-  <testcase name="Then the user should view electronic fund information with &lt;username&gt;​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.147"/>
-  <testcase name="Then the user should view insurance information with &lt;username&gt;​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.149"/>
-  <testcase name="Then the user should update mailing address information​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="7.907"/>
-  <testcase name="Then the user should update phone number information with &lt;username&gt;​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.676"/>
-  <testcase name="Then the user should update insurance information with &lt;username&gt;​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.096"/>
-  <testcase name="Then the user goes back to the summary page​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.718"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.27"/>
-  <testcase name="Then the user should see their saved mailing information​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.373"/>
-  <testcase name="Then the user should see their saved phone number information​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.251"/>
-  <testcase name="Then the user should see their saved insurance information with &lt;username&gt;​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.304"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.088"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.188"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.85"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.539"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.288"/>
-  <testcase name="Then the user should view mailing address information with &lt;username&gt;​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.215"/>
-  <testcase name="Then the user should view phone number information with &lt;username&gt;​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.15"/>
-  <testcase name="Then the user should view electronic fund information with &lt;username&gt;​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.163"/>
-  <testcase name="Then the user should view insurance information with &lt;username&gt;​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.153"/>
-  <testcase name="Then the user should update mailing address information​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="7.875"/>
-  <testcase name="Then the user should update phone number information with &lt;username&gt;​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.086"/>
-  <testcase name="Then the user should update insurance information with &lt;username&gt;​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.603"/>
-  <testcase name="Then the user goes back to the summary page​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.034"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.309"/>
-  <testcase name="Then the user should see their saved mailing information​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.361"/>
-  <testcase name="Then the user should see their saved phone number information​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.245"/>
-  <testcase name="Then the user should see their saved insurance information with &lt;username&gt;​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.354"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.064"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.191"/>
-  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.849"/>
-  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.447"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.314"/>
-  <testcase name="Then the user should view mailing address information with &lt;username&gt;​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.221"/>
-  <testcase name="Then the user should view phone number information with &lt;username&gt;​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.152"/>
-  <testcase name="Then the user should view electronic fund information with &lt;username&gt;​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.16"/>
-  <testcase name="Then the user should view insurance information with &lt;username&gt;​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.152"/>
-  <testcase name="Then the user should update mailing address information​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="7.513"/>
-  <testcase name="Then the user should update phone number information with &lt;username&gt;​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.603"/>
-  <testcase name="Then the user should update insurance information with &lt;username&gt;​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.918"/>
-  <testcase name="Then the user goes back to the summary page​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.8"/>
-  <testcase name="Then the user reviews the application with &lt;username&gt;​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.335"/>
-  <testcase name="Then the user should see their saved mailing information​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.371"/>
-  <testcase name="Then the user should see their saved phone number information​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.241"/>
-  <testcase name="Then the user should see their saved insurance information with &lt;username&gt;​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.311"/>
-  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.067"/>
-  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.189"/>
-  <testcase name="Scenario: All information is updated and saved" classname="Scenario: All information is updated and saved" time="0.191"/>
-  <testcase name="fullRegression.story" classname="fullRegression.story" time="0.389"/>
-  <testcase name="AfterStories" classname="java.lang.Object" time="7.823"/>
+  <testcase name="BeforeStories" classname="java.lang.Object" time="0.002"/>
+  <testcase name="Given the user is on the dashboard page" classname="gov.DA.dashboard.test.steps.DailyRegression" time="8.997"/>
+  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;" classname="gov.DA.dashboard.test.steps.DailyRegression" time="7.45"/>
+  <testcase name="Then the user is on the summary page with &lt;username&gt;" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.225"/>
+  <testcase name="Then the notification should be displayed with &lt;username&gt;" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.537"/>
+  <testcase name="Then the user logs out of the dashboard" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.209"/>
+  <testcase name="Then they should see the home page" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.155"/>
+  <testcase name="Then they should see the home page" classname="gov.DA.dashboard.test.steps.DailyRegression" time="8.63"/>
+  <testcase name="Then they should see the home page" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.438"/>
+  <testcase name="Then they should see the home page" classname="gov.DA.dashboard.test.steps.DailyRegression" time="8.685"/>
+  <testcase name="Then they should see the home page" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.067"/>
+  <testcase name="Then they should see the home page" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.295"/>
+  <testcase name="Then they should see the home page" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.418"/>
+  <testcase name="Then they should see the home page" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.265"/>
+  <testcase name="Then they should see the home page" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.319"/>
+  <testcase name="Then they should see the home page" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.038"/>
+  <testcase name="Then they should see the home page" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.19"/>
+  <testcase name="Given the user is on the dashboard page​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.773"/>
+  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.556"/>
+  <testcase name="Then the user is on the summary page with &lt;username&gt;​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.195"/>
+  <testcase name="Then the notification should be displayed with &lt;username&gt;​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.236"/>
+  <testcase name="Then the user logs out of the dashboard​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.167"/>
+  <testcase name="Then they should see the home page​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.149"/>
+  <testcase name="Then they should see the home page​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="8.594"/>
+  <testcase name="Then they should see the home page​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.496"/>
+  <testcase name="Then they should see the home page​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="8.552"/>
+  <testcase name="Then they should see the home page​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.018"/>
+  <testcase name="Then they should see the home page​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.3"/>
+  <testcase name="Then they should see the home page​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.391"/>
+  <testcase name="Then they should see the home page​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.263"/>
+  <testcase name="Then they should see the home page​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.339"/>
+  <testcase name="Then they should see the home page​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.119"/>
+  <testcase name="Then they should see the home page​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.339"/>
+  <testcase name="Given the user is on the dashboard page​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.194"/>
+  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="9.761"/>
+  <testcase name="Then the user is on the summary page with &lt;username&gt;​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.243"/>
+  <testcase name="Then the notification should be displayed with &lt;username&gt;​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.357"/>
+  <testcase name="Then the user logs out of the dashboard​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.185"/>
+  <testcase name="Then they should see the home page​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.149"/>
+  <testcase name="Then they should see the home page​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="8.654"/>
+  <testcase name="Then they should see the home page​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.518"/>
+  <testcase name="Then they should see the home page​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="8.521"/>
+  <testcase name="Then they should see the home page​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.828"/>
+  <testcase name="Then they should see the home page​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.368"/>
+  <testcase name="Then they should see the home page​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.377"/>
+  <testcase name="Then they should see the home page​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.252"/>
+  <testcase name="Then they should see the home page​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.304"/>
+  <testcase name="Then they should see the home page​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.946"/>
+  <testcase name="Then they should see the home page​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.205"/>
+  <testcase name="Given the user is on the dashboard page​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.803"/>
+  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.542"/>
+  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.204"/>
+  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.328"/>
+  <testcase name="Then the user logs out of the dashboard​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.161"/>
+  <testcase name="Then they should see the home page​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.145"/>
+  <testcase name="Then they should see the home page​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="8.434"/>
+  <testcase name="Then they should see the home page​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.479"/>
+  <testcase name="Then they should see the home page​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="8.556"/>
+  <testcase name="Then they should see the home page​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.801"/>
+  <testcase name="Then they should see the home page​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.206"/>
+  <testcase name="Then they should see the home page​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.388"/>
+  <testcase name="Then they should see the home page​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.24"/>
+  <testcase name="Then they should see the home page​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.301"/>
+  <testcase name="Then they should see the home page​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.117"/>
+  <testcase name="Then they should see the home page​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.191"/>
+  <testcase name="Given the user is on the dashboard page​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.81"/>
+  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.537"/>
+  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.203"/>
+  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.223"/>
+  <testcase name="Then the user logs out of the dashboard​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.158"/>
+  <testcase name="Then they should see the home page​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.146"/>
+  <testcase name="Then they should see the home page​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="8.438"/>
+  <testcase name="Then they should see the home page​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.417"/>
+  <testcase name="Then they should see the home page​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="8.802"/>
+  <testcase name="Then they should see the home page​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.809"/>
+  <testcase name="Then they should see the home page​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.201"/>
+  <testcase name="Then they should see the home page​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.379"/>
+  <testcase name="Then they should see the home page​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.239"/>
+  <testcase name="Then they should see the home page​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.33"/>
+  <testcase name="Then they should see the home page​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.921"/>
+  <testcase name="Then they should see the home page​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.192"/>
+  <testcase name="Given the user is on the dashboard page​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.713"/>
+  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.543"/>
+  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.204"/>
+  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.22"/>
+  <testcase name="Then the user logs out of the dashboard​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.157"/>
+  <testcase name="Then they should see the home page​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.146"/>
+  <testcase name="Then they should see the home page​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="8.487"/>
+  <testcase name="Then they should see the home page​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.53"/>
+  <testcase name="Then they should see the home page​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="8.566"/>
+  <testcase name="Then they should see the home page​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.838"/>
+  <testcase name="Then they should see the home page​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.198"/>
+  <testcase name="Then they should see the home page​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.375"/>
+  <testcase name="Then they should see the home page​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.245"/>
+  <testcase name="Then they should see the home page​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.333"/>
+  <testcase name="Then they should see the home page​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.913"/>
+  <testcase name="Then they should see the home page​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.181"/>
+  <testcase name="Given the user is on the dashboard page​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.737"/>
+  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.426"/>
+  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.202"/>
+  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.233"/>
+  <testcase name="Then the user logs out of the dashboard​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.154"/>
+  <testcase name="Then they should see the home page​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.144"/>
+  <testcase name="Then they should see the home page​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="8.473"/>
+  <testcase name="Then they should see the home page​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.384"/>
+  <testcase name="Then they should see the home page​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="9.094"/>
+  <testcase name="Then they should see the home page​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.777"/>
+  <testcase name="Then they should see the home page​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.201"/>
+  <testcase name="Then they should see the home page​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.358"/>
+  <testcase name="Then they should see the home page​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.251"/>
+  <testcase name="Then they should see the home page​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.298"/>
+  <testcase name="Then they should see the home page​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.129"/>
+  <testcase name="Then they should see the home page​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.188"/>
+  <testcase name="Given the user is on the dashboard page​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.814"/>
+  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.761"/>
+  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.206"/>
+  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="3.256"/>
+  <testcase name="Then the user logs out of the dashboard​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.156"/>
+  <testcase name="Then they should see the home page​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.145"/>
+  <testcase name="Then they should see the home page​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="8.369"/>
+  <testcase name="Then they should see the home page​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.488"/>
+  <testcase name="Then they should see the home page​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="8.585"/>
+  <testcase name="Then they should see the home page​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.831"/>
+  <testcase name="Then they should see the home page​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.199"/>
+  <testcase name="Then they should see the home page​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="5.361"/>
+  <testcase name="Then they should see the home page​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.292"/>
+  <testcase name="Then they should see the home page​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="2.339"/>
+  <testcase name="Then they should see the home page​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.917"/>
+  <testcase name="Then they should see the home page​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0.181"/>
+  <testcase name="Given the user is on the dashboard page​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.881"/>
+  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="6.535"/>
+  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="15.203"/>
+  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.486">
+    <error message="Timed out after 2 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: driver.version: unknown" type="net.serenitybdd.core.exceptions.SerenityManagedException"><![CDATA[net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'C02RJ1FVFVH8.local', ip: '10.201.2.79', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:145)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:93)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:144)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.withTimeoutOf(WebElementFacadeImpl.java:293)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:667)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:986)
+	at sun.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at gov.DA.dashboard.test.pages.DAPage.clickApplicantTab(DAPage.java:294)
+	at gov.DA.dashboard.test.steps.serenity.User.goToApplicantTab(User.java:170)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db.CGLIB$goToApplicantTab$21(<generated>)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db$$FastClassByCGLIB$$4f9e9ae1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:269)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:127)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db.goToApplicantTab(<generated>)
+	at gov.DA.dashboard.test.steps.serenity.User.viewMailingAddress(User.java:74)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db.CGLIB$viewMailingAddress$8(<generated>)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db$$FastClassByCGLIB$$4f9e9ae1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:269)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:127)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db.viewMailingAddress(<generated>)
+	at gov.DA.dashboard.test.steps.DailyRegression.userViewsMailingAddressInformation(DailyRegression.java:63)
+]]></error>
+    <system-out><![CDATA[Then the user reviews the application with 333011005
+]]></system-out>
+  </testcase>
+  <testcase name="Then the user logs out of the dashboard​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view mailing address information with 333011005 (FAILED)
+(net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'C02RJ1FVFVH8.local', ip: '10.201.2.79', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view phone number information with 333011005 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view insurance information with 333011005 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update mailing address information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update phone number information with 333011005 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update insurance information with 333011005 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user goes back to the summary page (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user reviews the application with 333011005 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved mailing information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved phone number information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved insurance information with 333011005 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user logs out of the dashboard (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Given the user is on the dashboard page​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.763"/>
+  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.546">
+    <error message="Timed out after 2 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: driver.version: unknown" type="net.serenitybdd.core.exceptions.SerenityManagedException"><![CDATA[net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'C02RJ1FVFVH8.local', ip: '10.201.2.79', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:145)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:93)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:144)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.withTimeoutOf(WebElementFacadeImpl.java:293)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:667)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:579)
+	at sun.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
+	at com.sun.proxy.$Proxy23.type(Unknown Source)
+	at gov.DA.dashboard.test.pages.DAPage.logIntoDashboard(DAPage.java:141)
+	at gov.DA.dashboard.test.steps.serenity.User.fillInForm(User.java:23)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db.CGLIB$fillInForm$1(<generated>)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db$$FastClassByCGLIB$$4f9e9ae1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:269)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:127)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db.fillInForm(<generated>)
+	at gov.DA.dashboard.test.steps.DailyRegression.whenTheUserLogsIntoDashboard(DailyRegression.java:25)
+]]></error>
+    <system-out><![CDATA[Given the user is on the dashboard page
+]]></system-out>
+  </testcase>
+  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[When the user logs into the dashboard with 333011006 and 1990-01-07 (FAILED)
+(net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'C02RJ1FVFVH8.local', ip: '10.201.2.79', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown)
+]]></system-out>
+  </testcase>
+  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user reviews the application with 333011006 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then the user logs out of the dashboard​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view mailing address information with 333011006 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view phone number information with 333011006 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view insurance information with 333011006 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update mailing address information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update phone number information with 333011006 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update insurance information with 333011006 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user goes back to the summary page (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user reviews the application with 333011006 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved mailing information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved phone number information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved insurance information with 333011006 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user logs out of the dashboard (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Given the user is on the dashboard page​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.504"/>
+  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.485">
+    <error message="Timed out after 2 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: driver.version: unknown" type="net.serenitybdd.core.exceptions.SerenityManagedException"><![CDATA[net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'C02RJ1FVFVH8.local', ip: '10.201.2.79', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:145)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:93)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:144)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.withTimeoutOf(WebElementFacadeImpl.java:293)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:667)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:579)
+	at sun.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
+	at com.sun.proxy.$Proxy23.type(Unknown Source)
+	at gov.DA.dashboard.test.pages.DAPage.logIntoDashboard(DAPage.java:141)
+	at gov.DA.dashboard.test.steps.serenity.User.fillInForm(User.java:20)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db.CGLIB$fillInForm$1(<generated>)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db$$FastClassByCGLIB$$4f9e9ae1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:269)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:127)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db.fillInForm(<generated>)
+	at gov.DA.dashboard.test.steps.DailyRegression.whenTheUserLogsIntoDashboard(DailyRegression.java:25)
+]]></error>
+    <system-out><![CDATA[Given the user is on the dashboard page
+]]></system-out>
+  </testcase>
+  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[When the user logs into the dashboard with 049828525 and 1971-11-11 (FAILED)
+(net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'C02RJ1FVFVH8.local', ip: '10.201.2.79', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown)
+]]></system-out>
+  </testcase>
+  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user reviews the application with 049828525 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view mailing address information with 049828525 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view phone number information with 049828525 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view insurance information with 049828525 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update mailing address information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update phone number information with 049828525 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update insurance information with 049828525 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user goes back to the summary page (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user reviews the application with 049828525 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved mailing information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved phone number information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved insurance information with 049828525 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user logs out of the dashboard (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.742"/>
+  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.553">
+    <error message="Timed out after 2 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: driver.version: unknown" type="net.serenitybdd.core.exceptions.SerenityManagedException"><![CDATA[net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'C02RJ1FVFVH8.local', ip: '10.201.2.79', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:145)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:93)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:144)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.withTimeoutOf(WebElementFacadeImpl.java:293)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:667)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:579)
+	at sun.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
+	at com.sun.proxy.$Proxy23.type(Unknown Source)
+	at gov.DA.dashboard.test.pages.DAPage.logIntoDashboard(DAPage.java:141)
+	at gov.DA.dashboard.test.steps.serenity.User.fillInForm(User.java:23)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db.CGLIB$fillInForm$1(<generated>)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db$$FastClassByCGLIB$$4f9e9ae1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:269)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:127)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db.fillInForm(<generated>)
+	at gov.DA.dashboard.test.steps.DailyRegression.whenTheUserLogsIntoDashboard(DailyRegression.java:25)
+]]></error>
+    <system-out><![CDATA[Given the user is on the dashboard page
+]]></system-out>
+  </testcase>
+  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[When the user logs into the dashboard with 001010001 and 1919-12-12 (FAILED)
+(net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'C02RJ1FVFVH8.local', ip: '10.201.2.79', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown)
+]]></system-out>
+  </testcase>
+  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user reviews the application with 001010001 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view mailing address information with 001010001 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view phone number information with 001010001 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view insurance information with 001010001 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update mailing address information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update phone number information with 001010001 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update insurance information with 001010001 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user goes back to the summary page (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user reviews the application with 001010001 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved mailing information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved phone number information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved insurance information with 001010001 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user logs out of the dashboard (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.551"/>
+  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.535">
+    <error message="Timed out after 2 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: driver.version: unknown" type="net.serenitybdd.core.exceptions.SerenityManagedException"><![CDATA[net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'C02RJ1FVFVH8.local', ip: '10.201.2.79', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:145)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:93)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:144)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.withTimeoutOf(WebElementFacadeImpl.java:293)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:667)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:579)
+	at sun.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
+	at com.sun.proxy.$Proxy23.type(Unknown Source)
+	at gov.DA.dashboard.test.pages.DAPage.logIntoDashboard(DAPage.java:141)
+	at gov.DA.dashboard.test.steps.serenity.User.fillInForm(User.java:23)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db.CGLIB$fillInForm$1(<generated>)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db$$FastClassByCGLIB$$4f9e9ae1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:269)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:127)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db.fillInForm(<generated>)
+	at gov.DA.dashboard.test.steps.DailyRegression.whenTheUserLogsIntoDashboard(DailyRegression.java:25)
+]]></error>
+    <system-out><![CDATA[Given the user is on the dashboard page
+]]></system-out>
+  </testcase>
+  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[When the user logs into the dashboard with 735151123 and 1968-05-01 (FAILED)
+(net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'C02RJ1FVFVH8.local', ip: '10.201.2.79', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown)
+]]></system-out>
+  </testcase>
+  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user reviews the application with 735151123 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view mailing address information with 735151123 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view phone number information with 735151123 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view insurance information with 735151123 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update mailing address information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update phone number information with 735151123 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update insurance information with 735151123 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user goes back to the summary page (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user reviews the application with 735151123 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved mailing information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved phone number information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved insurance information with 735151123 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user logs out of the dashboard (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.559"/>
+  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.579">
+    <error message="Timed out after 2 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: driver.version: unknown" type="net.serenitybdd.core.exceptions.SerenityManagedException"><![CDATA[net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'C02RJ1FVFVH8.local', ip: '10.201.2.79', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:145)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:93)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:144)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.withTimeoutOf(WebElementFacadeImpl.java:293)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:667)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:579)
+	at sun.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
+	at com.sun.proxy.$Proxy23.type(Unknown Source)
+	at gov.DA.dashboard.test.pages.DAPage.logIntoDashboard(DAPage.java:141)
+	at gov.DA.dashboard.test.steps.serenity.User.fillInForm(User.java:23)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db.CGLIB$fillInForm$1(<generated>)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db$$FastClassByCGLIB$$4f9e9ae1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:269)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:127)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db.fillInForm(<generated>)
+	at gov.DA.dashboard.test.steps.DailyRegression.whenTheUserLogsIntoDashboard(DailyRegression.java:25)
+]]></error>
+    <system-out><![CDATA[Given the user is on the dashboard page
+]]></system-out>
+  </testcase>
+  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[When the user logs into the dashboard with 735251523 and 1968-05-01 (FAILED)
+(net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'C02RJ1FVFVH8.local', ip: '10.201.2.79', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown)
+]]></system-out>
+  </testcase>
+  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user reviews the application with 735251523 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view mailing address information with 735251523 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view phone number information with 735251523 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view insurance information with 735251523 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update mailing address information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update phone number information with 735251523 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update insurance information with 735251523 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user goes back to the summary page (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user reviews the application with 735251523 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved mailing information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved phone number information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved insurance information with 735251523 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user logs out of the dashboard (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.604"/>
+  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.589">
+    <error message="Timed out after 2 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: driver.version: unknown" type="net.serenitybdd.core.exceptions.SerenityManagedException"><![CDATA[net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'C02RJ1FVFVH8.local', ip: '10.201.2.79', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:145)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:93)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:144)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.withTimeoutOf(WebElementFacadeImpl.java:293)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:667)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:579)
+	at sun.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
+	at com.sun.proxy.$Proxy23.type(Unknown Source)
+	at gov.DA.dashboard.test.pages.DAPage.logIntoDashboard(DAPage.java:141)
+	at gov.DA.dashboard.test.steps.serenity.User.fillInForm(User.java:23)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db.CGLIB$fillInForm$1(<generated>)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db$$FastClassByCGLIB$$4f9e9ae1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:269)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:127)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db.fillInForm(<generated>)
+	at gov.DA.dashboard.test.steps.DailyRegression.whenTheUserLogsIntoDashboard(DailyRegression.java:25)
+]]></error>
+    <system-out><![CDATA[Given the user is on the dashboard page
+]]></system-out>
+  </testcase>
+  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[When the user logs into the dashboard with 430991038 and 1987-3-26 (FAILED)
+(net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'C02RJ1FVFVH8.local', ip: '10.201.2.79', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown)
+]]></system-out>
+  </testcase>
+  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user reviews the application with 430991038 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view mailing address information with 430991038 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view phone number information with 430991038 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view insurance information with 430991038 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update mailing address information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update phone number information with 430991038 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update insurance information with 430991038 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user goes back to the summary page (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user reviews the application with 430991038 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved mailing information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved phone number information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved insurance information with 430991038 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user logs out of the dashboard (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Given the user is on the dashboard page​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="1.559"/>
+  <testcase name="When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="4.549">
+    <error message="Timed out after 2 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: driver.version: unknown" type="net.serenitybdd.core.exceptions.SerenityManagedException"><![CDATA[net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'C02RJ1FVFVH8.local', ip: '10.201.2.79', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:145)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:93)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:144)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.withTimeoutOf(WebElementFacadeImpl.java:293)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:667)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:579)
+	at sun.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
+	at com.sun.proxy.$Proxy23.type(Unknown Source)
+	at gov.DA.dashboard.test.pages.DAPage.logIntoDashboard(DAPage.java:141)
+	at gov.DA.dashboard.test.steps.serenity.User.fillInForm(User.java:23)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db.CGLIB$fillInForm$1(<generated>)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db$$FastClassByCGLIB$$4f9e9ae1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:269)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:127)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db.fillInForm(<generated>)
+	at gov.DA.dashboard.test.steps.DailyRegression.whenTheUserLogsIntoDashboard(DailyRegression.java:25)
+]]></error>
+    <system-out><![CDATA[Given the user is on the dashboard page
+]]></system-out>
+  </testcase>
+  <testcase name="Then the user is on the summary page with &lt;username&gt;​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[When the user logs into the dashboard with 265798306 and 1966-12-12 (FAILED)
+(net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'C02RJ1FVFVH8.local', ip: '10.201.2.79', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown)
+]]></system-out>
+  </testcase>
+  <testcase name="Then the notification should be displayed with &lt;username&gt;​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user reviews the application with 265798306 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then the user logs out of the dashboard​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view mailing address information with 265798306 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view phone number information with 265798306 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should view insurance information with 265798306 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update mailing address information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update phone number information with 265798306 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should update insurance information with 265798306 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user goes back to the summary page (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user reviews the application with 265798306 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved mailing information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved phone number information (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user should see their saved insurance information with 265798306 (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the home page​​​​​​​​​​​​​​​" classname="gov.DA.dashboard.test.steps.DailyRegression" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then the user logs out of the dashboard (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: View notifications on homepage" classname="Scenario: View notifications on homepage" time="4.563">
+    <failure message="scenario failed!" type="java.lang.AssertionError">java.lang.AssertionError: scenario failed!
+	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterScenario(JUnitScenarioReporter.java:218)
+	at org.jbehave.core.reporters.DelegatingStoryReporter.afterScenario(DelegatingStoryReporter.java:43)
+	at org.jbehave.core.reporters.ConcurrentStoryReporter.afterScenario(ConcurrentStoryReporter.java:176)
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:890)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</failure>
+    <system-out><![CDATA[Then they should see the home page (NOT PERFORMED)
+
+]]></system-out>
+  </testcase>
+  <testcase name="fullRegression.story" classname="fullRegression.story" time="4.623">
+    <failure message="story failed!" type="java.lang.AssertionError">java.lang.AssertionError: story failed!
+	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterStory(JUnitScenarioReporter.java:143)
+	at org.jbehave.core.reporters.DelegatingStoryReporter.afterStory(DelegatingStoryReporter.java:49)
+	at org.jbehave.core.reporters.ConcurrentStoryReporter.afterStory(ConcurrentStoryReporter.java:122)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:792)
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</failure>
+    <system-out><![CDATA[
+net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'C02RJ1FVFVH8.local', ip: '10.201.2.79', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)
+	at net.thucydides.core.steps.StepInterceptor.reportMethodError(StepInterceptor.java:281)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:22)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:269)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:127)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db.fillInForm(<generated>)
+	at gov.DA.dashboard.test.steps.DailyRegression.whenTheUserLogsIntoDashboard(DailyRegression.java:25)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - &amp#27;[91m
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: All information is updated and saved
+---------------------------------------------------------------------&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - &amp#27;[91mTEST FAILED AT STEP Fill in form: 265798306, 1966-12-12&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - Timed out after 2 seconds. Element not found
+]]></system-err>
+  </testcase>
+  <testcase name="AfterStories" classname="java.lang.Object" time="0"/>
+  <testcase name="gov.DA.dashboard.test.DAREAcceptanceTestSuite" classname="org.apache.maven.surefire.junit4.JUnit4Provider" time="17.548">
+    <error message="org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: &#10;org.jbehave.core.embedder.PerformableTree$SomethingHappened@8ca712f: net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;&#10;Driver info: driver.version: unknown" type="java.lang.RuntimeException">java.lang.RuntimeException: org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: 
+org.jbehave.core.embedder.PerformableTree$SomethingHappened@8ca712f: net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'C02RJ1FVFVH8.local', ip: '10.201.2.79', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.jbehave.core.embedder.Embedder$ThrowingRunningStoriesFailed.handleFailures(Embedder.java:553)
+	at org.jbehave.core.embedder.Embedder.handleFailures(Embedder.java:238)
+	at org.jbehave.core.embedder.Embedder.runStoriesAsPaths(Embedder.java:216)
+	at net.serenitybdd.jbehave.embedders.ExtendedEmbedder.runStoriesAsPaths(ExtendedEmbedder.java:60)
+	at net.serenitybdd.jbehave.runners.SerenityReportingRunner.run(SerenityReportingRunner.java:175)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+</error>
+    <system-out><![CDATA[
+Generating reports view to '/Users/divyasharma/Documents/workspace/AutoDashboard/target/jbehave' using formats '[stats, console, html, xml, serenityreporter, junitscenarioreporter]' and view properties '{decorateNonHtml=true}'
+Reports view generated with 2 stories (of which 0 pending) containing 1 scenarios (of which 0 pending)
+Failures in reports view: 1 scenarios failed
+]]></system-out>
+  </testcase>
 </testsuite>

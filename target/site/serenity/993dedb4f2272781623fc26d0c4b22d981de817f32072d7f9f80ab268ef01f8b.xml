@@ -1,4 +1,4 @@
-<acceptance-test-run title="View personalized list of FOAs from the additional resources" name="View personalized list of FOAs from the additional resources" steps="108" successful="108" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="565439" timestamp="2017-02-07T13:29:46.308-05:00" session-id="5a908fbc5aa69397ac183fb1fcb6db25">
+<acceptance-test-run title="View personalized list of FOAs from the additional resources" name="View personalized list of FOAs from the additional resources" steps="108" successful="108" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="15" timestamp="2017-02-09T12:40:25.607-05:00">
   <user-story id="fullRegression" name="Full regression" path="stories/fullRegression/fullRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -87,892 +87,363 @@
       </row>
     </rows>
   </examples>
-  <test-group name="[1] {username=430990610, password=1960-9-15}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="1741">
-        <screenshots>
-          <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
-        </screenshots>
-        <description>On dashboard login page</description>
-      </test-step>
-    </test-group>
-    <test-step result="SUCCESS" duration="6665">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        <screenshot image="d724a80814e52079529299911a05c5f3.png"/>
-      </screenshots>
-      <description>When the user logs into the dashboard with {430990610} and {1960-9-15}</description>
+  <test-group name="[1] {username=430990610, password=1960-9-15}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="14721">
-      <screenshots>
-        <screenshot image="47c09194f48f7688fe22e9a036befaa8.png"/>
-        <screenshot image="180677174ef9ab9a22d92695424eeb5d.png"/>
-      </screenshots>
-      <description>Then the user views additional resources with the {430990610}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3383">
-      <screenshots>
-        <screenshot image="180677174ef9ab9a22d92695424eeb5d.png"/>
-      </screenshots>
-      <description>Then the user should view the list of FOAs with {430990610}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user views additional resources with the &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5447">
-      <screenshots>
-        <screenshot image="180677174ef9ab9a22d92695424eeb5d.png"/>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view the list of FOAs with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="405">
-      <screenshots>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-        <screenshot image="92b7d33557d6b6b670a1bb8e9a2a86f9.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[2] {username=786787687, password=1984-1-1}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="194f53efe7fb0eed157d7fb874311727.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="194f53efe7fb0eed157d7fb874311727.png"/>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="2107">
-        <screenshots>
-          <screenshot image="194f53efe7fb0eed157d7fb874311727.png"/>
-          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
-        </screenshots>
-        <description>On dashboard login page</description>
-      </test-step>
-    </test-group>
-    <test-step result="SUCCESS" duration="6636">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        <screenshot image="ed09b3c6cf0ae51efc711b41a6cd3a79.png"/>
-      </screenshots>
-      <description>When the user logs into the dashboard with {786787687} and {1984-1-1}</description>
+  <test-group name="[2] {username=786787687, password=1984-1-1}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="13344">
-      <screenshots>
-        <screenshot image="7a0b70833fe96aa63f6d8ad34e43d5da.png"/>
-        <screenshot image="9f1ed98e16ac48307469cecf39e0f514.png"/>
-      </screenshots>
-      <description>Then the user views additional resources with the {786787687}</description>
+    <test-step result="SUCCESS" duration="1">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2342">
-      <screenshots>
-        <screenshot image="9f1ed98e16ac48307469cecf39e0f514.png"/>
-      </screenshots>
-      <description>Then the user should view the list of FOAs with {786787687}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user views additional resources with the &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5509">
-      <screenshots>
-        <screenshot image="9f1ed98e16ac48307469cecf39e0f514.png"/>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view the list of FOAs with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="394">
-      <screenshots>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[3] {username=158338199, password=1966-6-6}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="1807">
-        <screenshots>
-          <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-          <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        </screenshots>
-        <description>On dashboard login page</description>
-      </test-step>
-    </test-group>
-    <test-step result="SUCCESS" duration="9784">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        <screenshot image="199c74f8353312b3ec9d16275096d99d.png"/>
-      </screenshots>
-      <description>When the user logs into the dashboard with {158338199} and {1966-6-6}</description>
+  <test-group name="[3] {username=158338199, password=1966-6-6}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="13320">
-      <screenshots>
-        <screenshot image="4db61c4e67a67a2673241d4c4d35f179.png"/>
-        <screenshot image="a4d48a492791189e816d3e87ca5522b9.png"/>
-      </screenshots>
-      <description>Then the user views additional resources with the {158338199}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3154">
-      <screenshots>
-        <screenshot image="a4d48a492791189e816d3e87ca5522b9.png"/>
-      </screenshots>
-      <description>Then the user should view the list of FOAs with {158338199}</description>
+    <test-step result="SUCCESS" duration="1">
+      <description>Then the user views additional resources with the &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5307">
-      <screenshots>
-        <screenshot image="a4d48a492791189e816d3e87ca5522b9.png"/>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view the list of FOAs with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="387">
-      <screenshots>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[4] {username=430993352, password=1987-12-12}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="1836">
-        <screenshots>
-          <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        </screenshots>
-        <description>On dashboard login page</description>
-      </test-step>
-    </test-group>
-    <test-step result="SUCCESS" duration="6651">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        <screenshot image="df631a82238f4752be8ecd6c382a08dd.png"/>
-      </screenshots>
-      <description>When the user logs into the dashboard with {430993352} and {1987-12-12}</description>
+  <test-group name="[4] {username=430993352, password=1987-12-12}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="13453">
-      <screenshots>
-        <screenshot image="f3c1c62562706295c1099df819bab91f.png"/>
-        <screenshot image="e7bc59fb9fdd173fe217445ae04ab5ca.png"/>
-      </screenshots>
-      <description>Then the user views additional resources with the {430993352}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3335">
-      <screenshots>
-        <screenshot image="e7bc59fb9fdd173fe217445ae04ab5ca.png"/>
-      </screenshots>
-      <description>Then the user should view the list of FOAs with {430993352}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user views additional resources with the &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5202">
-      <screenshots>
-        <screenshot image="e7bc59fb9fdd173fe217445ae04ab5ca.png"/>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="1">
+      <description>Then the user should view the list of FOAs with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="377">
-      <screenshots>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[5] {username=875473101, password=1979-1-2}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="2039">
-        <screenshots>
-          <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        </screenshots>
-        <description>On dashboard login page</description>
-      </test-step>
-    </test-group>
-    <test-step result="SUCCESS" duration="6624">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        <screenshot image="a40033cc9dc456903d3e274fdc14e71f.png"/>
-      </screenshots>
-      <description>When the user logs into the dashboard with {875473101} and {1979-1-2}</description>
+  <test-group name="[5] {username=875473101, password=1979-1-2}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="13432">
-      <screenshots>
-        <screenshot image="4e624e569cc6c95e78a0a8e3699e3976.png"/>
-        <screenshot image="6303fdbf8518a6680a69ee43a2687c93.png"/>
-      </screenshots>
-      <description>Then the user views additional resources with the {875473101}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3199">
-      <screenshots>
-        <screenshot image="6303fdbf8518a6680a69ee43a2687c93.png"/>
-      </screenshots>
-      <description>Then the user should view the list of FOAs with {875473101}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user views additional resources with the &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5206">
-      <screenshots>
-        <screenshot image="6303fdbf8518a6680a69ee43a2687c93.png"/>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view the list of FOAs with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="377">
-      <screenshots>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[6] {username=735213161, password=1968-05-01}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="1812">
-        <screenshots>
-          <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        </screenshots>
-        <description>On dashboard login page</description>
-      </test-step>
-    </test-group>
-    <test-step result="SUCCESS" duration="6666">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        <screenshot image="920aed4573d3e1e42012499766276379.png"/>
-      </screenshots>
-      <description>When the user logs into the dashboard with {735213161} and {1968-05-01}</description>
+  <test-group name="[6] {username=735213161, password=1968-05-01}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="13316">
-      <screenshots>
-        <screenshot image="920aed4573d3e1e42012499766276379.png"/>
-        <screenshot image="45554fc1bf184a4213686c78aa767322.png"/>
-      </screenshots>
-      <description>Then the user views additional resources with the {735213161}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2347">
-      <screenshots>
-        <screenshot image="45554fc1bf184a4213686c78aa767322.png"/>
-      </screenshots>
-      <description>Then the user should view the list of FOAs with {735213161}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user views additional resources with the &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5206">
-      <screenshots>
-        <screenshot image="45554fc1bf184a4213686c78aa767322.png"/>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view the list of FOAs with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="364">
-      <screenshots>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[7] {username=594575741, password=1961-01-01}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="1915">
-        <screenshots>
-          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
-        </screenshots>
-        <description>On dashboard login page</description>
-      </test-step>
-    </test-group>
-    <test-step result="SUCCESS" duration="6559">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        <screenshot image="92320cf9dd7cfcaea025f0277690a786.png"/>
-      </screenshots>
-      <description>When the user logs into the dashboard with {594575741} and {1961-01-01}</description>
+  <test-group name="[7] {username=594575741, password=1961-01-01}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="13414">
-      <screenshots>
-        <screenshot image="92320cf9dd7cfcaea025f0277690a786.png"/>
-        <screenshot image="d752cde095c05a341329c988212f68f6.png"/>
-      </screenshots>
-      <description>Then the user views additional resources with the {594575741}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2309">
-      <screenshots>
-        <screenshot image="d752cde095c05a341329c988212f68f6.png"/>
-      </screenshots>
-      <description>Then the user should view the list of FOAs with {594575741}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user views additional resources with the &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5589">
-      <screenshots>
-        <screenshot image="d752cde095c05a341329c988212f68f6.png"/>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view the list of FOAs with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="366">
-      <screenshots>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[8] {username=333011003, password=1990-01-04}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="1892">
-        <screenshots>
-          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
-        </screenshots>
-        <description>On dashboard login page</description>
-      </test-step>
-    </test-group>
-    <test-step result="SUCCESS" duration="6679">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        <screenshot image="23c64bb7109296305d31f28fbf868439.png"/>
-      </screenshots>
-      <description>When the user logs into the dashboard with {333011003} and {1990-01-04}</description>
+  <test-group name="[8] {username=333011003, password=1990-01-04}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="13314">
-      <screenshots>
-        <screenshot image="d7c07c3a2b90a1ad4a351b580d979dc4.png"/>
-        <screenshot image="8525057ea8dcf0196c381c9722e56273.png"/>
-      </screenshots>
-      <description>Then the user views additional resources with the {333011003}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2320">
-      <screenshots>
-        <screenshot image="8525057ea8dcf0196c381c9722e56273.png"/>
-      </screenshots>
-      <description>Then the user should view the list of FOAs with {333011003}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user views additional resources with the &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5498">
-      <screenshots>
-        <screenshot image="8525057ea8dcf0196c381c9722e56273.png"/>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view the list of FOAs with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="363">
-      <screenshots>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[9] {username=333011004, password=1990-01-05}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="2041">
-        <screenshots>
-          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
-        </screenshots>
-        <description>On dashboard login page</description>
-      </test-step>
-    </test-group>
-    <test-step result="SUCCESS" duration="6655">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        <screenshot image="4d693e983bf525709b712c8de6ede8c2.png"/>
-      </screenshots>
-      <description>When the user logs into the dashboard with {333011004} and {1990-01-05}</description>
+  <test-group name="[9] {username=333011004, password=1990-01-05}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="13343">
-      <screenshots>
-        <screenshot image="6dd4fc136f5d69c57749d63665e3709b.png"/>
-        <screenshot image="64a27ee42ba1e89141c036895739d78c.png"/>
-      </screenshots>
-      <description>Then the user views additional resources with the {333011004}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2315">
-      <screenshots>
-        <screenshot image="64a27ee42ba1e89141c036895739d78c.png"/>
-      </screenshots>
-      <description>Then the user should view the list of FOAs with {333011004}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user views additional resources with the &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5113">
-      <screenshots>
-        <screenshot image="64a27ee42ba1e89141c036895739d78c.png"/>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view the list of FOAs with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="420">
-      <screenshots>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[10] {username=333011005, password=1990-01-06}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="1740">
-        <screenshots>
-          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
-        </screenshots>
-        <description>On dashboard login page</description>
-      </test-step>
-    </test-group>
-    <test-step result="SUCCESS" duration="6553">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        <screenshot image="0408d911bf8934e278e40f3693fafc60.png"/>
-      </screenshots>
-      <description>When the user logs into the dashboard with {333011005} and {1990-01-06}</description>
+  <test-group name="[10] {username=333011005, password=1990-01-06}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="13325">
-      <screenshots>
-        <screenshot image="0408d911bf8934e278e40f3693fafc60.png"/>
-        <screenshot image="12b27d692f6d1ebd4c40e8218c5fdaa8.png"/>
-      </screenshots>
-      <description>Then the user views additional resources with the {333011005}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2282">
-      <screenshots>
-        <screenshot image="12b27d692f6d1ebd4c40e8218c5fdaa8.png"/>
-      </screenshots>
-      <description>Then the user should view the list of FOAs with {333011005}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user views additional resources with the &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5544">
-      <screenshots>
-        <screenshot image="12b27d692f6d1ebd4c40e8218c5fdaa8.png"/>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view the list of FOAs with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="413">
-      <screenshots>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[11] {username=333011006, password=1990-01-07}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="2200">
-        <screenshots>
-          <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        </screenshots>
-        <description>On dashboard login page</description>
-      </test-step>
-    </test-group>
-    <test-step result="SUCCESS" duration="6545">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        <screenshot image="57aa2f8869a5924408bf5d3577d9286b.png"/>
-      </screenshots>
-      <description>When the user logs into the dashboard with {333011006} and {1990-01-07}</description>
+  <test-group name="[11] {username=333011006, password=1990-01-07}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="13322">
-      <screenshots>
-        <screenshot image="57aa2f8869a5924408bf5d3577d9286b.png"/>
-        <screenshot image="534b22995a05e324b1a0238c49bf2f0c.png"/>
-      </screenshots>
-      <description>Then the user views additional resources with the {333011006}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2280">
-      <screenshots>
-        <screenshot image="534b22995a05e324b1a0238c49bf2f0c.png"/>
-      </screenshots>
-      <description>Then the user should view the list of FOAs with {333011006}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user views additional resources with the &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5498">
-      <screenshots>
-        <screenshot image="534b22995a05e324b1a0238c49bf2f0c.png"/>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="1">
+      <description>Then the user should view the list of FOAs with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="365">
-      <screenshots>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[12] {username=333011007, password=1990-01-08}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="2149">
-        <screenshots>
-          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
-        </screenshots>
-        <description>On dashboard login page</description>
-      </test-step>
-    </test-group>
-    <test-step result="SUCCESS" duration="6652">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        <screenshot image="e4e3b2f0b9cd922c42425ff8bc4aa88f.png"/>
-      </screenshots>
-      <description>When the user logs into the dashboard with {333011007} and {1990-01-08}</description>
+  <test-group name="[12] {username=333011007, password=1990-01-08}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="13319">
-      <screenshots>
-        <screenshot image="e4e3b2f0b9cd922c42425ff8bc4aa88f.png"/>
-        <screenshot image="307e19921554b01980f91e8810a44ac9.png"/>
-      </screenshots>
-      <description>Then the user views additional resources with the {333011007}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3182">
-      <screenshots>
-        <screenshot image="307e19921554b01980f91e8810a44ac9.png"/>
-      </screenshots>
-      <description>Then the user should view the list of FOAs with {333011007}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user views additional resources with the &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5179">
-      <screenshots>
-        <screenshot image="307e19921554b01980f91e8810a44ac9.png"/>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view the list of FOAs with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="398">
-      <screenshots>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="1">
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[13] {username=049828525, password=1971-11-11}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="1858">
-        <screenshots>
-          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
-        </screenshots>
-        <description>On dashboard login page</description>
-      </test-step>
-    </test-group>
-    <test-step result="SUCCESS" duration="9775">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        <screenshot image="c406ec4349f60fbd8544455814e516f5.png"/>
-      </screenshots>
-      <description>When the user logs into the dashboard with {049828525} and {1971-11-11}</description>
+  <test-group name="[13] {username=049828525, password=1971-11-11}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="13364">
-      <screenshots>
-        <screenshot image="c406ec4349f60fbd8544455814e516f5.png"/>
-        <screenshot image="46d57e1c2d7c49e5f09d062a764d6dc1.png"/>
-      </screenshots>
-      <description>Then the user views additional resources with the {049828525}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3170">
-      <screenshots>
-        <screenshot image="46d57e1c2d7c49e5f09d062a764d6dc1.png"/>
-      </screenshots>
-      <description>Then the user should view the list of FOAs with {049828525}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user views additional resources with the &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5363">
-      <screenshots>
-        <screenshot image="46d57e1c2d7c49e5f09d062a764d6dc1.png"/>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view the list of FOAs with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="356">
-      <screenshots>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[14] {username=001010001, password=1919-12-12}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="2149">
-        <screenshots>
-          <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        </screenshots>
-        <description>On dashboard login page</description>
-      </test-step>
-    </test-group>
-    <test-step result="SUCCESS" duration="6725">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        <screenshot image="857c573713795213ce2183d966429a84.png"/>
-      </screenshots>
-      <description>When the user logs into the dashboard with {001010001} and {1919-12-12}</description>
+  <test-group name="[14] {username=001010001, password=1919-12-12}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="1">
+      <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="13323">
-      <screenshots>
-        <screenshot image="857c573713795213ce2183d966429a84.png"/>
-        <screenshot image="1d2b534238764262d3676dff558a6618.png"/>
-      </screenshots>
-      <description>Then the user views additional resources with the {001010001}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3188">
-      <screenshots>
-        <screenshot image="1d2b534238764262d3676dff558a6618.png"/>
-      </screenshots>
-      <description>Then the user should view the list of FOAs with {001010001}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user views additional resources with the &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5248">
-      <screenshots>
-        <screenshot image="1d2b534238764262d3676dff558a6618.png"/>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view the list of FOAs with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="382">
-      <screenshots>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[15] {username=735151123, password=1968-05-01}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="2273">
-        <screenshots>
-          <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        </screenshots>
-        <description>On dashboard login page</description>
-      </test-step>
-    </test-group>
-    <test-step result="SUCCESS" duration="6649">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        <screenshot image="925873024dcbf6243dc1c9f4e2d6edc2.png"/>
-      </screenshots>
-      <description>When the user logs into the dashboard with {735151123} and {1968-05-01}</description>
+  <test-group name="[15] {username=735151123, password=1968-05-01}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="13316">
-      <screenshots>
-        <screenshot image="925873024dcbf6243dc1c9f4e2d6edc2.png"/>
-        <screenshot image="63ec0423df85e6a23074efc9a191c3e0.png"/>
-      </screenshots>
-      <description>Then the user views additional resources with the {735151123}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3177">
-      <screenshots>
-        <screenshot image="63ec0423df85e6a23074efc9a191c3e0.png"/>
-      </screenshots>
-      <description>Then the user should view the list of FOAs with {735151123}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user views additional resources with the &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5295">
-      <screenshots>
-        <screenshot image="63ec0423df85e6a23074efc9a191c3e0.png"/>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view the list of FOAs with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="391">
-      <screenshots>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[16] {username=735251523, password=1968-05-01}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="2086">
-        <screenshots>
-          <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        </screenshots>
-        <description>On dashboard login page</description>
-      </test-step>
-    </test-group>
-    <test-step result="SUCCESS" duration="6654">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        <screenshot image="8fb8a44518cce901a2f3d62059aee76c.png"/>
-      </screenshots>
-      <description>When the user logs into the dashboard with {735251523} and {1968-05-01}</description>
+  <test-group name="[16] {username=735251523, password=1968-05-01}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="13324">
-      <screenshots>
-        <screenshot image="8fb8a44518cce901a2f3d62059aee76c.png"/>
-        <screenshot image="63ec0423df85e6a23074efc9a191c3e0.png"/>
-      </screenshots>
-      <description>Then the user views additional resources with the {735251523}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3166">
-      <screenshots>
-        <screenshot image="63ec0423df85e6a23074efc9a191c3e0.png"/>
-      </screenshots>
-      <description>Then the user should view the list of FOAs with {735251523}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user views additional resources with the &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5304">
-      <screenshots>
-        <screenshot image="63ec0423df85e6a23074efc9a191c3e0.png"/>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view the list of FOAs with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="374">
-      <screenshots>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[17] {username=430991038, password=1987-3-26}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="1954">
-        <screenshots>
-          <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        </screenshots>
-        <description>On dashboard login page</description>
-      </test-step>
-    </test-group>
-    <test-step result="SUCCESS" duration="6650">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        <screenshot image="0b50f675be625eae7091f34d42359e10.png"/>
-      </screenshots>
-      <description>When the user logs into the dashboard with {430991038} and {1987-3-26}</description>
+  <test-group name="[17] {username=430991038, password=1987-3-26}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="13316">
-      <screenshots>
-        <screenshot image="4b796050346c9d1b4075f423efbd0a23.png"/>
-        <screenshot image="46d57e1c2d7c49e5f09d062a764d6dc1.png"/>
-      </screenshots>
-      <description>Then the user views additional resources with the {430991038}</description>
+    <test-step result="SUCCESS" duration="1">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3182">
-      <screenshots>
-        <screenshot image="46d57e1c2d7c49e5f09d062a764d6dc1.png"/>
-      </screenshots>
-      <description>Then the user should view the list of FOAs with {430991038}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user views additional resources with the &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5258">
-      <screenshots>
-        <screenshot image="46d57e1c2d7c49e5f09d062a764d6dc1.png"/>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view the list of FOAs with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="379">
-      <screenshots>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[18] {username=265798306, password=1966-12-12}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-    </screenshots>
-    <test-group name="Given the user is on the dashboard page" result="SUCCESS">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-      </screenshots>
-      <test-step result="SUCCESS" duration="1985">
-        <screenshots>
-          <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        </screenshots>
-        <description>On dashboard login page</description>
-      </test-step>
-    </test-group>
-    <test-step result="SUCCESS" duration="6562">
-      <screenshots>
-        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
-        <screenshot image="247ea06e9f24adffc9d06609a67bfa4f.png"/>
-      </screenshots>
-      <description>When the user logs into the dashboard with {265798306} and {1966-12-12}</description>
+  <test-group name="[18] {username=265798306, password=1966-12-12}" result="SKIPPED">
+    <test-step result="SUCCESS" duration="0">
+      <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="13319">
-      <screenshots>
-        <screenshot image="247ea06e9f24adffc9d06609a67bfa4f.png"/>
-        <screenshot image="0ebfbad1e3447d524941912d6b23b19b.png"/>
-      </screenshots>
-      <description>Then the user views additional resources with the {265798306}</description>
+    <test-step result="SUCCESS" duration="1">
+      <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2332">
-      <screenshots>
-        <screenshot image="0ebfbad1e3447d524941912d6b23b19b.png"/>
-      </screenshots>
-      <description>Then the user should view the list of FOAs with {265798306}</description>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user views additional resources with the &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5427">
-      <screenshots>
-        <screenshot image="0ebfbad1e3447d524941912d6b23b19b.png"/>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
+      <description>Then the user should view the list of FOAs with &lt;username&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="363">
-      <screenshots>
-        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
-      </screenshots>
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>

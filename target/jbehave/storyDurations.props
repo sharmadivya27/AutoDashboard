@@ -1,6 +1,6 @@
 #org.jbehave.core.embedder.StoryManager
-#Tue Feb 07 14:01:59 EST 2017
-stories/fullRegression/fullRegression.story=2302000
+#Thu Feb 09 12:53:52 EST 2017
+stories/fullRegression/fullRegression.story=805000
 threads=1
-total=2302000
-threadAverage=2302000
+total=805000
+threadAverage=805000

@@ -79,7 +79,7 @@ public class User {
 	public void updateMailingInfo() {
 		goToApplicantTab();
 		Assert.assertEquals("UPDATE SUCCESS", daPage.updateMailingAddress());
-		daPage.pause(3000);
+		daPage.pause(4000);
 	}
 
 	public void mailingInfoSaved() {
@@ -107,7 +107,7 @@ public class User {
 	}
 
 	public void viewBankInformation(String user) {
-		if ((user.equals("430993352"))) {
+		if ((user.equals("430993352")) || (user.equals("786787687")) || (user.equals("158338199"))) {
 			Assert.assertEquals(true, daPage.bank2IsDisplayed());
 		} else if ((user.equals("735151123")) || (user.equals("265798306"))) {
 			Assert.assertEquals(true, daPage.bank3IsDisplayed());
@@ -130,11 +130,13 @@ public class User {
 	}
 
 	public void viewInsuranceInformation(String user) {
+		//daPage.pause(3000);
 		boolean insurance = daPage.insuranceIsDisplayed();
 		Assert.assertEquals(true, insurance);
 	}
 
 	public void updateInsuranceInfo(String user) {
+		daPage.pause(4000);
 		if (!(user.equals("875473101"))) {
 			Assert.assertEquals("UPDATE SUCCESS", daPage.updateInsuranceInformation());
 		}
