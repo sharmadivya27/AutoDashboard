@@ -1,4 +1,4 @@
-<acceptance-test-run title="All information is updated and saved" name="All information is updated and saved" steps="257" successful="138" failures="0" errors="9" skipped="110" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="805318" timestamp="2017-02-09T12:40:26.964-05:00" session-id="e435f185aad767005f6aa9d26b45f27c">
+<acceptance-test-run title="All information is updated and saved" name="All information is updated and saved" steps="256" successful="256" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="1451467" timestamp="2017-02-10T10:50:40.560-05:00" session-id="7d6b80abb9a05bc7c284d1a1c9a521ae">
   <user-story id="fullRegression" name="Full regression" path="stories/fullRegression/fullRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -45,35 +45,35 @@
         <value>333011004</value>
         <value>1990-01-05</value>
       </row>
-      <row result="ERROR">
+      <row result="SUCCESS">
         <value>333011005</value>
         <value>1990-01-06</value>
       </row>
-      <row result="ERROR">
+      <row result="SUCCESS">
         <value>333011006</value>
         <value>1990-01-07</value>
       </row>
-      <row result="ERROR">
+      <row result="SUCCESS">
         <value>049828525</value>
         <value>1971-11-11</value>
       </row>
-      <row result="ERROR">
+      <row result="SUCCESS">
         <value>001010001</value>
         <value>1919-12-12</value>
       </row>
-      <row result="ERROR">
+      <row result="SUCCESS">
         <value>735151123</value>
         <value>1968-05-01</value>
       </row>
-      <row result="ERROR">
+      <row result="SUCCESS">
         <value>735251523</value>
         <value>1968-05-01</value>
       </row>
-      <row result="ERROR">
+      <row result="SUCCESS">
         <value>430991038</value>
         <value>1987-3-26</value>
       </row>
-      <row result="ERROR">
+      <row result="SUCCESS">
         <value>265798306</value>
         <value>1966-12-12</value>
       </row>
@@ -82,1596 +82,1855 @@
   <test-group name="[1] {username=430990610, password=1960-9-15}" result="SUCCESS">
     <test-group name="Given the user is on the dashboard page" result="SUCCESS">
       <screenshots>
-        <screenshot image="a190fca0a34162af582cd3faf4d7418c.png"/>
+        <screenshot image="a85058decac52b223844310290c8b4e1.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="8915">
+      <test-step result="SUCCESS" duration="9040">
         <screenshots>
-          <screenshot image="a190fca0a34162af582cd3faf4d7418c.png"/>
+          <screenshot image="f29226fe67215a4e7f50f9c4260207e3.png"/>
         </screenshots>
         <description>On dashboard login page</description>
       </test-step>
     </test-group>
-    <test-step result="SUCCESS" duration="7738">
+    <test-step result="SUCCESS" duration="7299">
       <screenshots>
-        <screenshot image="a190fca0a34162af582cd3faf4d7418c.png"/>
-        <screenshot image="9ac778ea7cedb0100bd5a12d071c52b5.png"/>
+        <screenshot image="a85058decac52b223844310290c8b4e1.png"/>
+        <screenshot image="10614a968321b9a0d0ddcf8f56089aed.png"/>
       </screenshots>
       <description>When the user logs into the dashboard with {430990610} and {1960-9-15}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="15369">
+    <test-step result="SUCCESS" duration="15470">
       <screenshots>
-        <screenshot image="1e25ce5a1ec91c2c63697da104d4133a.png"/>
-        <screenshot image="1ccec2c21d78ec6cd3efc88b209a70bc.png"/>
+        <screenshot image="10614a968321b9a0d0ddcf8f56089aed.png"/>
+        <screenshot image="35eeb534c7fb718a4b106e8e23cd5ad2.png"/>
       </screenshots>
       <description>Then the user reviews the application with {430990610}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3792">
+    <test-step result="SUCCESS" duration="3418">
       <screenshots>
-        <screenshot image="1ccec2c21d78ec6cd3efc88b209a70bc.png"/>
-        <screenshot image="b02c51cb6a4eda0922bc64aff06b9908.png"/>
+        <screenshot image="35eeb534c7fb718a4b106e8e23cd5ad2.png"/>
+        <screenshot image="1de77eb1ab18e72dda543ae3d980a8d6.png"/>
       </screenshots>
       <description>Then the user should view mailing address information with {430990610}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="333">
+    <test-step result="SUCCESS" duration="282">
       <screenshots>
-        <screenshot image="b02c51cb6a4eda0922bc64aff06b9908.png"/>
+        <screenshot image="1de77eb1ab18e72dda543ae3d980a8d6.png"/>
       </screenshots>
       <description>Then the user should view phone number information with {430990610}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="284">
+    <test-step result="SUCCESS" duration="272">
       <screenshots>
-        <screenshot image="b02c51cb6a4eda0922bc64aff06b9908.png"/>
+        <screenshot image="1de77eb1ab18e72dda543ae3d980a8d6.png"/>
       </screenshots>
       <description>Then the user should view insurance information with {430990610}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="8754">
+    <test-step result="SUCCESS" duration="8721">
       <screenshots>
-        <screenshot image="b02c51cb6a4eda0922bc64aff06b9908.png"/>
-        <screenshot image="cf0467b333eb5ff74082a16b4768fdb1.png"/>
+        <screenshot image="1de77eb1ab18e72dda543ae3d980a8d6.png"/>
+        <screenshot image="6c2e2453a0383139732fc6b7991366cf.png"/>
       </screenshots>
       <description>Then the user should update mailing address information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5562">
+    <test-step result="SUCCESS" duration="6585">
       <screenshots>
-        <screenshot image="cf0467b333eb5ff74082a16b4768fdb1.png"/>
-        <screenshot image="428f72229e6cc6c8450c149ad7e4e415.png"/>
+        <screenshot image="6c2e2453a0383139732fc6b7991366cf.png"/>
+        <screenshot image="6eb10d5b4f42b54159ede6c8c6df4f02.png"/>
       </screenshots>
       <description>Then the user should update phone number information with {430990610}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="8906">
+    <test-step result="SUCCESS" duration="8847">
       <screenshots>
-        <screenshot image="428f72229e6cc6c8450c149ad7e4e415.png"/>
-        <screenshot image="1c57a055207a833f4689179517382b08.png"/>
+        <screenshot image="6eb10d5b4f42b54159ede6c8c6df4f02.png"/>
+        <screenshot image="c4511d90d367c801924e7045acfcadd6.png"/>
       </screenshots>
       <description>Then the user should update insurance information with {430990610}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5314">
+    <test-step result="SUCCESS" duration="5658">
       <screenshots>
-        <screenshot image="1c57a055207a833f4689179517382b08.png"/>
-        <screenshot image="b536c7cd90334b61e218b08248f10337.png"/>
+        <screenshot image="c4511d90d367c801924e7045acfcadd6.png"/>
+        <screenshot image="8c505f51ac00bb3a41801e0aaeaa24cf.png"/>
       </screenshots>
       <description>Then the user goes back to the summary page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="15426">
+    <test-step result="SUCCESS" duration="15354">
       <screenshots>
-        <screenshot image="b536c7cd90334b61e218b08248f10337.png"/>
-        <screenshot image="674ae9c3cdf88bb76faa4d09e8904d65.png"/>
+        <screenshot image="8c505f51ac00bb3a41801e0aaeaa24cf.png"/>
+        <screenshot image="d62a158f22c7c1d9da122c78d2324a62.png"/>
       </screenshots>
       <description>Then the user reviews the application with {430990610}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5540">
+    <test-step result="SUCCESS" duration="5533">
       <screenshots>
-        <screenshot image="674ae9c3cdf88bb76faa4d09e8904d65.png"/>
-        <screenshot image="3c3b26555130348b3c7710bcd768b464.png"/>
+        <screenshot image="d62a158f22c7c1d9da122c78d2324a62.png"/>
+        <screenshot image="39a29cea61cbfbcae49e0c66529e51a0.png"/>
       </screenshots>
       <description>Then the user should see their saved mailing information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="4391">
+    <test-step result="SUCCESS" duration="4389">
       <screenshots>
-        <screenshot image="3c3b26555130348b3c7710bcd768b464.png"/>
+        <screenshot image="39a29cea61cbfbcae49e0c66529e51a0.png"/>
       </screenshots>
       <description>Then the user should see their saved phone number information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2439">
+    <test-step result="SUCCESS" duration="2434">
       <screenshots>
-        <screenshot image="3c3b26555130348b3c7710bcd768b464.png"/>
+        <screenshot image="39a29cea61cbfbcae49e0c66529e51a0.png"/>
       </screenshots>
       <description>Then the user should see their saved insurance information with {430990610}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5266">
+    <test-step result="SUCCESS" duration="6019">
       <screenshots>
-        <screenshot image="3c3b26555130348b3c7710bcd768b464.png"/>
-        <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+        <screenshot image="39a29cea61cbfbcae49e0c66529e51a0.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
       </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="369">
+    <test-step result="SUCCESS" duration="373">
       <screenshots>
-        <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
       </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
   <test-group name="[2] {username=786787687, password=1984-1-1}" result="SUCCESS">
     <screenshots>
-      <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
     </screenshots>
     <test-group name="Given the user is on the dashboard page" result="SUCCESS">
       <screenshots>
-        <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
-        <screenshot image="c6f9ddc6ecf3f5a1520144e5373b47c5.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1593">
+      <test-step result="SUCCESS" duration="1753">
         <screenshots>
-          <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
-          <screenshot image="f5fd1dba72c33f49407fe61b6a1730ca.png"/>
+          <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
         </screenshots>
         <description>On dashboard login page</description>
       </test-step>
     </test-group>
-    <test-step result="SUCCESS" duration="6678">
+    <test-step result="SUCCESS" duration="6685">
       <screenshots>
-        <screenshot image="c6f9ddc6ecf3f5a1520144e5373b47c5.png"/>
-        <screenshot image="ad14035f4b8985d93155bc6518ef14a5.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="3f7d38b03ac605c52974bb616dc8eddc.png"/>
       </screenshots>
       <description>When the user logs into the dashboard with {786787687} and {1984-1-1}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="15322">
+    <test-step result="SUCCESS" duration="15320">
       <screenshots>
-        <screenshot image="5d563b1b33f2add9d1590a61f566cdfa.png"/>
-        <screenshot image="538305d851fa8c1173f4ed0de3034eac.png"/>
+        <screenshot image="45cf2b8ec5f6c1b8573f177df2a1d9aa.png"/>
+        <screenshot image="0c90d4f9861c0178e4ac1c4a980a6717.png"/>
       </screenshots>
       <description>Then the user reviews the application with {786787687}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3360">
+    <test-step result="SUCCESS" duration="3365">
       <screenshots>
-        <screenshot image="538305d851fa8c1173f4ed0de3034eac.png"/>
-        <screenshot image="77566562a41bfd7cd690484c2f4fe2dd.png"/>
+        <screenshot image="0c90d4f9861c0178e4ac1c4a980a6717.png"/>
+        <screenshot image="50d8ed9feda1e5cf69b162749b5cc60e.png"/>
       </screenshots>
       <description>Then the user should view mailing address information with {786787687}</description>
     </test-step>
     <test-step result="SUCCESS" duration="288">
       <screenshots>
-        <screenshot image="77566562a41bfd7cd690484c2f4fe2dd.png"/>
+        <screenshot image="50d8ed9feda1e5cf69b162749b5cc60e.png"/>
       </screenshots>
       <description>Then the user should view phone number information with {786787687}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="272">
+    <test-step result="SUCCESS" duration="269">
       <screenshots>
-        <screenshot image="77566562a41bfd7cd690484c2f4fe2dd.png"/>
+        <screenshot image="50d8ed9feda1e5cf69b162749b5cc60e.png"/>
       </screenshots>
       <description>Then the user should view insurance information with {786787687}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="8723">
+    <test-step result="SUCCESS" duration="8770">
       <screenshots>
-        <screenshot image="77566562a41bfd7cd690484c2f4fe2dd.png"/>
-        <screenshot image="3fbb6bd5973da6bee666fce205ae2d92.png"/>
+        <screenshot image="50d8ed9feda1e5cf69b162749b5cc60e.png"/>
+        <screenshot image="90389e42fe13bfecf2d0765f72e7c093.png"/>
       </screenshots>
       <description>Then the user should update mailing address information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5621">
+    <test-step result="SUCCESS" duration="5546">
       <screenshots>
-        <screenshot image="3fbb6bd5973da6bee666fce205ae2d92.png"/>
-        <screenshot image="232b17bec488b470d741cde479028857.png"/>
+        <screenshot image="90389e42fe13bfecf2d0765f72e7c093.png"/>
+        <screenshot image="db3c9e48b1bb829335d61dba5563431b.png"/>
       </screenshots>
       <description>Then the user should update phone number information with {786787687}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="8977">
+    <test-step result="SUCCESS" duration="8688">
       <screenshots>
-        <screenshot image="232b17bec488b470d741cde479028857.png"/>
-        <screenshot image="fb47e986238707bbddd6bfbacf40f8cd.png"/>
+        <screenshot image="db3c9e48b1bb829335d61dba5563431b.png"/>
+        <screenshot image="851a41d402b83aa3295e0ffd08e5dd3f.png"/>
       </screenshots>
       <description>Then the user should update insurance information with {786787687}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5195">
+    <test-step result="SUCCESS" duration="4901">
       <screenshots>
-        <screenshot image="fb47e986238707bbddd6bfbacf40f8cd.png"/>
-        <screenshot image="7c01be883c4bf2439c1172d3db5b7206.png"/>
+        <screenshot image="851a41d402b83aa3295e0ffd08e5dd3f.png"/>
+        <screenshot image="3015b9c005b70da11327fe3e5419ac7f.png"/>
       </screenshots>
       <description>Then the user goes back to the summary page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="15431">
+    <test-step result="SUCCESS" duration="15338">
       <screenshots>
-        <screenshot image="7c01be883c4bf2439c1172d3db5b7206.png"/>
-        <screenshot image="538305d851fa8c1173f4ed0de3034eac.png"/>
+        <screenshot image="3015b9c005b70da11327fe3e5419ac7f.png"/>
+        <screenshot image="0c90d4f9861c0178e4ac1c4a980a6717.png"/>
       </screenshots>
       <description>Then the user reviews the application with {786787687}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5640">
+    <test-step result="SUCCESS" duration="5509">
       <screenshots>
-        <screenshot image="538305d851fa8c1173f4ed0de3034eac.png"/>
-        <screenshot image="77566562a41bfd7cd690484c2f4fe2dd.png"/>
+        <screenshot image="0c90d4f9861c0178e4ac1c4a980a6717.png"/>
+        <screenshot image="50d8ed9feda1e5cf69b162749b5cc60e.png"/>
       </screenshots>
       <description>Then the user should see their saved mailing information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="4388">
+    <test-step result="SUCCESS" duration="4371">
       <screenshots>
-        <screenshot image="77566562a41bfd7cd690484c2f4fe2dd.png"/>
+        <screenshot image="50d8ed9feda1e5cf69b162749b5cc60e.png"/>
       </screenshots>
       <description>Then the user should see their saved phone number information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2493">
+    <test-step result="SUCCESS" duration="2445">
       <screenshots>
-        <screenshot image="77566562a41bfd7cd690484c2f4fe2dd.png"/>
+        <screenshot image="50d8ed9feda1e5cf69b162749b5cc60e.png"/>
       </screenshots>
       <description>Then the user should see their saved insurance information with {786787687}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5565">
+    <test-step result="SUCCESS" duration="5140">
       <screenshots>
-        <screenshot image="77566562a41bfd7cd690484c2f4fe2dd.png"/>
-        <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+        <screenshot image="50d8ed9feda1e5cf69b162749b5cc60e.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
       </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="623">
+    <test-step result="SUCCESS" duration="365">
       <screenshots>
-        <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
       </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
   <test-group name="[3] {username=158338199, password=1966-6-6}" result="SUCCESS">
     <screenshots>
-      <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
     </screenshots>
     <test-group name="Given the user is on the dashboard page" result="SUCCESS">
       <screenshots>
-        <screenshot image="c6f9ddc6ecf3f5a1520144e5373b47c5.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1979">
+      <test-step result="SUCCESS" duration="1677">
         <screenshots>
-          <screenshot image="f5fd1dba72c33f49407fe61b6a1730ca.png"/>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
         </screenshots>
         <description>On dashboard login page</description>
       </test-step>
     </test-group>
-    <test-step result="SUCCESS" duration="9999">
+    <test-step result="SUCCESS" duration="9653">
       <screenshots>
-        <screenshot image="c6f9ddc6ecf3f5a1520144e5373b47c5.png"/>
-        <screenshot image="19fe7e851e431f918a2e8887c7e5eafc.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="24f8088507ccb87290321bb8997fa95f.png"/>
       </screenshots>
       <description>When the user logs into the dashboard with {158338199} and {1966-6-6}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="15480">
+    <test-step result="SUCCESS" duration="15324">
       <screenshots>
-        <screenshot image="f166a802ee4a50d839c567a3cf982cbd.png"/>
-        <screenshot image="1b2daad29e1ac5f0e8399aa8db28fb9f.png"/>
+        <screenshot image="44afe24c0c8450e870bbff7b10550512.png"/>
+        <screenshot image="57f16b055ac33554ae7adb34bcf1b740.png"/>
       </screenshots>
       <description>Then the user reviews the application with {158338199}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3480">
+    <test-step result="SUCCESS" duration="3377">
       <screenshots>
-        <screenshot image="1b2daad29e1ac5f0e8399aa8db28fb9f.png"/>
-        <screenshot image="158576d89c8d1f50aafe77bb3939b2ec.png"/>
+        <screenshot image="57f16b055ac33554ae7adb34bcf1b740.png"/>
+        <screenshot image="adea649b80b0654b7d7690802deecc1d.png"/>
       </screenshots>
       <description>Then the user should view mailing address information with {158338199}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="309">
+    <test-step result="SUCCESS" duration="277">
       <screenshots>
-        <screenshot image="158576d89c8d1f50aafe77bb3939b2ec.png"/>
+        <screenshot image="adea649b80b0654b7d7690802deecc1d.png"/>
       </screenshots>
       <description>Then the user should view phone number information with {158338199}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="288">
+    <test-step result="SUCCESS" duration="271">
       <screenshots>
-        <screenshot image="158576d89c8d1f50aafe77bb3939b2ec.png"/>
+        <screenshot image="adea649b80b0654b7d7690802deecc1d.png"/>
       </screenshots>
       <description>Then the user should view insurance information with {158338199}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="8918">
+    <test-step result="SUCCESS" duration="8633">
       <screenshots>
-        <screenshot image="158576d89c8d1f50aafe77bb3939b2ec.png"/>
-        <screenshot image="6b47928ea5bf058d31624b24f7b57496.png"/>
+        <screenshot image="adea649b80b0654b7d7690802deecc1d.png"/>
+        <screenshot image="44f2b2c5382acd8648e986e34b040c39.png"/>
       </screenshots>
       <description>Then the user should update mailing address information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5644">
+    <test-step result="SUCCESS" duration="5708">
       <screenshots>
-        <screenshot image="6b47928ea5bf058d31624b24f7b57496.png"/>
-        <screenshot image="cf736e17c2686cbb0a518e71a77ccd6d.png"/>
+        <screenshot image="44f2b2c5382acd8648e986e34b040c39.png"/>
+        <screenshot image="fddfbd0fd1a13ad141bd2a5d7a4f50d6.png"/>
       </screenshots>
       <description>Then the user should update phone number information with {158338199}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="8771">
+    <test-step result="SUCCESS" duration="8645">
       <screenshots>
-        <screenshot image="cf736e17c2686cbb0a518e71a77ccd6d.png"/>
-        <screenshot image="38d590241d351625f5139d4e337bf754.png"/>
+        <screenshot image="fddfbd0fd1a13ad141bd2a5d7a4f50d6.png"/>
+        <screenshot image="f3ef61a7d841f8295c0a28b5a86d2352.png"/>
       </screenshots>
       <description>Then the user should update insurance information with {158338199}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5071">
+    <test-step result="SUCCESS" duration="4887">
       <screenshots>
-        <screenshot image="38d590241d351625f5139d4e337bf754.png"/>
-        <screenshot image="79536b54697bc441ff43bd3fd5ea160c.png"/>
+        <screenshot image="f3ef61a7d841f8295c0a28b5a86d2352.png"/>
+        <screenshot image="222b944b840b2d44bbca5e42d6b2c465.png"/>
       </screenshots>
       <description>Then the user goes back to the summary page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="15629">
+    <test-step result="SUCCESS" duration="15319">
       <screenshots>
-        <screenshot image="b9e3670d181fbe51c78e2c5e587afce1.png"/>
-        <screenshot image="1b2daad29e1ac5f0e8399aa8db28fb9f.png"/>
+        <screenshot image="a89a2b7873f71ebd80b15d1b70624742.png"/>
+        <screenshot image="57f16b055ac33554ae7adb34bcf1b740.png"/>
       </screenshots>
       <description>Then the user reviews the application with {158338199}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5501">
+    <test-step result="SUCCESS" duration="5486">
       <screenshots>
-        <screenshot image="1b2daad29e1ac5f0e8399aa8db28fb9f.png"/>
-        <screenshot image="158576d89c8d1f50aafe77bb3939b2ec.png"/>
+        <screenshot image="57f16b055ac33554ae7adb34bcf1b740.png"/>
+        <screenshot image="adea649b80b0654b7d7690802deecc1d.png"/>
       </screenshots>
       <description>Then the user should see their saved mailing information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="4373">
+    <test-step result="SUCCESS" duration="4366">
       <screenshots>
-        <screenshot image="158576d89c8d1f50aafe77bb3939b2ec.png"/>
+        <screenshot image="adea649b80b0654b7d7690802deecc1d.png"/>
       </screenshots>
       <description>Then the user should see their saved phone number information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2432">
+    <test-step result="SUCCESS" duration="2424">
       <screenshots>
-        <screenshot image="158576d89c8d1f50aafe77bb3939b2ec.png"/>
+        <screenshot image="adea649b80b0654b7d7690802deecc1d.png"/>
       </screenshots>
       <description>Then the user should see their saved insurance information with {158338199}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5172">
+    <test-step result="SUCCESS" duration="5131">
       <screenshots>
-        <screenshot image="158576d89c8d1f50aafe77bb3939b2ec.png"/>
-        <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+        <screenshot image="adea649b80b0654b7d7690802deecc1d.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
       </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="394">
+    <test-step result="SUCCESS" duration="376">
       <screenshots>
-        <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
       </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
   <test-group name="[4] {username=430993352, password=1987-12-12}" result="SUCCESS">
     <screenshots>
-      <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
     </screenshots>
     <test-group name="Given the user is on the dashboard page" result="SUCCESS">
       <screenshots>
-        <screenshot image="c6f9ddc6ecf3f5a1520144e5373b47c5.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1620">
+      <test-step result="SUCCESS" duration="1675">
         <screenshots>
-          <screenshot image="f5fd1dba72c33f49407fe61b6a1730ca.png"/>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
         </screenshots>
         <description>On dashboard login page</description>
       </test-step>
     </test-group>
-    <test-step result="SUCCESS" duration="6670">
+    <test-step result="SUCCESS" duration="6667">
       <screenshots>
-        <screenshot image="c6f9ddc6ecf3f5a1520144e5373b47c5.png"/>
-        <screenshot image="dee65f3c080928038130fe93241fa4de.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="7371647528d2588d69cc786012c864f0.png"/>
       </screenshots>
       <description>When the user logs into the dashboard with {430993352} and {1987-12-12}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="15417">
+    <test-step result="SUCCESS" duration="15323">
       <screenshots>
-        <screenshot image="dee65f3c080928038130fe93241fa4de.png"/>
-        <screenshot image="5ae421cd94e05122702326287d280edd.png"/>
+        <screenshot image="84b103fb8919335d4ebd09a82226b08d.png"/>
+        <screenshot image="51bd688a25b7f2fa64466bfa80a9abc8.png"/>
       </screenshots>
       <description>Then the user reviews the application with {430993352}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3448">
+    <test-step result="SUCCESS" duration="3359">
       <screenshots>
-        <screenshot image="5ae421cd94e05122702326287d280edd.png"/>
-        <screenshot image="620057227f1123ceba38bf09c03d2322.png"/>
+        <screenshot image="51bd688a25b7f2fa64466bfa80a9abc8.png"/>
+        <screenshot image="2dfea19bd0be0cdae5a4d6602815dc46.png"/>
       </screenshots>
       <description>Then the user should view mailing address information with {430993352}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="281">
+    <test-step result="SUCCESS" duration="284">
       <screenshots>
-        <screenshot image="620057227f1123ceba38bf09c03d2322.png"/>
+        <screenshot image="2dfea19bd0be0cdae5a4d6602815dc46.png"/>
       </screenshots>
       <description>Then the user should view phone number information with {430993352}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="265">
+    <test-step result="SUCCESS" duration="286">
       <screenshots>
-        <screenshot image="620057227f1123ceba38bf09c03d2322.png"/>
+        <screenshot image="2dfea19bd0be0cdae5a4d6602815dc46.png"/>
       </screenshots>
       <description>Then the user should view insurance information with {430993352}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="8556">
+    <test-step result="SUCCESS" duration="8654">
       <screenshots>
-        <screenshot image="620057227f1123ceba38bf09c03d2322.png"/>
-        <screenshot image="7993e31e924c37e2cf10d9fded61a682.png"/>
+        <screenshot image="2dfea19bd0be0cdae5a4d6602815dc46.png"/>
+        <screenshot image="3314fbd2d95d2b1135fc0d1b825c8a34.png"/>
       </screenshots>
       <description>Then the user should update mailing address information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5604">
+    <test-step result="SUCCESS" duration="5548">
       <screenshots>
-        <screenshot image="7993e31e924c37e2cf10d9fded61a682.png"/>
-        <screenshot image="fb45d28347bba5c4977f14d9fd24ae16.png"/>
+        <screenshot image="3314fbd2d95d2b1135fc0d1b825c8a34.png"/>
+        <screenshot image="9cd46c5cf7fe54fd52fa4ea3479a317d.png"/>
       </screenshots>
       <description>Then the user should update phone number information with {430993352}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="8810">
+    <test-step result="SUCCESS" duration="8869">
       <screenshots>
-        <screenshot image="fb45d28347bba5c4977f14d9fd24ae16.png"/>
-        <screenshot image="9185409e752f7ac72e0220146a76ff2f.png"/>
+        <screenshot image="9cd46c5cf7fe54fd52fa4ea3479a317d.png"/>
+        <screenshot image="429969a482782cdd977f81af6c7af26b.png"/>
       </screenshots>
       <description>Then the user should update insurance information with {430993352}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="4926">
+    <test-step result="SUCCESS" duration="4914">
       <screenshots>
-        <screenshot image="9185409e752f7ac72e0220146a76ff2f.png"/>
-        <screenshot image="acc44d403f9ae45bc8c61b3ceb4228c2.png"/>
+        <screenshot image="429969a482782cdd977f81af6c7af26b.png"/>
+        <screenshot image="5909ad46d38870ac684a6673bbb4cd5b.png"/>
       </screenshots>
       <description>Then the user goes back to the summary page</description>
     </test-step>
     <test-step result="SUCCESS" duration="15334">
       <screenshots>
-        <screenshot image="acc44d403f9ae45bc8c61b3ceb4228c2.png"/>
-        <screenshot image="5ae421cd94e05122702326287d280edd.png"/>
+        <screenshot image="5909ad46d38870ac684a6673bbb4cd5b.png"/>
+        <screenshot image="51bd688a25b7f2fa64466bfa80a9abc8.png"/>
       </screenshots>
       <description>Then the user reviews the application with {430993352}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5512">
+    <test-step result="SUCCESS" duration="5483">
       <screenshots>
-        <screenshot image="5ae421cd94e05122702326287d280edd.png"/>
-        <screenshot image="620057227f1123ceba38bf09c03d2322.png"/>
+        <screenshot image="51bd688a25b7f2fa64466bfa80a9abc8.png"/>
+        <screenshot image="2dfea19bd0be0cdae5a4d6602815dc46.png"/>
       </screenshots>
       <description>Then the user should see their saved mailing information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="4362">
+    <test-step result="SUCCESS" duration="4394">
       <screenshots>
-        <screenshot image="620057227f1123ceba38bf09c03d2322.png"/>
+        <screenshot image="2dfea19bd0be0cdae5a4d6602815dc46.png"/>
       </screenshots>
       <description>Then the user should see their saved phone number information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2423">
+    <test-step result="SUCCESS" duration="2427">
       <screenshots>
-        <screenshot image="620057227f1123ceba38bf09c03d2322.png"/>
+        <screenshot image="2dfea19bd0be0cdae5a4d6602815dc46.png"/>
       </screenshots>
       <description>Then the user should see their saved insurance information with {430993352}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5332">
+    <test-step result="SUCCESS" duration="5226">
       <screenshots>
-        <screenshot image="620057227f1123ceba38bf09c03d2322.png"/>
-        <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+        <screenshot image="2dfea19bd0be0cdae5a4d6602815dc46.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
       </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="377">
+    <test-step result="SUCCESS" duration="367">
       <screenshots>
-        <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
       </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
   <test-group name="[5] {username=735213161, password=1968-05-01}" result="SUCCESS">
     <screenshots>
-      <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
     </screenshots>
     <test-group name="Given the user is on the dashboard page" result="SUCCESS">
       <screenshots>
-        <screenshot image="c6f9ddc6ecf3f5a1520144e5373b47c5.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1627">
+      <test-step result="SUCCESS" duration="1718">
         <screenshots>
-          <screenshot image="f5fd1dba72c33f49407fe61b6a1730ca.png"/>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
         </screenshots>
         <description>On dashboard login page</description>
       </test-step>
     </test-group>
-    <test-step result="SUCCESS" duration="6681">
+    <test-step result="SUCCESS" duration="6660">
       <screenshots>
-        <screenshot image="c6f9ddc6ecf3f5a1520144e5373b47c5.png"/>
-        <screenshot image="f9bc5cb7cc1254e297d1c31392e1bbaf.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="920aed4573d3e1e42012499766276379.png"/>
       </screenshots>
       <description>When the user logs into the dashboard with {735213161} and {1968-05-01}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="15330">
+    <test-step result="SUCCESS" duration="15323">
       <screenshots>
-        <screenshot image="f9bc5cb7cc1254e297d1c31392e1bbaf.png"/>
-        <screenshot image="514af2e6c2b6e3eaa7adde8c685144df.png"/>
+        <screenshot image="920aed4573d3e1e42012499766276379.png"/>
+        <screenshot image="6988ff600c31538d8bb298ca48e7616c.png"/>
       </screenshots>
       <description>Then the user reviews the application with {735213161}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3342">
+    <test-step result="SUCCESS" duration="3384">
       <screenshots>
-        <screenshot image="514af2e6c2b6e3eaa7adde8c685144df.png"/>
-        <screenshot image="748a1824c61d26fd2bdf0a91a914ea8e.png"/>
+        <screenshot image="6988ff600c31538d8bb298ca48e7616c.png"/>
+        <screenshot image="cdf4655ec522a07eac35f76556dd6ffa.png"/>
       </screenshots>
       <description>Then the user should view mailing address information with {735213161}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="279">
+    <test-step result="SUCCESS" duration="292">
       <screenshots>
-        <screenshot image="748a1824c61d26fd2bdf0a91a914ea8e.png"/>
+        <screenshot image="cdf4655ec522a07eac35f76556dd6ffa.png"/>
       </screenshots>
       <description>Then the user should view phone number information with {735213161}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="269">
+    <test-step result="SUCCESS" duration="267">
       <screenshots>
-        <screenshot image="748a1824c61d26fd2bdf0a91a914ea8e.png"/>
+        <screenshot image="cdf4655ec522a07eac35f76556dd6ffa.png"/>
       </screenshots>
       <description>Then the user should view insurance information with {735213161}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="8562">
+    <test-step result="SUCCESS" duration="8611">
       <screenshots>
-        <screenshot image="748a1824c61d26fd2bdf0a91a914ea8e.png"/>
-        <screenshot image="4ad70e9fe71008746dc53a8273e33ce2.png"/>
+        <screenshot image="cdf4655ec522a07eac35f76556dd6ffa.png"/>
+        <screenshot image="5fb84a379f5ef5b67274ce86c98c835b.png"/>
       </screenshots>
       <description>Then the user should update mailing address information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5541">
+    <test-step result="SUCCESS" duration="5744">
       <screenshots>
-        <screenshot image="4ad70e9fe71008746dc53a8273e33ce2.png"/>
-        <screenshot image="cbcbf4bf1bd4a8c0e0c6617ab5435b84.png"/>
+        <screenshot image="5fb84a379f5ef5b67274ce86c98c835b.png"/>
+        <screenshot image="723c99d045d0bd98b2d7a557c9688358.png"/>
       </screenshots>
       <description>Then the user should update phone number information with {735213161}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="8926">
+    <test-step result="SUCCESS" duration="8987">
       <screenshots>
-        <screenshot image="cbcbf4bf1bd4a8c0e0c6617ab5435b84.png"/>
-        <screenshot image="980949bb423b90d6f0b195ea021d5749.png"/>
+        <screenshot image="723c99d045d0bd98b2d7a557c9688358.png"/>
+        <screenshot image="a64dbbd05bdfb6ed95720a4c263b748f.png"/>
       </screenshots>
       <description>Then the user should update insurance information with {735213161}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="4933">
+    <test-step result="SUCCESS" duration="4930">
       <screenshots>
-        <screenshot image="980949bb423b90d6f0b195ea021d5749.png"/>
-        <screenshot image="f9bc5cb7cc1254e297d1c31392e1bbaf.png"/>
+        <screenshot image="a64dbbd05bdfb6ed95720a4c263b748f.png"/>
+        <screenshot image="920aed4573d3e1e42012499766276379.png"/>
       </screenshots>
       <description>Then the user goes back to the summary page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="15325">
+    <test-step result="SUCCESS" duration="15322">
       <screenshots>
-        <screenshot image="f9bc5cb7cc1254e297d1c31392e1bbaf.png"/>
-        <screenshot image="514af2e6c2b6e3eaa7adde8c685144df.png"/>
+        <screenshot image="920aed4573d3e1e42012499766276379.png"/>
+        <screenshot image="6988ff600c31538d8bb298ca48e7616c.png"/>
       </screenshots>
       <description>Then the user reviews the application with {735213161}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5503">
+    <test-step result="SUCCESS" duration="5517">
       <screenshots>
-        <screenshot image="514af2e6c2b6e3eaa7adde8c685144df.png"/>
-        <screenshot image="748a1824c61d26fd2bdf0a91a914ea8e.png"/>
+        <screenshot image="6988ff600c31538d8bb298ca48e7616c.png"/>
+        <screenshot image="cdf4655ec522a07eac35f76556dd6ffa.png"/>
       </screenshots>
       <description>Then the user should see their saved mailing information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="4359">
+    <test-step result="SUCCESS" duration="4362">
       <screenshots>
-        <screenshot image="748a1824c61d26fd2bdf0a91a914ea8e.png"/>
+        <screenshot image="cdf4655ec522a07eac35f76556dd6ffa.png"/>
       </screenshots>
       <description>Then the user should see their saved phone number information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2451">
+    <test-step result="SUCCESS" duration="2447">
       <screenshots>
-        <screenshot image="748a1824c61d26fd2bdf0a91a914ea8e.png"/>
+        <screenshot image="cdf4655ec522a07eac35f76556dd6ffa.png"/>
       </screenshots>
       <description>Then the user should see their saved insurance information with {735213161}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5113">
+    <test-step result="SUCCESS" duration="5131">
       <screenshots>
-        <screenshot image="748a1824c61d26fd2bdf0a91a914ea8e.png"/>
-        <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+        <screenshot image="cdf4655ec522a07eac35f76556dd6ffa.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
       </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="376">
+    <test-step result="SUCCESS" duration="374">
       <screenshots>
-        <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
       </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
   <test-group name="[6] {username=594575741, password=1961-01-01}" result="SUCCESS">
     <screenshots>
-      <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
     </screenshots>
     <test-group name="Given the user is on the dashboard page" result="SUCCESS">
       <screenshots>
-        <screenshot image="c6f9ddc6ecf3f5a1520144e5373b47c5.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1531">
+      <test-step result="SUCCESS" duration="1661">
         <screenshots>
-          <screenshot image="f5fd1dba72c33f49407fe61b6a1730ca.png"/>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
         </screenshots>
         <description>On dashboard login page</description>
       </test-step>
     </test-group>
-    <test-step result="SUCCESS" duration="6689">
+    <test-step result="SUCCESS" duration="6550">
       <screenshots>
-        <screenshot image="c6f9ddc6ecf3f5a1520144e5373b47c5.png"/>
-        <screenshot image="a4708b7432f97550f496caa2b6744ce2.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="92320cf9dd7cfcaea025f0277690a786.png"/>
       </screenshots>
       <description>When the user logs into the dashboard with {594575741} and {1961-01-01}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="15329">
+    <test-step result="SUCCESS" duration="15328">
       <screenshots>
-        <screenshot image="a4708b7432f97550f496caa2b6744ce2.png"/>
-        <screenshot image="19a37edd4d86141bae1f5e395e754904.png"/>
+        <screenshot image="92320cf9dd7cfcaea025f0277690a786.png"/>
+        <screenshot image="66ba65154469b0d8426588addd7e6fa2.png"/>
       </screenshots>
       <description>Then the user reviews the application with {594575741}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3340">
+    <test-step result="SUCCESS" duration="3378">
       <screenshots>
-        <screenshot image="19a37edd4d86141bae1f5e395e754904.png"/>
-        <screenshot image="9fc251c8fba97d146cde207d0b71d343.png"/>
+        <screenshot image="66ba65154469b0d8426588addd7e6fa2.png"/>
+        <screenshot image="36e36164b85ba90f3fdea24ede480629.png"/>
       </screenshots>
       <description>Then the user should view mailing address information with {594575741}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="278">
+    <test-step result="SUCCESS" duration="271">
       <screenshots>
-        <screenshot image="9fc251c8fba97d146cde207d0b71d343.png"/>
+        <screenshot image="36e36164b85ba90f3fdea24ede480629.png"/>
       </screenshots>
       <description>Then the user should view phone number information with {594575741}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="266">
+    <test-step result="SUCCESS" duration="272">
       <screenshots>
-        <screenshot image="9fc251c8fba97d146cde207d0b71d343.png"/>
+        <screenshot image="36e36164b85ba90f3fdea24ede480629.png"/>
       </screenshots>
       <description>Then the user should view insurance information with {594575741}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="8610">
+    <test-step result="SUCCESS" duration="8789">
       <screenshots>
-        <screenshot image="9fc251c8fba97d146cde207d0b71d343.png"/>
-        <screenshot image="04df707b8362bb069cb328071a842c6d.png"/>
+        <screenshot image="36e36164b85ba90f3fdea24ede480629.png"/>
+        <screenshot image="99cbbcf298675d506040dea7318e0ddc.png"/>
       </screenshots>
       <description>Then the user should update mailing address information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5655">
+    <test-step result="SUCCESS" duration="5562">
       <screenshots>
-        <screenshot image="04df707b8362bb069cb328071a842c6d.png"/>
-        <screenshot image="baed6d2109b3026ef2fda5f44cda504b.png"/>
+        <screenshot image="99cbbcf298675d506040dea7318e0ddc.png"/>
+        <screenshot image="2f7bddd3dd659d4e5a6861eaa1daf00a.png"/>
       </screenshots>
       <description>Then the user should update phone number information with {594575741}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="8690">
+    <test-step result="SUCCESS" duration="8586">
       <screenshots>
-        <screenshot image="baed6d2109b3026ef2fda5f44cda504b.png"/>
-        <screenshot image="a8934e3eaf7f9b8082bd92be13e6719e.png"/>
+        <screenshot image="2f7bddd3dd659d4e5a6861eaa1daf00a.png"/>
+        <screenshot image="5eb51f03abfe86a16b52af5cc5b64c4c.png"/>
       </screenshots>
       <description>Then the user should update insurance information with {594575741}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="4962">
+    <test-step result="SUCCESS" duration="4911">
       <screenshots>
-        <screenshot image="a8934e3eaf7f9b8082bd92be13e6719e.png"/>
-        <screenshot image="a4708b7432f97550f496caa2b6744ce2.png"/>
+        <screenshot image="5eb51f03abfe86a16b52af5cc5b64c4c.png"/>
+        <screenshot image="92320cf9dd7cfcaea025f0277690a786.png"/>
       </screenshots>
       <description>Then the user goes back to the summary page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="15459">
+    <test-step result="SUCCESS" duration="15373">
       <screenshots>
-        <screenshot image="a4708b7432f97550f496caa2b6744ce2.png"/>
-        <screenshot image="19a37edd4d86141bae1f5e395e754904.png"/>
+        <screenshot image="92320cf9dd7cfcaea025f0277690a786.png"/>
+        <screenshot image="66ba65154469b0d8426588addd7e6fa2.png"/>
       </screenshots>
       <description>Then the user reviews the application with {594575741}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5500">
+    <test-step result="SUCCESS" duration="5540">
       <screenshots>
-        <screenshot image="19a37edd4d86141bae1f5e395e754904.png"/>
-        <screenshot image="9fc251c8fba97d146cde207d0b71d343.png"/>
+        <screenshot image="66ba65154469b0d8426588addd7e6fa2.png"/>
+        <screenshot image="36e36164b85ba90f3fdea24ede480629.png"/>
       </screenshots>
       <description>Then the user should see their saved mailing information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="4476">
+    <test-step result="SUCCESS" duration="4363">
       <screenshots>
-        <screenshot image="9fc251c8fba97d146cde207d0b71d343.png"/>
+        <screenshot image="36e36164b85ba90f3fdea24ede480629.png"/>
       </screenshots>
       <description>Then the user should see their saved phone number information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2453">
+    <test-step result="SUCCESS" duration="2460">
       <screenshots>
-        <screenshot image="9fc251c8fba97d146cde207d0b71d343.png"/>
+        <screenshot image="36e36164b85ba90f3fdea24ede480629.png"/>
       </screenshots>
       <description>Then the user should see their saved insurance information with {594575741}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5118">
+    <test-step result="SUCCESS" duration="5206">
       <screenshots>
-        <screenshot image="9fc251c8fba97d146cde207d0b71d343.png"/>
-        <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+        <screenshot image="36e36164b85ba90f3fdea24ede480629.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
       </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="368">
+    <test-step result="SUCCESS" duration="363">
       <screenshots>
-        <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
       </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
   <test-group name="[7] {username=333011003, password=1990-01-04}" result="SUCCESS">
     <screenshots>
-      <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
     </screenshots>
     <test-group name="Given the user is on the dashboard page" result="SUCCESS">
       <screenshots>
-        <screenshot image="c6f9ddc6ecf3f5a1520144e5373b47c5.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1546">
+      <test-step result="SUCCESS" duration="1765">
         <screenshots>
-          <screenshot image="f5fd1dba72c33f49407fe61b6a1730ca.png"/>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
         </screenshots>
         <description>On dashboard login page</description>
       </test-step>
     </test-group>
-    <test-step result="SUCCESS" duration="6552">
+    <test-step result="SUCCESS" duration="6549">
       <screenshots>
-        <screenshot image="c6f9ddc6ecf3f5a1520144e5373b47c5.png"/>
-        <screenshot image="177303ec2fa9271edd0b642c6b2ea931.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="46e5cd875e977517739e1f805e65bc12.png"/>
       </screenshots>
       <description>When the user logs into the dashboard with {333011003} and {1990-01-04}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="15326">
+    <test-step result="SUCCESS" duration="15319">
       <screenshots>
-        <screenshot image="d86e34c6b0b1eedd2640610595cb9473.png"/>
-        <screenshot image="b93dc21cb07dab6f83ebe298cd3ada9f.png"/>
+        <screenshot image="46e5cd875e977517739e1f805e65bc12.png"/>
+        <screenshot image="fe43710cd7eee23b877ff787e610c717.png"/>
       </screenshots>
       <description>Then the user reviews the application with {333011003}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3353">
+    <test-step result="SUCCESS" duration="3364">
       <screenshots>
-        <screenshot image="b93dc21cb07dab6f83ebe298cd3ada9f.png"/>
-        <screenshot image="b31d51b58d12c01881fddfaec02b0339.png"/>
+        <screenshot image="fe43710cd7eee23b877ff787e610c717.png"/>
+        <screenshot image="c5732227e43968f6821d321a7d7f3167.png"/>
       </screenshots>
       <description>Then the user should view mailing address information with {333011003}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="272">
+    <test-step result="SUCCESS" duration="280">
       <screenshots>
-        <screenshot image="b31d51b58d12c01881fddfaec02b0339.png"/>
+        <screenshot image="c5732227e43968f6821d321a7d7f3167.png"/>
       </screenshots>
       <description>Then the user should view phone number information with {333011003}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="263">
+    <test-step result="SUCCESS" duration="264">
       <screenshots>
-        <screenshot image="b31d51b58d12c01881fddfaec02b0339.png"/>
+        <screenshot image="c5732227e43968f6821d321a7d7f3167.png"/>
       </screenshots>
       <description>Then the user should view insurance information with {333011003}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="8597">
+    <test-step result="SUCCESS" duration="8879">
       <screenshots>
-        <screenshot image="b31d51b58d12c01881fddfaec02b0339.png"/>
-        <screenshot image="3b8b9c4666630c014a642dee87212c69.png"/>
+        <screenshot image="c5732227e43968f6821d321a7d7f3167.png"/>
+        <screenshot image="40e6710aabb4c9a2546265f6dd8d72fc.png"/>
       </screenshots>
       <description>Then the user should update mailing address information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5506">
+    <test-step result="SUCCESS" duration="5563">
       <screenshots>
-        <screenshot image="3b8b9c4666630c014a642dee87212c69.png"/>
-        <screenshot image="432e6708c5106540d4b3d2aaf2b39302.png"/>
+        <screenshot image="40e6710aabb4c9a2546265f6dd8d72fc.png"/>
+        <screenshot image="b1393b66b7b311ef6d4f6fefcd67c28c.png"/>
       </screenshots>
       <description>Then the user should update phone number information with {333011003}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="9219">
+    <test-step result="SUCCESS" duration="8830">
       <screenshots>
-        <screenshot image="432e6708c5106540d4b3d2aaf2b39302.png"/>
-        <screenshot image="08c9d883a6486b8d3bd00a9527c73c68.png"/>
+        <screenshot image="b1393b66b7b311ef6d4f6fefcd67c28c.png"/>
+        <screenshot image="8b31f2167e2d8050bb67a2fb838e1a13.png"/>
       </screenshots>
       <description>Then the user should update insurance information with {333011003}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="4902">
+    <test-step result="SUCCESS" duration="4897">
       <screenshots>
-        <screenshot image="08c9d883a6486b8d3bd00a9527c73c68.png"/>
-        <screenshot image="022428d838295a6fd789f887603d83b3.png"/>
+        <screenshot image="8b31f2167e2d8050bb67a2fb838e1a13.png"/>
+        <screenshot image="7f5683a85dd26d09b599796e5f5b9ea6.png"/>
       </screenshots>
       <description>Then the user goes back to the summary page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="15326">
+    <test-step result="SUCCESS" duration="15329">
       <screenshots>
-        <screenshot image="022428d838295a6fd789f887603d83b3.png"/>
-        <screenshot image="b93dc21cb07dab6f83ebe298cd3ada9f.png"/>
+        <screenshot image="7f5683a85dd26d09b599796e5f5b9ea6.png"/>
+        <screenshot image="fe43710cd7eee23b877ff787e610c717.png"/>
       </screenshots>
       <description>Then the user reviews the application with {333011003}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5480">
+    <test-step result="SUCCESS" duration="5487">
       <screenshots>
-        <screenshot image="b93dc21cb07dab6f83ebe298cd3ada9f.png"/>
-        <screenshot image="b31d51b58d12c01881fddfaec02b0339.png"/>
+        <screenshot image="fe43710cd7eee23b877ff787e610c717.png"/>
+        <screenshot image="c5732227e43968f6821d321a7d7f3167.png"/>
       </screenshots>
       <description>Then the user should see their saved mailing information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="4375">
+    <test-step result="SUCCESS" duration="4363">
       <screenshots>
-        <screenshot image="b31d51b58d12c01881fddfaec02b0339.png"/>
+        <screenshot image="c5732227e43968f6821d321a7d7f3167.png"/>
       </screenshots>
       <description>Then the user should see their saved phone number information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2418">
+    <test-step result="SUCCESS" duration="2415">
       <screenshots>
-        <screenshot image="b31d51b58d12c01881fddfaec02b0339.png"/>
+        <screenshot image="c5732227e43968f6821d321a7d7f3167.png"/>
       </screenshots>
       <description>Then the user should see their saved insurance information with {333011003}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5477">
+    <test-step result="SUCCESS" duration="5185">
       <screenshots>
-        <screenshot image="b31d51b58d12c01881fddfaec02b0339.png"/>
-        <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+        <screenshot image="c5732227e43968f6821d321a7d7f3167.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
       </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="368">
+    <test-step result="SUCCESS" duration="366">
       <screenshots>
-        <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
       </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
   <test-group name="[8] {username=333011004, password=1990-01-05}" result="SUCCESS">
     <screenshots>
-      <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
     </screenshots>
     <test-group name="Given the user is on the dashboard page" result="SUCCESS">
       <screenshots>
-        <screenshot image="c6f9ddc6ecf3f5a1520144e5373b47c5.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2510">
+      <test-step result="SUCCESS" duration="1785">
         <screenshots>
-          <screenshot image="f5fd1dba72c33f49407fe61b6a1730ca.png"/>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
         </screenshots>
         <description>On dashboard login page</description>
       </test-step>
     </test-group>
-    <test-step result="SUCCESS" duration="7040">
+    <test-step result="SUCCESS" duration="6687">
       <screenshots>
-        <screenshot image="c6f9ddc6ecf3f5a1520144e5373b47c5.png"/>
-        <screenshot image="a571e7362ee02d02ba53de7d9175ac19.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="f42b7a7780e0cdfdf99895a803104728.png"/>
       </screenshots>
       <description>When the user logs into the dashboard with {333011004} and {1990-01-05}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="15451">
+    <test-step result="SUCCESS" duration="15330">
       <screenshots>
-        <screenshot image="5f90bbdfac02d9fc635bffd73871137d.png"/>
-        <screenshot image="aeb6de49469db80dd0722e06ee202224.png"/>
+        <screenshot image="817435cf70752bcce45c115bff047e38.png"/>
+        <screenshot image="a71f4b3f37378f5480aeade4e96c5fdf.png"/>
       </screenshots>
       <description>Then the user reviews the application with {333011004}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3379">
+    <test-step result="SUCCESS" duration="3348">
       <screenshots>
-        <screenshot image="aeb6de49469db80dd0722e06ee202224.png"/>
-        <screenshot image="95d0d7b85949ef254c60b271cf1b48c1.png"/>
+        <screenshot image="a71f4b3f37378f5480aeade4e96c5fdf.png"/>
+        <screenshot image="421b710933831664f9ea0c6be822ddec.png"/>
       </screenshots>
       <description>Then the user should view mailing address information with {333011004}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="276">
+    <test-step result="SUCCESS" duration="277">
       <screenshots>
-        <screenshot image="95d0d7b85949ef254c60b271cf1b48c1.png"/>
+        <screenshot image="421b710933831664f9ea0c6be822ddec.png"/>
       </screenshots>
       <description>Then the user should view phone number information with {333011004}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="266">
+    <test-step result="SUCCESS" duration="265">
       <screenshots>
-        <screenshot image="95d0d7b85949ef254c60b271cf1b48c1.png"/>
+        <screenshot image="421b710933831664f9ea0c6be822ddec.png"/>
       </screenshots>
       <description>Then the user should view insurance information with {333011004}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="8493">
+    <test-step result="SUCCESS" duration="8580">
       <screenshots>
-        <screenshot image="95d0d7b85949ef254c60b271cf1b48c1.png"/>
-        <screenshot image="7b291271115866094203271aea0f2706.png"/>
+        <screenshot image="421b710933831664f9ea0c6be822ddec.png"/>
+        <screenshot image="dfc4409c4b4903544c7a23347d0002ae.png"/>
       </screenshots>
       <description>Then the user should update mailing address information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5610">
+    <test-step result="SUCCESS" duration="5625">
       <screenshots>
-        <screenshot image="7b291271115866094203271aea0f2706.png"/>
-        <screenshot image="f30aef01ff77c3dcf0f5967d4f71e6b0.png"/>
+        <screenshot image="dfc4409c4b4903544c7a23347d0002ae.png"/>
+        <screenshot image="c183d57527987bb152f63403355a9046.png"/>
       </screenshots>
       <description>Then the user should update phone number information with {333011004}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="8706">
+    <test-step result="SUCCESS" duration="8683">
       <screenshots>
-        <screenshot image="f30aef01ff77c3dcf0f5967d4f71e6b0.png"/>
-        <screenshot image="4d22fbbdfe84d802cf646018765d09b3.png"/>
+        <screenshot image="c183d57527987bb152f63403355a9046.png"/>
+        <screenshot image="1e63f11ebb362da0820228fc35319ed5.png"/>
       </screenshots>
       <description>Then the user should update insurance information with {333011004}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="4953">
+    <test-step result="SUCCESS" duration="4934">
       <screenshots>
-        <screenshot image="4d22fbbdfe84d802cf646018765d09b3.png"/>
-        <screenshot image="109a37d54cfbe0bdeae4b78588abf222.png"/>
+        <screenshot image="1e63f11ebb362da0820228fc35319ed5.png"/>
+        <screenshot image="bb2c297e3f00d4ea7ce7e19ebb07f9d6.png"/>
       </screenshots>
       <description>Then the user goes back to the summary page</description>
     </test-step>
     <test-step result="SUCCESS" duration="15326">
       <screenshots>
-        <screenshot image="109a37d54cfbe0bdeae4b78588abf222.png"/>
-        <screenshot image="aeb6de49469db80dd0722e06ee202224.png"/>
+        <screenshot image="bb2c297e3f00d4ea7ce7e19ebb07f9d6.png"/>
+        <screenshot image="a71f4b3f37378f5480aeade4e96c5fdf.png"/>
       </screenshots>
       <description>Then the user reviews the application with {333011004}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5483">
+    <test-step result="SUCCESS" duration="5518">
       <screenshots>
-        <screenshot image="aeb6de49469db80dd0722e06ee202224.png"/>
-        <screenshot image="95d0d7b85949ef254c60b271cf1b48c1.png"/>
+        <screenshot image="a71f4b3f37378f5480aeade4e96c5fdf.png"/>
+        <screenshot image="421b710933831664f9ea0c6be822ddec.png"/>
       </screenshots>
       <description>Then the user should see their saved mailing information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="4423">
+    <test-step result="SUCCESS" duration="4417">
       <screenshots>
-        <screenshot image="95d0d7b85949ef254c60b271cf1b48c1.png"/>
+        <screenshot image="421b710933831664f9ea0c6be822ddec.png"/>
       </screenshots>
       <description>Then the user should see their saved phone number information</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2462">
+    <test-step result="SUCCESS" duration="2453">
       <screenshots>
-        <screenshot image="95d0d7b85949ef254c60b271cf1b48c1.png"/>
+        <screenshot image="421b710933831664f9ea0c6be822ddec.png"/>
       </screenshots>
       <description>Then the user should see their saved insurance information with {333011004}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="5127">
+    <test-step result="SUCCESS" duration="5190">
       <screenshots>
-        <screenshot image="95d0d7b85949ef254c60b271cf1b48c1.png"/>
-        <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+        <screenshot image="421b710933831664f9ea0c6be822ddec.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
       </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="370">
+    <test-step result="SUCCESS" duration="363">
       <screenshots>
-        <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
       </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[9] {username=333011005, password=1990-01-06}" result="ERROR">
+  <test-group name="[9] {username=333011005, password=1990-01-06}" result="SUCCESS">
     <screenshots>
-      <screenshot image="9663c0b9ba1f427fe353dde8ad3adafd.png"/>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
     </screenshots>
     <test-group name="Given the user is on the dashboard page" result="SUCCESS">
       <screenshots>
-        <screenshot image="c6f9ddc6ecf3f5a1520144e5373b47c5.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1696">
+      <test-step result="SUCCESS" duration="1782">
         <screenshots>
-          <screenshot image="f5fd1dba72c33f49407fe61b6a1730ca.png"/>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
         </screenshots>
         <description>On dashboard login page</description>
       </test-step>
     </test-group>
-    <test-step result="SUCCESS" duration="6659">
+    <test-step result="SUCCESS" duration="6730">
       <screenshots>
-        <screenshot image="c6f9ddc6ecf3f5a1520144e5373b47c5.png"/>
-        <screenshot image="218e6cdd472b9f58aa7a034162db31d9.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="33f59423b4b062bc9a392416b2bb7745.png"/>
       </screenshots>
       <description>When the user logs into the dashboard with {333011005} and {1990-01-06}</description>
     </test-step>
-    <test-step result="SUCCESS" duration="15327">
+    <test-step result="SUCCESS" duration="15469">
       <screenshots>
-        <screenshot image="218e6cdd472b9f58aa7a034162db31d9.png"/>
-        <screenshot image="eecfc4f8ddfd704e0362cd5fa772e77d.png"/>
+        <screenshot image="0408d911bf8934e278e40f3693fafc60.png"/>
+        <screenshot image="0b708045f62b91256894e6340f66af35.png"/>
       </screenshots>
       <description>Then the user reviews the application with {333011005}</description>
     </test-step>
-    <test-group name="Then the user should view mailing address information with ｟333011005｠" result="ERROR">
+    <test-step result="SUCCESS" duration="3397">
       <screenshots>
-        <screenshot image="92997cb6c92520a9c9b75087e9f08e56.png"/>
+        <screenshot image="0b708045f62b91256894e6340f66af35.png"/>
+        <screenshot image="0bd010b444aa3ad16f84caaf97dd591f.png"/>
       </screenshots>
-      <test-step result="ERROR" duration="301">
-        <screenshots>
-          <screenshot image="92997cb6c92520a9c9b75087e9f08e56.png"/>
-          <screenshot image="bdc5f90b6d7c2060fcba3e38d41eb0f4.png" source="pagesource8758155974602107757.html.txt"/>
-        </screenshots>
-        <description>Go to applicant tab</description>
-        <error>org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown</error>
-        <exception>org.openqa.selenium.NoSuchElementException:Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown
-[gov.DA.dashboard.test.pages.DAPage.clickApplicantTab(DAPage.java:294), gov.DA.dashboard.test.steps.serenity.User.goToApplicantTab(User.java:170), gov.DA.dashboard.test.steps.serenity.User.viewMailingAddress(User.java:74), gov.DA.dashboard.test.steps.DailyRegression.userViewsMailingAddressInformation(DailyRegression.java:63)]</exception>
-      </test-step>
-      <test-step result="ERROR" duration="2">
-        <description>View mailing address: 333011005</description>
-        <error>org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown</error>
-        <exception>org.openqa.selenium.NoSuchElementException:Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown
-[gov.DA.dashboard.test.pages.DAPage.clickApplicantTab(DAPage.java:294), gov.DA.dashboard.test.steps.serenity.User.goToApplicantTab(User.java:170), gov.DA.dashboard.test.steps.serenity.User.viewMailingAddress(User.java:74), gov.DA.dashboard.test.steps.DailyRegression.userViewsMailingAddressInformation(DailyRegression.java:63)]</exception>
-      </test-step>
-    </test-group>
-    <test-step result="SKIPPED" duration="1">
+      <description>Then the user should view mailing address information with {333011005}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="278">
+      <screenshots>
+        <screenshot image="0bd010b444aa3ad16f84caaf97dd591f.png"/>
+      </screenshots>
       <description>Then the user should view phone number information with {333011005}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="270">
+      <screenshots>
+        <screenshot image="0bd010b444aa3ad16f84caaf97dd591f.png"/>
+      </screenshots>
       <description>Then the user should view insurance information with {333011005}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="1">
+    <test-step result="SUCCESS" duration="8776">
+      <screenshots>
+        <screenshot image="0bd010b444aa3ad16f84caaf97dd591f.png"/>
+        <screenshot image="6465712f165d2ee1f7a385154235f268.png"/>
+      </screenshots>
       <description>Then the user should update mailing address information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="5994">
+      <screenshots>
+        <screenshot image="6465712f165d2ee1f7a385154235f268.png"/>
+        <screenshot image="c7355d58e264f6d9acb00fe353c230d1.png"/>
+      </screenshots>
       <description>Then the user should update phone number information with {333011005}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="8709">
+      <screenshots>
+        <screenshot image="c7355d58e264f6d9acb00fe353c230d1.png"/>
+        <screenshot image="fe05563cf9da25c9a148e40af2127b12.png"/>
+      </screenshots>
       <description>Then the user should update insurance information with {333011005}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="4947">
+      <screenshots>
+        <screenshot image="fe05563cf9da25c9a148e40af2127b12.png"/>
+        <screenshot image="0408d911bf8934e278e40f3693fafc60.png"/>
+      </screenshots>
       <description>Then the user goes back to the summary page</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="15415">
+      <screenshots>
+        <screenshot image="0408d911bf8934e278e40f3693fafc60.png"/>
+        <screenshot image="0b708045f62b91256894e6340f66af35.png"/>
+      </screenshots>
       <description>Then the user reviews the application with {333011005}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="5524">
+      <screenshots>
+        <screenshot image="0b708045f62b91256894e6340f66af35.png"/>
+        <screenshot image="0bd010b444aa3ad16f84caaf97dd591f.png"/>
+      </screenshots>
       <description>Then the user should see their saved mailing information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="1">
+    <test-step result="SUCCESS" duration="4360">
+      <screenshots>
+        <screenshot image="0bd010b444aa3ad16f84caaf97dd591f.png"/>
+      </screenshots>
       <description>Then the user should see their saved phone number information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="2528">
+      <screenshots>
+        <screenshot image="0bd010b444aa3ad16f84caaf97dd591f.png"/>
+      </screenshots>
       <description>Then the user should see their saved insurance information with {333011005}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="1">
+    <test-step result="SUCCESS" duration="5223">
+      <screenshots>
+        <screenshot image="0bd010b444aa3ad16f84caaf97dd591f.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="375">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[10] {username=333011006, password=1990-01-07}" result="ERROR">
+  <test-group name="[10] {username=333011006, password=1990-01-07}" result="SUCCESS">
     <screenshots>
-      <screenshot image="f6a07c0892b6da82c8ee8957b80e9259.png"/>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
     </screenshots>
     <test-group name="Given the user is on the dashboard page" result="SUCCESS">
       <screenshots>
-        <screenshot image="11368fcd29b0d77e0428a0abd6a0c1f9.png"/>
-        <screenshot image="ad73e3fcb357e51d136141af01677198.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1622">
+      <test-step result="SUCCESS" duration="1695">
         <screenshots>
-          <screenshot image="bdb4ba4d56fa9697de6275997b175a33.png"/>
-          <screenshot image="943ca8eb1357517a4a7495094a5a17ad.png"/>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
         </screenshots>
         <description>On dashboard login page</description>
       </test-step>
     </test-group>
-    <test-group name="When the user logs into the dashboard with ｟333011006｠ and ｟1990-01-07｠" result="ERROR">
+    <test-step result="SUCCESS" duration="6650">
       <screenshots>
-        <screenshot image="4c8b54ef41cbfd04678a72393dc50216.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="57aa2f8869a5924408bf5d3577d9286b.png"/>
       </screenshots>
-      <test-step result="ERROR" duration="278">
-        <screenshots>
-          <screenshot image="218e6cdd472b9f58aa7a034162db31d9.png"/>
-          <screenshot image="218e6cdd472b9f58aa7a034162db31d9.png" source="pagesource7780342903528115183.html.txt"/>
-        </screenshots>
-        <description>Fill in form: 333011006, 1990-01-07</description>
-        <error>org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown</error>
-        <exception>org.openqa.selenium.NoSuchElementException:Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown
-[gov.DA.dashboard.test.pages.DAPage.logIntoDashboard(DAPage.java:141), gov.DA.dashboard.test.steps.serenity.User.fillInForm(User.java:23), gov.DA.dashboard.test.steps.DailyRegression.whenTheUserLogsIntoDashboard(DailyRegression.java:25)]</exception>
-      </test-step>
-    </test-group>
-    <test-step result="SKIPPED" duration="0">
+      <description>When the user logs into the dashboard with {333011006} and {1990-01-07}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="15324">
+      <screenshots>
+        <screenshot image="57aa2f8869a5924408bf5d3577d9286b.png"/>
+        <screenshot image="a9138ea03a34f9e570023d9673cb25e9.png"/>
+      </screenshots>
       <description>Then the user reviews the application with {333011006}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="3337">
+      <screenshots>
+        <screenshot image="a9138ea03a34f9e570023d9673cb25e9.png"/>
+        <screenshot image="5d9f4b6e565d3fb084d7130b4c7264e1.png"/>
+      </screenshots>
       <description>Then the user should view mailing address information with {333011006}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="324">
+      <screenshots>
+        <screenshot image="5d9f4b6e565d3fb084d7130b4c7264e1.png"/>
+      </screenshots>
       <description>Then the user should view phone number information with {333011006}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="266">
+      <screenshots>
+        <screenshot image="5d9f4b6e565d3fb084d7130b4c7264e1.png"/>
+      </screenshots>
       <description>Then the user should view insurance information with {333011006}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="2">
+    <test-step result="SUCCESS" duration="8626">
+      <screenshots>
+        <screenshot image="5d9f4b6e565d3fb084d7130b4c7264e1.png"/>
+        <screenshot image="e6adfe42ed566883d92fb990cb3d7c50.png"/>
+      </screenshots>
       <description>Then the user should update mailing address information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="6719">
+      <screenshots>
+        <screenshot image="e6adfe42ed566883d92fb990cb3d7c50.png"/>
+        <screenshot image="29de9355f70d4b8b20e2a8c1828ecfd7.png"/>
+      </screenshots>
       <description>Then the user should update phone number information with {333011006}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="8610">
+      <screenshots>
+        <screenshot image="29de9355f70d4b8b20e2a8c1828ecfd7.png"/>
+        <screenshot image="3ad98b9baa6f17b1a10376c61ec1bd3e.png"/>
+      </screenshots>
       <description>Then the user should update insurance information with {333011006}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="4945">
+      <screenshots>
+        <screenshot image="3ad98b9baa6f17b1a10376c61ec1bd3e.png"/>
+        <screenshot image="57aa2f8869a5924408bf5d3577d9286b.png"/>
+      </screenshots>
       <description>Then the user goes back to the summary page</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="15316">
+      <screenshots>
+        <screenshot image="57aa2f8869a5924408bf5d3577d9286b.png"/>
+        <screenshot image="a9138ea03a34f9e570023d9673cb25e9.png"/>
+      </screenshots>
       <description>Then the user reviews the application with {333011006}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="5486">
+      <screenshots>
+        <screenshot image="a9138ea03a34f9e570023d9673cb25e9.png"/>
+        <screenshot image="5d9f4b6e565d3fb084d7130b4c7264e1.png"/>
+      </screenshots>
       <description>Then the user should see their saved mailing information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="4357">
+      <screenshots>
+        <screenshot image="5d9f4b6e565d3fb084d7130b4c7264e1.png"/>
+      </screenshots>
       <description>Then the user should see their saved phone number information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="2480">
+      <screenshots>
+        <screenshot image="5d9f4b6e565d3fb084d7130b4c7264e1.png"/>
+      </screenshots>
       <description>Then the user should see their saved insurance information with {333011006}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="5204">
+      <screenshots>
+        <screenshot image="5d9f4b6e565d3fb084d7130b4c7264e1.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="378">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[11] {username=049828525, password=1971-11-11}" result="ERROR">
+  <test-group name="[11] {username=049828525, password=1971-11-11}" result="SUCCESS">
     <screenshots>
-      <screenshot image="218e6cdd472b9f58aa7a034162db31d9.png"/>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
     </screenshots>
     <test-group name="Given the user is on the dashboard page" result="SUCCESS">
       <screenshots>
-        <screenshot image="218e6cdd472b9f58aa7a034162db31d9.png"/>
-        <screenshot image="8328a33c9d8f11d80ebfffa5fc63be36.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1380">
+      <test-step result="SUCCESS" duration="2299">
         <screenshots>
-          <screenshot image="218e6cdd472b9f58aa7a034162db31d9.png"/>
-          <screenshot image="8f54548c59d5804c669c3892dd7d8020.png"/>
+          <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
         </screenshots>
         <description>On dashboard login page</description>
       </test-step>
     </test-group>
-    <test-group name="When the user logs into the dashboard with ｟049828525｠ and ｟1971-11-11｠" result="ERROR">
+    <test-step result="SUCCESS" duration="9679">
       <screenshots>
-        <screenshot image="310f88858a02e8fc971a1d34e0b91319.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="390b0bfa2d3b1c59b034b69059c87777.png"/>
       </screenshots>
-      <test-step result="ERROR" duration="279">
-        <screenshots>
-          <screenshot image="218e6cdd472b9f58aa7a034162db31d9.png"/>
-          <screenshot image="218e6cdd472b9f58aa7a034162db31d9.png" source="pagesource5435562068693735549.html.txt"/>
-        </screenshots>
-        <description>Fill in form: 049828525, 1971-11-11</description>
-        <error>org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown</error>
-        <exception>org.openqa.selenium.NoSuchElementException:Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown
-[gov.DA.dashboard.test.pages.DAPage.logIntoDashboard(DAPage.java:141), gov.DA.dashboard.test.steps.serenity.User.fillInForm(User.java:20), gov.DA.dashboard.test.steps.DailyRegression.whenTheUserLogsIntoDashboard(DailyRegression.java:25)]</exception>
-      </test-step>
-    </test-group>
-    <test-step result="SKIPPED" duration="0">
+      <description>When the user logs into the dashboard with {049828525} and {1971-11-11}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="15313">
+      <screenshots>
+        <screenshot image="8dd71cf633be86d9638775de9041ad17.png"/>
+        <screenshot image="044c96cbbe88ed7d7c40b22ac6db49e8.png"/>
+      </screenshots>
       <description>Then the user reviews the application with {049828525}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="3345">
+      <screenshots>
+        <screenshot image="044c96cbbe88ed7d7c40b22ac6db49e8.png"/>
+        <screenshot image="d66298c2f726fca88ebd9faa86b2b2da.png"/>
+      </screenshots>
       <description>Then the user should view mailing address information with {049828525}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="1">
+    <test-step result="SUCCESS" duration="273">
+      <screenshots>
+        <screenshot image="d66298c2f726fca88ebd9faa86b2b2da.png"/>
+      </screenshots>
       <description>Then the user should view phone number information with {049828525}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="266">
+      <screenshots>
+        <screenshot image="d66298c2f726fca88ebd9faa86b2b2da.png"/>
+      </screenshots>
       <description>Then the user should view insurance information with {049828525}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="1">
+    <test-step result="SUCCESS" duration="8694">
+      <screenshots>
+        <screenshot image="d66298c2f726fca88ebd9faa86b2b2da.png"/>
+        <screenshot image="de114e9a3af7a0fc9fcd2da0179c3143.png"/>
+      </screenshots>
       <description>Then the user should update mailing address information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="6039">
+      <screenshots>
+        <screenshot image="de114e9a3af7a0fc9fcd2da0179c3143.png"/>
+        <screenshot image="8b19155b7dbde9e9d5e4b1cf98f0f613.png"/>
+      </screenshots>
       <description>Then the user should update phone number information with {049828525}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="9033">
+      <screenshots>
+        <screenshot image="8b19155b7dbde9e9d5e4b1cf98f0f613.png"/>
+        <screenshot image="aef6d975689d1f2b5801fdbc29bbac92.png"/>
+      </screenshots>
       <description>Then the user should update insurance information with {049828525}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="4968">
+      <screenshots>
+        <screenshot image="aef6d975689d1f2b5801fdbc29bbac92.png"/>
+        <screenshot image="c1949755dd07575ab26a0c42633facee.png"/>
+      </screenshots>
       <description>Then the user goes back to the summary page</description>
     </test-step>
-    <test-step result="SKIPPED" duration="3">
+    <test-step result="SUCCESS" duration="15347">
+      <screenshots>
+        <screenshot image="c1949755dd07575ab26a0c42633facee.png"/>
+        <screenshot image="044c96cbbe88ed7d7c40b22ac6db49e8.png"/>
+      </screenshots>
       <description>Then the user reviews the application with {049828525}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="5548">
+      <screenshots>
+        <screenshot image="044c96cbbe88ed7d7c40b22ac6db49e8.png"/>
+        <screenshot image="d66298c2f726fca88ebd9faa86b2b2da.png"/>
+      </screenshots>
       <description>Then the user should see their saved mailing information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="1">
+    <test-step result="SUCCESS" duration="4361">
+      <screenshots>
+        <screenshot image="d66298c2f726fca88ebd9faa86b2b2da.png"/>
+      </screenshots>
       <description>Then the user should see their saved phone number information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="1">
+    <test-step result="SUCCESS" duration="2470">
+      <screenshots>
+        <screenshot image="d66298c2f726fca88ebd9faa86b2b2da.png"/>
+      </screenshots>
       <description>Then the user should see their saved insurance information with {049828525}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="5328">
+      <screenshots>
+        <screenshot image="d66298c2f726fca88ebd9faa86b2b2da.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="361">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[12] {username=001010001, password=1919-12-12}" result="ERROR">
+  <test-group name="[12] {username=001010001, password=1919-12-12}" result="SUCCESS">
     <screenshots>
-      <screenshot image="218e6cdd472b9f58aa7a034162db31d9.png"/>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
     </screenshots>
     <test-group name="Given the user is on the dashboard page" result="SUCCESS">
       <screenshots>
-        <screenshot image="4c8b54ef41cbfd04678a72393dc50216.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1620">
+      <test-step result="SUCCESS" duration="1852">
         <screenshots>
-          <screenshot image="e52a037f0eca120c53ee0cadb2a40efc.png"/>
+          <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
         </screenshots>
         <description>On dashboard login page</description>
       </test-step>
     </test-group>
-    <test-group name="When the user logs into the dashboard with ｟001010001｠ and ｟1919-12-12｠" result="ERROR">
+    <test-step result="SUCCESS" duration="6665">
       <screenshots>
-        <screenshot image="ecc2fffa8d40940211d7c7bee85e062f.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="857c573713795213ce2183d966429a84.png"/>
       </screenshots>
-      <test-step result="ERROR" duration="278">
-        <screenshots>
-          <screenshot image="218e6cdd472b9f58aa7a034162db31d9.png" source="pagesource2706303876198100141.html.txt"/>
-        </screenshots>
-        <description>Fill in form: 001010001, 1919-12-12</description>
-        <error>org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown</error>
-        <exception>org.openqa.selenium.NoSuchElementException:Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown
-[gov.DA.dashboard.test.pages.DAPage.logIntoDashboard(DAPage.java:141), gov.DA.dashboard.test.steps.serenity.User.fillInForm(User.java:23), gov.DA.dashboard.test.steps.DailyRegression.whenTheUserLogsIntoDashboard(DailyRegression.java:25)]</exception>
-      </test-step>
-    </test-group>
-    <test-step result="SKIPPED" duration="0">
+      <description>When the user logs into the dashboard with {001010001} and {1919-12-12}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="15425">
+      <screenshots>
+        <screenshot image="857c573713795213ce2183d966429a84.png"/>
+        <screenshot image="0689a73f1d6ce14f48f1711cd55258b4.png"/>
+      </screenshots>
       <description>Then the user reviews the application with {001010001}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="1">
+    <test-step result="SUCCESS" duration="3584">
+      <screenshots>
+        <screenshot image="0689a73f1d6ce14f48f1711cd55258b4.png"/>
+        <screenshot image="406c81298d86c9d83f8c0a06d7f6aef9.png"/>
+      </screenshots>
       <description>Then the user should view mailing address information with {001010001}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="425">
+      <screenshots>
+        <screenshot image="406c81298d86c9d83f8c0a06d7f6aef9.png"/>
+      </screenshots>
       <description>Then the user should view phone number information with {001010001}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="394">
+      <screenshots>
+        <screenshot image="406c81298d86c9d83f8c0a06d7f6aef9.png"/>
+      </screenshots>
       <description>Then the user should view insurance information with {001010001}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="8714">
+      <screenshots>
+        <screenshot image="406c81298d86c9d83f8c0a06d7f6aef9.png"/>
+        <screenshot image="d303226c260463634ae4cf05123b5358.png"/>
+      </screenshots>
       <description>Then the user should update mailing address information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="5567">
+      <screenshots>
+        <screenshot image="d303226c260463634ae4cf05123b5358.png"/>
+        <screenshot image="6741d6c44c57e9466a3255ccbccfe516.png"/>
+      </screenshots>
       <description>Then the user should update phone number information with {001010001}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="8734">
+      <screenshots>
+        <screenshot image="6741d6c44c57e9466a3255ccbccfe516.png"/>
+        <screenshot image="b99cc72ecc47151b7006d335072b0f07.png"/>
+      </screenshots>
       <description>Then the user should update insurance information with {001010001}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="4884">
+      <screenshots>
+        <screenshot image="b99cc72ecc47151b7006d335072b0f07.png"/>
+        <screenshot image="857c573713795213ce2183d966429a84.png"/>
+      </screenshots>
       <description>Then the user goes back to the summary page</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="15318">
+      <screenshots>
+        <screenshot image="857c573713795213ce2183d966429a84.png"/>
+        <screenshot image="0689a73f1d6ce14f48f1711cd55258b4.png"/>
+      </screenshots>
       <description>Then the user reviews the application with {001010001}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="5552">
+      <screenshots>
+        <screenshot image="0689a73f1d6ce14f48f1711cd55258b4.png"/>
+        <screenshot image="406c81298d86c9d83f8c0a06d7f6aef9.png"/>
+      </screenshots>
       <description>Then the user should see their saved mailing information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="4425">
+      <screenshots>
+        <screenshot image="406c81298d86c9d83f8c0a06d7f6aef9.png"/>
+      </screenshots>
       <description>Then the user should see their saved phone number information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="2422">
+      <screenshots>
+        <screenshot image="406c81298d86c9d83f8c0a06d7f6aef9.png"/>
+      </screenshots>
       <description>Then the user should see their saved insurance information with {001010001}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="1">
+    <test-step result="SUCCESS" duration="5168">
+      <screenshots>
+        <screenshot image="406c81298d86c9d83f8c0a06d7f6aef9.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="382">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[13] {username=735151123, password=1968-05-01}" result="ERROR">
+  <test-group name="[13] {username=735151123, password=1968-05-01}" result="SUCCESS">
     <screenshots>
-      <screenshot image="218e6cdd472b9f58aa7a034162db31d9.png"/>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
     </screenshots>
     <test-group name="Given the user is on the dashboard page" result="SUCCESS">
       <screenshots>
-        <screenshot image="1686504692863717544582c6a759e8ef.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1430">
+      <test-step result="SUCCESS" duration="1893">
         <screenshots>
-          <screenshot image="237716ce7fdc171da4ec49b954a646aa.png"/>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
         </screenshots>
         <description>On dashboard login page</description>
       </test-step>
     </test-group>
-    <test-group name="When the user logs into the dashboard with ｟735151123｠ and ｟1968-05-01｠" result="ERROR">
+    <test-step result="SUCCESS" duration="6668">
       <screenshots>
-        <screenshot image="63854f6e68a4533e67600666288d10bf.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="99e814f5910b15d1846678b330a25df0.png"/>
       </screenshots>
-      <test-step result="ERROR" duration="277">
-        <screenshots>
-          <screenshot image="218e6cdd472b9f58aa7a034162db31d9.png" source="pagesource3225057846257225693.html.txt"/>
-        </screenshots>
-        <description>Fill in form: 735151123, 1968-05-01</description>
-        <error>org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown</error>
-        <exception>org.openqa.selenium.NoSuchElementException:Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown
-[gov.DA.dashboard.test.pages.DAPage.logIntoDashboard(DAPage.java:141), gov.DA.dashboard.test.steps.serenity.User.fillInForm(User.java:23), gov.DA.dashboard.test.steps.DailyRegression.whenTheUserLogsIntoDashboard(DailyRegression.java:25)]</exception>
-      </test-step>
-    </test-group>
-    <test-step result="SKIPPED" duration="1">
+      <description>When the user logs into the dashboard with {735151123} and {1968-05-01}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="15324">
+      <screenshots>
+        <screenshot image="d216749a4fd12ca918f38df1afc17a50.png"/>
+        <screenshot image="a3b6645bf6061d9c1c559d547f1a1f4a.png"/>
+      </screenshots>
       <description>Then the user reviews the application with {735151123}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="3348">
+      <screenshots>
+        <screenshot image="a3b6645bf6061d9c1c559d547f1a1f4a.png"/>
+        <screenshot image="54e390573bbdbe2440767b229c54f0f2.png"/>
+      </screenshots>
       <description>Then the user should view mailing address information with {735151123}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="1">
+    <test-step result="SUCCESS" duration="275">
+      <screenshots>
+        <screenshot image="54e390573bbdbe2440767b229c54f0f2.png"/>
+      </screenshots>
       <description>Then the user should view phone number information with {735151123}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="330">
+      <screenshots>
+        <screenshot image="54e390573bbdbe2440767b229c54f0f2.png"/>
+      </screenshots>
       <description>Then the user should view insurance information with {735151123}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="8706">
+      <screenshots>
+        <screenshot image="54e390573bbdbe2440767b229c54f0f2.png"/>
+        <screenshot image="50c3422fd41162919a2c0c48fb556e27.png"/>
+      </screenshots>
       <description>Then the user should update mailing address information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="5722">
+      <screenshots>
+        <screenshot image="50c3422fd41162919a2c0c48fb556e27.png"/>
+        <screenshot image="c3afc3ee44e894ad0ea8973c80a67b66.png"/>
+      </screenshots>
       <description>Then the user should update phone number information with {735151123}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="8715">
+      <screenshots>
+        <screenshot image="c3afc3ee44e894ad0ea8973c80a67b66.png"/>
+        <screenshot image="4b632a43d1edd74f201b9d10b14fc24b.png"/>
+      </screenshots>
       <description>Then the user should update insurance information with {735151123}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="4936">
+      <screenshots>
+        <screenshot image="4b632a43d1edd74f201b9d10b14fc24b.png"/>
+        <screenshot image="f25996ba11a26ce42ba984abc89db832.png"/>
+      </screenshots>
       <description>Then the user goes back to the summary page</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="15319">
+      <screenshots>
+        <screenshot image="f25996ba11a26ce42ba984abc89db832.png"/>
+        <screenshot image="a3b6645bf6061d9c1c559d547f1a1f4a.png"/>
+      </screenshots>
       <description>Then the user reviews the application with {735151123}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="1">
+    <test-step result="SUCCESS" duration="5617">
+      <screenshots>
+        <screenshot image="a3b6645bf6061d9c1c559d547f1a1f4a.png"/>
+        <screenshot image="54e390573bbdbe2440767b229c54f0f2.png"/>
+      </screenshots>
       <description>Then the user should see their saved mailing information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="4381">
+      <screenshots>
+        <screenshot image="54e390573bbdbe2440767b229c54f0f2.png"/>
+      </screenshots>
       <description>Then the user should see their saved phone number information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="2480">
+      <screenshots>
+        <screenshot image="54e390573bbdbe2440767b229c54f0f2.png"/>
+      </screenshots>
       <description>Then the user should see their saved insurance information with {735151123}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="5227">
+      <screenshots>
+        <screenshot image="54e390573bbdbe2440767b229c54f0f2.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="361">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[14] {username=735251523, password=1968-05-01}" result="ERROR">
+  <test-group name="[14] {username=735251523, password=1968-05-01}" result="SUCCESS">
     <screenshots>
-      <screenshot image="218e6cdd472b9f58aa7a034162db31d9.png"/>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
     </screenshots>
     <test-group name="Given the user is on the dashboard page" result="SUCCESS">
       <screenshots>
-        <screenshot image="ad73e3fcb357e51d136141af01677198.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1436">
+      <test-step result="SUCCESS" duration="1847">
         <screenshots>
-          <screenshot image="60cba80eaf01fba65b970fb12ef531ae.png"/>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
         </screenshots>
         <description>On dashboard login page</description>
       </test-step>
     </test-group>
-    <test-group name="When the user logs into the dashboard with ｟735251523｠ and ｟1968-05-01｠" result="ERROR">
+    <test-step result="SUCCESS" duration="6654">
       <screenshots>
-        <screenshot image="ecc2fffa8d40940211d7c7bee85e062f.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="8fb8a44518cce901a2f3d62059aee76c.png"/>
       </screenshots>
-      <test-step result="ERROR" duration="276">
-        <screenshots>
-          <screenshot image="218e6cdd472b9f58aa7a034162db31d9.png" source="pagesource1973499042148519168.html.txt"/>
-        </screenshots>
-        <description>Fill in form: 735251523, 1968-05-01</description>
-        <error>org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown</error>
-        <exception>org.openqa.selenium.NoSuchElementException:Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown
-[gov.DA.dashboard.test.pages.DAPage.logIntoDashboard(DAPage.java:141), gov.DA.dashboard.test.steps.serenity.User.fillInForm(User.java:23), gov.DA.dashboard.test.steps.DailyRegression.whenTheUserLogsIntoDashboard(DailyRegression.java:25)]</exception>
-      </test-step>
-    </test-group>
-    <test-step result="SKIPPED" duration="0">
+      <description>When the user logs into the dashboard with {735251523} and {1968-05-01}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="15314">
+      <screenshots>
+        <screenshot image="8fb8a44518cce901a2f3d62059aee76c.png"/>
+        <screenshot image="2c66db3a48985236ef6bf2ac0a8a1352.png"/>
+      </screenshots>
       <description>Then the user reviews the application with {735251523}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="3352">
+      <screenshots>
+        <screenshot image="2c66db3a48985236ef6bf2ac0a8a1352.png"/>
+        <screenshot image="51fb3e3d35b147902fdb39ccee1d9068.png"/>
+      </screenshots>
       <description>Then the user should view mailing address information with {735251523}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="306">
+      <screenshots>
+        <screenshot image="51fb3e3d35b147902fdb39ccee1d9068.png"/>
+      </screenshots>
       <description>Then the user should view phone number information with {735251523}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="262">
+      <screenshots>
+        <screenshot image="51fb3e3d35b147902fdb39ccee1d9068.png"/>
+      </screenshots>
       <description>Then the user should view insurance information with {735251523}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="8497">
+      <screenshots>
+        <screenshot image="51fb3e3d35b147902fdb39ccee1d9068.png"/>
+        <screenshot image="901d473cc7876c12f888637db6364d6f.png"/>
+      </screenshots>
       <description>Then the user should update mailing address information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="5404">
+      <screenshots>
+        <screenshot image="901d473cc7876c12f888637db6364d6f.png"/>
+        <screenshot image="3c9f0047b7341b6bd15770eb8d117d02.png"/>
+      </screenshots>
       <description>Then the user should update phone number information with {735251523}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="8660">
+      <screenshots>
+        <screenshot image="3c9f0047b7341b6bd15770eb8d117d02.png"/>
+        <screenshot image="3ab78587abfa113753459362b35eeab9.png"/>
+      </screenshots>
       <description>Then the user should update insurance information with {735251523}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="4907">
+      <screenshots>
+        <screenshot image="3ab78587abfa113753459362b35eeab9.png"/>
+        <screenshot image="8fb8a44518cce901a2f3d62059aee76c.png"/>
+      </screenshots>
       <description>Then the user goes back to the summary page</description>
     </test-step>
-    <test-step result="SKIPPED" duration="1">
+    <test-step result="SUCCESS" duration="15311">
+      <screenshots>
+        <screenshot image="8fb8a44518cce901a2f3d62059aee76c.png"/>
+        <screenshot image="2c66db3a48985236ef6bf2ac0a8a1352.png"/>
+      </screenshots>
       <description>Then the user reviews the application with {735251523}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="5476">
+      <screenshots>
+        <screenshot image="2c66db3a48985236ef6bf2ac0a8a1352.png"/>
+        <screenshot image="51fb3e3d35b147902fdb39ccee1d9068.png"/>
+      </screenshots>
       <description>Then the user should see their saved mailing information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="4431">
+      <screenshots>
+        <screenshot image="51fb3e3d35b147902fdb39ccee1d9068.png"/>
+      </screenshots>
       <description>Then the user should see their saved phone number information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="2479">
+      <screenshots>
+        <screenshot image="51fb3e3d35b147902fdb39ccee1d9068.png"/>
+      </screenshots>
       <description>Then the user should see their saved insurance information with {735251523}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="5308">
+      <screenshots>
+        <screenshot image="51fb3e3d35b147902fdb39ccee1d9068.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="362">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[15] {username=430991038, password=1987-3-26}" result="ERROR">
+  <test-group name="[15] {username=430991038, password=1987-3-26}" result="SUCCESS">
     <screenshots>
-      <screenshot image="218e6cdd472b9f58aa7a034162db31d9.png"/>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
     </screenshots>
     <test-group name="Given the user is on the dashboard page" result="SUCCESS">
       <screenshots>
-        <screenshot image="1686504692863717544582c6a759e8ef.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1482">
+      <test-step result="SUCCESS" duration="1838">
         <screenshots>
-          <screenshot image="237716ce7fdc171da4ec49b954a646aa.png"/>
+          <screenshot image="db3c461d8e3db703dba160a75064b144.png"/>
         </screenshots>
         <description>On dashboard login page</description>
       </test-step>
     </test-group>
-    <test-group name="When the user logs into the dashboard with ｟430991038｠ and ｟1987-3-26｠" result="ERROR">
+    <test-step result="SUCCESS" duration="6644">
       <screenshots>
-        <screenshot image="c909564a12cf1fd5a9030831cae66452.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="02295a78ea02648b6c03ecae0b59fe6f.png"/>
       </screenshots>
-      <test-step result="ERROR" duration="277">
-        <screenshots>
-          <screenshot image="218e6cdd472b9f58aa7a034162db31d9.png" source="pagesource4607740930604789211.html.txt"/>
-        </screenshots>
-        <description>Fill in form: 430991038, 1987-3-26</description>
-        <error>org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown</error>
-        <exception>org.openqa.selenium.NoSuchElementException:Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown
-[gov.DA.dashboard.test.pages.DAPage.logIntoDashboard(DAPage.java:141), gov.DA.dashboard.test.steps.serenity.User.fillInForm(User.java:23), gov.DA.dashboard.test.steps.DailyRegression.whenTheUserLogsIntoDashboard(DailyRegression.java:25)]</exception>
-      </test-step>
-    </test-group>
-    <test-step result="SKIPPED" duration="0">
+      <description>When the user logs into the dashboard with {430991038} and {1987-3-26}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="15319">
+      <screenshots>
+        <screenshot image="7d1d3797433c4de4238b0cbd95ef71d5.png"/>
+        <screenshot image="e5b31324ce69ac62876e2ed61a6b1fbc.png"/>
+      </screenshots>
       <description>Then the user reviews the application with {430991038}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="3358">
+      <screenshots>
+        <screenshot image="e5b31324ce69ac62876e2ed61a6b1fbc.png"/>
+        <screenshot image="b5ad47cede2e3b5190f220a96c32b912.png"/>
+      </screenshots>
       <description>Then the user should view mailing address information with {430991038}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="274">
+      <screenshots>
+        <screenshot image="b5ad47cede2e3b5190f220a96c32b912.png"/>
+      </screenshots>
       <description>Then the user should view phone number information with {430991038}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="268">
+      <screenshots>
+        <screenshot image="b5ad47cede2e3b5190f220a96c32b912.png"/>
+      </screenshots>
       <description>Then the user should view insurance information with {430991038}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="8528">
+      <screenshots>
+        <screenshot image="b5ad47cede2e3b5190f220a96c32b912.png"/>
+        <screenshot image="cfe3262447158f2031709ea2c1ad094f.png"/>
+      </screenshots>
       <description>Then the user should update mailing address information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="6231">
+      <screenshots>
+        <screenshot image="cfe3262447158f2031709ea2c1ad094f.png"/>
+        <screenshot image="c30e842d5da0e836650d095dafd029d6.png"/>
+      </screenshots>
       <description>Then the user should update phone number information with {430991038}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="1">
+    <test-step result="SUCCESS" duration="8854">
+      <screenshots>
+        <screenshot image="c30e842d5da0e836650d095dafd029d6.png"/>
+        <screenshot image="a34e5516dcefce8333feaeb78fae3544.png"/>
+      </screenshots>
       <description>Then the user should update insurance information with {430991038}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="5271">
+      <screenshots>
+        <screenshot image="a34e5516dcefce8333feaeb78fae3544.png"/>
+        <screenshot image="0c2b1dd6e310471e6732ac69ec16eebb.png"/>
+      </screenshots>
       <description>Then the user goes back to the summary page</description>
     </test-step>
-    <test-step result="SKIPPED" duration="1">
+    <test-step result="SUCCESS" duration="15325">
+      <screenshots>
+        <screenshot image="0c2b1dd6e310471e6732ac69ec16eebb.png"/>
+        <screenshot image="e5b31324ce69ac62876e2ed61a6b1fbc.png"/>
+      </screenshots>
       <description>Then the user reviews the application with {430991038}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="5568">
+      <screenshots>
+        <screenshot image="e5b31324ce69ac62876e2ed61a6b1fbc.png"/>
+        <screenshot image="b5ad47cede2e3b5190f220a96c32b912.png"/>
+      </screenshots>
       <description>Then the user should see their saved mailing information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="4355">
+      <screenshots>
+        <screenshot image="b5ad47cede2e3b5190f220a96c32b912.png"/>
+      </screenshots>
       <description>Then the user should see their saved phone number information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="1">
+    <test-step result="SUCCESS" duration="2492">
+      <screenshots>
+        <screenshot image="b5ad47cede2e3b5190f220a96c32b912.png"/>
+      </screenshots>
       <description>Then the user should see their saved insurance information with {430991038}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="5154">
+      <screenshots>
+        <screenshot image="b5ad47cede2e3b5190f220a96c32b912.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="381">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
-  <test-group name="[16] {username=265798306, password=1966-12-12}" result="ERROR">
+  <test-group name="[16] {username=265798306, password=1966-12-12}" result="SUCCESS">
     <screenshots>
-      <screenshot image="218e6cdd472b9f58aa7a034162db31d9.png"/>
+      <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
     </screenshots>
     <test-group name="Given the user is on the dashboard page" result="SUCCESS">
       <screenshots>
-        <screenshot image="02c933de52b5e5dae86cafc96384b185.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1435">
+      <test-step result="SUCCESS" duration="1998">
         <screenshots>
-          <screenshot image="e73bf5a3f3f31eeec8fe4f769bd4515c.png"/>
+          <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
         </screenshots>
         <description>On dashboard login page</description>
       </test-step>
     </test-group>
-    <test-group name="When the user logs into the dashboard with ｟265798306｠ and ｟1966-12-12｠" result="ERROR">
+    <test-step result="SUCCESS" duration="6708">
       <screenshots>
-        <screenshot image="960bdd37b6f56e71910d90fd11fcbfd1.png"/>
+        <screenshot image="8c28335048f42ec41b3e86e0a034f041.png"/>
+        <screenshot image="247ea06e9f24adffc9d06609a67bfa4f.png"/>
       </screenshots>
-      <test-step result="ERROR" duration="275">
-        <screenshots>
-          <screenshot image="218e6cdd472b9f58aa7a034162db31d9.png" source="pagesource943875383713876082.html.txt"/>
-        </screenshots>
-        <description>Fill in form: 265798306, 1966-12-12</description>
-        <error>org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown</error>
-        <exception>org.openqa.selenium.NoSuchElementException:Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown
-[gov.DA.dashboard.test.pages.DAPage.logIntoDashboard(DAPage.java:141), gov.DA.dashboard.test.steps.serenity.User.fillInForm(User.java:23), gov.DA.dashboard.test.steps.DailyRegression.whenTheUserLogsIntoDashboard(DailyRegression.java:25)]</exception>
-      </test-step>
-    </test-group>
-    <test-step result="SKIPPED" duration="0">
+      <description>When the user logs into the dashboard with {265798306} and {1966-12-12}</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="15348">
+      <screenshots>
+        <screenshot image="247ea06e9f24adffc9d06609a67bfa4f.png"/>
+        <screenshot image="6f6b0e176a5a42ad3f5f14755021dfad.png"/>
+      </screenshots>
       <description>Then the user reviews the application with {265798306}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="3332">
+      <screenshots>
+        <screenshot image="6f6b0e176a5a42ad3f5f14755021dfad.png"/>
+        <screenshot image="b47cb0787b61b8223d444bac0f3806fe.png"/>
+      </screenshots>
       <description>Then the user should view mailing address information with {265798306}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="275">
+      <screenshots>
+        <screenshot image="b47cb0787b61b8223d444bac0f3806fe.png"/>
+      </screenshots>
       <description>Then the user should view phone number information with {265798306}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="267">
+      <screenshots>
+        <screenshot image="b47cb0787b61b8223d444bac0f3806fe.png"/>
+      </screenshots>
       <description>Then the user should view insurance information with {265798306}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="8615">
+      <screenshots>
+        <screenshot image="b47cb0787b61b8223d444bac0f3806fe.png"/>
+        <screenshot image="035640c138e296f5b8d6c89e88b3fcff.png"/>
+      </screenshots>
       <description>Then the user should update mailing address information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="5852">
+      <screenshots>
+        <screenshot image="035640c138e296f5b8d6c89e88b3fcff.png"/>
+        <screenshot image="fa019b3b5a71caf93ef5f68950bd3799.png"/>
+      </screenshots>
       <description>Then the user should update phone number information with {265798306}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="8683">
+      <screenshots>
+        <screenshot image="fa019b3b5a71caf93ef5f68950bd3799.png"/>
+        <screenshot image="59945a80a4cbaf800a7d6ef1f31896f9.png"/>
+      </screenshots>
       <description>Then the user should update insurance information with {265798306}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="4988">
+      <screenshots>
+        <screenshot image="59945a80a4cbaf800a7d6ef1f31896f9.png"/>
+        <screenshot image="247ea06e9f24adffc9d06609a67bfa4f.png"/>
+      </screenshots>
       <description>Then the user goes back to the summary page</description>
     </test-step>
-    <test-step result="SKIPPED" duration="1">
+    <test-step result="SUCCESS" duration="15315">
+      <screenshots>
+        <screenshot image="247ea06e9f24adffc9d06609a67bfa4f.png"/>
+        <screenshot image="6f6b0e176a5a42ad3f5f14755021dfad.png"/>
+      </screenshots>
       <description>Then the user reviews the application with {265798306}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="5488">
+      <screenshots>
+        <screenshot image="6f6b0e176a5a42ad3f5f14755021dfad.png"/>
+        <screenshot image="b47cb0787b61b8223d444bac0f3806fe.png"/>
+      </screenshots>
       <description>Then the user should see their saved mailing information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="1">
+    <test-step result="SUCCESS" duration="4359">
+      <screenshots>
+        <screenshot image="b47cb0787b61b8223d444bac0f3806fe.png"/>
+      </screenshots>
       <description>Then the user should see their saved phone number information</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="2494">
+      <screenshots>
+        <screenshot image="b47cb0787b61b8223d444bac0f3806fe.png"/>
+      </screenshots>
       <description>Then the user should see their saved insurance information with {265798306}</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="5242">
+      <screenshots>
+        <screenshot image="b47cb0787b61b8223d444bac0f3806fe.png"/>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SKIPPED" duration="0">
+    <test-step result="SUCCESS" duration="374">
+      <screenshots>
+        <screenshot image="33183b0c803b435c3728ebeffd280100.png"/>
+      </screenshots>
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>

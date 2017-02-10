@@ -1,4 +1,4 @@
-<acceptance-test-run title="View notifications on homepage" name="View notifications on homepage" steps="108" successful="108" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="14" timestamp="2017-02-09T12:40:25.526-05:00">
+<acceptance-test-run title="View notifications on homepage" name="View notifications on homepage" steps="108" successful="108" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="18" timestamp="2017-02-10T10:50:39.213-05:00">
   <user-story id="fullRegression" name="Full regression" path="stories/fullRegression/fullRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>
@@ -88,7 +88,7 @@
     </rows>
   </examples>
   <test-group name="[1] {username=430990610, password=1960-9-15}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="1">
+    <test-step result="SUCCESS" duration="0">
       <description>Given the user is on the dashboard page</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
@@ -137,7 +137,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>Then the user is on the summary page with &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="1">
       <description>Then the notification should be displayed with &lt;username&gt;</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
@@ -154,7 +154,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="1">
       <description>Then the user is on the summary page with &lt;username&gt;</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
@@ -243,7 +243,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>Then the user logs out of the dashboard</description>
     </test-step>
-    <test-step result="SUCCESS" duration="1">
+    <test-step result="SUCCESS" duration="0">
       <description>Then they should see the home page</description>
     </test-step>
   </test-group>
@@ -257,7 +257,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>Then the user is on the summary page with &lt;username&gt;</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="1">
       <description>Then the notification should be displayed with &lt;username&gt;</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
@@ -291,7 +291,7 @@
     <test-step result="SUCCESS" duration="0">
       <description>Given the user is on the dashboard page</description>
     </test-step>
-    <test-step result="SUCCESS" duration="0">
+    <test-step result="SUCCESS" duration="1">
       <description>When the user logs into the dashboard with &lt;username&gt; and &lt;password&gt;</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">
@@ -308,7 +308,7 @@
     </test-step>
   </test-group>
   <test-group name="[12] {username=333011007, password=1990-01-08}" result="SKIPPED">
-    <test-step result="SUCCESS" duration="1">
+    <test-step result="SUCCESS" duration="0">
       <description>Given the user is on the dashboard page</description>
     </test-step>
     <test-step result="SUCCESS" duration="0">

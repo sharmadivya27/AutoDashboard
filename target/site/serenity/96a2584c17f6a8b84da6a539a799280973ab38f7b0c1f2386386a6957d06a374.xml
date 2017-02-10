@@ -1,4 +1,4 @@
-<acceptance-test-run title="Electronic fund application information is updated and saved" name="Electronic fund application information is updated and saved" steps="10" successful="10" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="1" timestamp="2017-02-09T12:40:25.626-05:00">
+<acceptance-test-run title="Electronic fund application information is updated and saved" name="Electronic fund application information is updated and saved" steps="10" successful="10" failures="0" skipped="0" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="1" timestamp="2017-02-10T10:50:39.298-05:00">
   <user-story id="fullRegression" name="Full regression" path="stories/fullRegression/fullRegression.story"/>
   <tags>
     <tag name="Full regression" type="feature"/>

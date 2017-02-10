@@ -34,11 +34,11 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 0],
+                ['Passing', 0.301887],
                 ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
-                ['Errors',  0.301887],
+                ['Errors',  0],
                 ['Compromised Tests',  0],
             ]
         ], {
@@ -68,10 +68,10 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '0% requirements tested successfully'},
+                {label: '30.2% requirements tested successfully'},
                 {label: '69.8% requirements untested'},
                 {label: '0%} requirements failing'},
-                {label: '30.2%} requirements with errors'},
+                {label: '0%} requirements with errors'},
                 {label: '0%} requirements with compromised tests'}
             ]
         });
@@ -168,7 +168,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-02-2017 12:54</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-02-2017 11:15</span>
     <br style="clear:left"/>
 </div>
 
@@ -209,8 +209,8 @@
                                 <tr>
                                     <td class="summary-leading-column">Acceptance Criteria (tests)</td>
                                     <td>53</td>
-                                    <td>0</td>
                                     <td>16</td>
+                                    <td>0</td>
                                     <td>0</td>
                                     <td>37</td>
                                     <td></td>
@@ -240,8 +240,8 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>53</td>
-            <td>0 (0%)</td>
             <td>16 (30%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -256,14 +256,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>53</td>
+            <td>16 (30%)</td>
             <td>0 (0%)</td>
-            <td>16 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">13 minutes 25 seconds</td>
+                <td colspan="5">24 minutes 11 seconds</td>
         </tr>
         </body>
     </table>
@@ -291,21 +291,21 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
-                                    <a href="39be7716b41e920778f9aa4857fc0852ce5fa5390e6ff8c3aa9c47a2328e1140.html" class="ellipsis" title="No such element exception: Timed out after 2 seconds. Element not found">
+                                    <a href="39be7716b41e920778f9aa4857fc0852ce5fa5390e6ff8c3aa9c47a2328e1140.html" class="ellipsis" title="">
                                     All information is updated and saved 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">297</td>
+                                <td class="lightgreentext">288</td>
 
 
-                                <td class="lightgreentext">805.32</td>
+                                <td class="lightgreentext">1451.47</td>
                             </tr>
 
                             <tr class="test-SKIPPED">
@@ -339,7 +339,7 @@
                                 <td class="lightgreentext">126</td>
 
 
-                                <td class="lightgreentext">0.01</td>
+                                <td class="lightgreentext">0.02</td>
                             </tr>
 
                             <tr class="test-SKIPPED">
@@ -356,7 +356,7 @@
                                 <td class="lightgreentext">126</td>
 
 
-                                <td class="lightgreentext">0.02</td>
+                                <td class="lightgreentext">0.01</td>
                             </tr>
                         </tbody>
                     </table>

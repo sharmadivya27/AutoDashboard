@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Full regression","Electronic fund application information is updated and saved","SKIPPED","2017-02-09T12:40:25.626-05:00","0.0","0.0"
-"Full regression","View notifications on homepage","SKIPPED","2017-02-09T12:40:25.526-05:00","0.0","0.01"
-"Full regression","View personalized list of FOAs from the additional resources","SKIPPED","2017-02-09T12:40:25.607-05:00","0.0","0.02"
+"Full regression","Electronic fund application information is updated and saved","SKIPPED","2017-02-10T10:50:39.298-05:00","0.0","0.0"
+"Full regression","View notifications on homepage","SKIPPED","2017-02-10T10:50:39.213-05:00","0.0","0.02"
+"Full regression","View personalized list of FOAs from the additional resources","SKIPPED","2017-02-10T10:50:39.280-05:00","0.0","0.01"

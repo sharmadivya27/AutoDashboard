@@ -190,194 +190,145 @@
 <step outcome="successful">Given the user is on the dashboard page</step>
 <step outcome="successful">When the user logs into the dashboard with <parameter>333011005</parameter> and <parameter>1990-01-06</parameter></step>
 <step outcome="successful">Then the user reviews the application with <parameter>333011005</parameter></step>
-<step outcome="failed" keyword="FAILED">Then the user should view mailing address information with <parameter>333011005</parameter><failure>net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown</failure></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view phone number information with <parameter>333011005</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view insurance information with <parameter>333011005</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update mailing address information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update phone number information with <parameter>333011005</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update insurance information with <parameter>333011005</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user goes back to the summary page</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user reviews the application with <parameter>333011005</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved mailing information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved phone number information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved insurance information with <parameter>333011005</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user logs out of the dashboard</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then they should see the home page</step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>333011005</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>333011005</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>333011005</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>333011005</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>333011005</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>333011005</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>333011005</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
 
 <example keyword="Example:">{username=333011006, password=1990-01-07}</example>
 <step outcome="successful">Given the user is on the dashboard page</step>
-<step outcome="failed" keyword="FAILED">When the user logs into the dashboard with <parameter>333011006</parameter> and <parameter>1990-01-07</parameter><failure>net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown</failure></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user reviews the application with <parameter>333011006</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view mailing address information with <parameter>333011006</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view phone number information with <parameter>333011006</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view insurance information with <parameter>333011006</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update mailing address information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update phone number information with <parameter>333011006</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update insurance information with <parameter>333011006</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user goes back to the summary page</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user reviews the application with <parameter>333011006</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved mailing information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved phone number information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved insurance information with <parameter>333011006</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user logs out of the dashboard</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then they should see the home page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>333011006</parameter> and <parameter>1990-01-07</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>333011006</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>333011006</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>333011006</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>333011006</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>333011006</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>333011006</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>333011006</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>333011006</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
 
 <example keyword="Example:">{username=049828525, password=1971-11-11}</example>
 <step outcome="successful">Given the user is on the dashboard page</step>
-<step outcome="failed" keyword="FAILED">When the user logs into the dashboard with <parameter>049828525</parameter> and <parameter>1971-11-11</parameter><failure>net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown</failure></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user reviews the application with <parameter>049828525</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view mailing address information with <parameter>049828525</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view phone number information with <parameter>049828525</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view insurance information with <parameter>049828525</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update mailing address information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update phone number information with <parameter>049828525</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update insurance information with <parameter>049828525</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user goes back to the summary page</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user reviews the application with <parameter>049828525</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved mailing information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved phone number information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved insurance information with <parameter>049828525</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user logs out of the dashboard</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then they should see the home page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>049828525</parameter> and <parameter>1971-11-11</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>049828525</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>049828525</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>049828525</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>049828525</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>049828525</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>049828525</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>049828525</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>049828525</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
 
 <example keyword="Example:">{username=001010001, password=1919-12-12}</example>
 <step outcome="successful">Given the user is on the dashboard page</step>
-<step outcome="failed" keyword="FAILED">When the user logs into the dashboard with <parameter>001010001</parameter> and <parameter>1919-12-12</parameter><failure>net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown</failure></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user reviews the application with <parameter>001010001</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view mailing address information with <parameter>001010001</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view phone number information with <parameter>001010001</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view insurance information with <parameter>001010001</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update mailing address information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update phone number information with <parameter>001010001</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update insurance information with <parameter>001010001</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user goes back to the summary page</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user reviews the application with <parameter>001010001</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved mailing information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved phone number information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved insurance information with <parameter>001010001</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user logs out of the dashboard</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then they should see the home page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>001010001</parameter> and <parameter>1919-12-12</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>001010001</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>001010001</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>001010001</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>001010001</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>001010001</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>001010001</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>001010001</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>001010001</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
 
 <example keyword="Example:">{username=735151123, password=1968-05-01}</example>
 <step outcome="successful">Given the user is on the dashboard page</step>
-<step outcome="failed" keyword="FAILED">When the user logs into the dashboard with <parameter>735151123</parameter> and <parameter>1968-05-01</parameter><failure>net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown</failure></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user reviews the application with <parameter>735151123</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view mailing address information with <parameter>735151123</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view phone number information with <parameter>735151123</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view insurance information with <parameter>735151123</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update mailing address information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update phone number information with <parameter>735151123</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update insurance information with <parameter>735151123</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user goes back to the summary page</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user reviews the application with <parameter>735151123</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved mailing information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved phone number information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved insurance information with <parameter>735151123</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user logs out of the dashboard</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then they should see the home page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>735151123</parameter> and <parameter>1968-05-01</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>735151123</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>735151123</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>735151123</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>735151123</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>735151123</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>735151123</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>735151123</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>735151123</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
 
 <example keyword="Example:">{username=735251523, password=1968-05-01}</example>
 <step outcome="successful">Given the user is on the dashboard page</step>
-<step outcome="failed" keyword="FAILED">When the user logs into the dashboard with <parameter>735251523</parameter> and <parameter>1968-05-01</parameter><failure>net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown</failure></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user reviews the application with <parameter>735251523</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view mailing address information with <parameter>735251523</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view phone number information with <parameter>735251523</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view insurance information with <parameter>735251523</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update mailing address information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update phone number information with <parameter>735251523</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update insurance information with <parameter>735251523</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user goes back to the summary page</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user reviews the application with <parameter>735251523</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved mailing information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved phone number information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved insurance information with <parameter>735251523</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user logs out of the dashboard</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then they should see the home page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>735251523</parameter> and <parameter>1968-05-01</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>735251523</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>735251523</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>735251523</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>735251523</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>735251523</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>735251523</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>735251523</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>735251523</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
 
 <example keyword="Example:">{username=430991038, password=1987-3-26}</example>
 <step outcome="successful">Given the user is on the dashboard page</step>
-<step outcome="failed" keyword="FAILED">When the user logs into the dashboard with <parameter>430991038</parameter> and <parameter>1987-3-26</parameter><failure>net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown</failure></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user reviews the application with <parameter>430991038</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view mailing address information with <parameter>430991038</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view phone number information with <parameter>430991038</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view insurance information with <parameter>430991038</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update mailing address information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update phone number information with <parameter>430991038</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update insurance information with <parameter>430991038</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user goes back to the summary page</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user reviews the application with <parameter>430991038</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved mailing information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved phone number information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved insurance information with <parameter>430991038</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user logs out of the dashboard</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then they should see the home page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>430991038</parameter> and <parameter>1987-3-26</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>430991038</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>430991038</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>430991038</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>430991038</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>430991038</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>430991038</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>430991038</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>430991038</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
 
 <example keyword="Example:">{username=265798306, password=1966-12-12}</example>
 <step outcome="successful">Given the user is on the dashboard page</step>
-<step outcome="failed" keyword="FAILED">When the user logs into the dashboard with <parameter>265798306</parameter> and <parameter>1966-12-12</parameter><failure>net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown</failure></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user reviews the application with <parameter>265798306</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view mailing address information with <parameter>265798306</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view phone number information with <parameter>265798306</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should view insurance information with <parameter>265798306</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update mailing address information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update phone number information with <parameter>265798306</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should update insurance information with <parameter>265798306</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user goes back to the summary page</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user reviews the application with <parameter>265798306</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved mailing information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved phone number information</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user should see their saved insurance information with <parameter>265798306</parameter></step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then the user logs out of the dashboard</step>
-<step outcome="notPerformed" keyword="NOT PERFORMED">Then they should see the home page</step>
+<step outcome="successful">When the user logs into the dashboard with <parameter>265798306</parameter> and <parameter>1966-12-12</parameter></step>
+<step outcome="successful">Then the user reviews the application with <parameter>265798306</parameter></step>
+<step outcome="successful">Then the user should view mailing address information with <parameter>265798306</parameter></step>
+<step outcome="successful">Then the user should view phone number information with <parameter>265798306</parameter></step>
+<step outcome="successful">Then the user should view insurance information with <parameter>265798306</parameter></step>
+<step outcome="successful">Then the user should update mailing address information</step>
+<step outcome="successful">Then the user should update phone number information with <parameter>265798306</parameter></step>
+<step outcome="successful">Then the user should update insurance information with <parameter>265798306</parameter></step>
+<step outcome="successful">Then the user goes back to the summary page</step>
+<step outcome="successful">Then the user reviews the application with <parameter>265798306</parameter></step>
+<step outcome="successful">Then the user should see their saved mailing information</step>
+<step outcome="successful">Then the user should see their saved phone number information</step>
+<step outcome="successful">Then the user should see their saved insurance information with <parameter>265798306</parameter></step>
+<step outcome="successful">Then the user logs out of the dashboard</step>
+<step outcome="successful">Then they should see the home page</step>
 </examples>
-<failure>net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;C02RJ1FVFVH8.local&apos;, ip: &apos;10.201.2.79&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: unknown
-	at net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)
-	at net.thucydides.core.steps.StepInterceptor.reportMethodError(StepInterceptor.java:281)
-	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:22)
-	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:269)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:127)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at gov.DA.dashboard.test.steps.serenity.User$$EnhancerByCGLIB$$a1d9e9db.fillInForm(&lt;generated&gt;)
-	at gov.DA.dashboard.test.steps.DailyRegression.whenTheUserLogsIntoDashboard(DailyRegression.java:25)
-	(reflection-invoke)
-	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
-	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
-...</failure>
 </scenario>
 </story>
